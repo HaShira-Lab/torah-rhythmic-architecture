@@ -1,0 +1,6 @@
+book,match_filter,activity_threshold,full_arrival_links_before_match_filter,bridge_arrival_links_before_match_filter,all_arrival_links,different_word_arrival_links,exact_word_arrival_links,exact_word_arrival_share,eligible_positions,positions_inactive,positions_exact_only,positions_different_word_only,positions_mixed,positions_combined_only_at_threshold
+genesis,ALL,1,9964,1415,11379,7868,3511,0.3085508392653133,18108,11067,2083,4255,703,0
+exodus,ALL,1,8799,1229,10028,7141,2887,0.28789389708815316,14606,8599,1664,3648,695,0
+leviticus,ALL,1,6665,656,7321,4875,2446,0.33410736238218824,10316,5972,1405,2459,480,0
+numbers,ALL,1,9015,1259,10274,7159,3115,0.3031925248199338,14443,8259,1691,3799,694,0
+deuteronomy,ALL,1,8087,1029,9116,7025,2091,0.22937691970162352,12670,7473,1311,3498,388,0

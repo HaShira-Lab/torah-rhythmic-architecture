@@ -1,0 +1,227 @@
+{
+  "analysis": "rhyme_cadence_distribution_robustness",
+  "analysis_version": "1.0.0",
+  "book": "exodus",
+  "input": {
+    "source_file": "data\\data_processed\\torah\\exodus_taamim_annotated.txt",
+    "source_sha256": "14d2301a22ebbd61835f688b72a7d2ebca70e481d4b9477bef0dbfca6ec48dbb",
+    "metadata_file": "data\\data_processed\\torah\\exodus_taamim_annotated.txt.meta.json",
+    "metadata_sha256": "17cd997c74037602eb08be93966714149e1f211c57f1126a9fea2894e9afa6de",
+    "metadata_schema_version": "1.0",
+    "verified_against_output_sha256": true
+  },
+  "parameters": {
+    "window_in_analyzable_stressed_tokens": 20,
+    "activity_threshold": 1,
+    "match_filter": "ALL",
+    "exclude_exact": false,
+    "equivalence_profile": "TRADITION",
+    "block_size_in_eligible_stream_positions": 1000,
+    "minimum_block_fraction": 0.5,
+    "minimum_burst_ends_per_block": 5,
+    "boundary_permutations_requested": 500
+  },
+  "seed": 21261132,
+  "parse_audit": {
+    "source_word_tokens": 16701,
+    "analyzable_stressed_tokens": 14626,
+    "missing_stress_tokens": 2075,
+    "structural_markers": 1284,
+    "external_markers_attached": 1284,
+    "orphan_structural_markers": 0,
+    "source_boundary_counts_nested": {
+      "minor": 4509,
+      "major": 2350,
+      "verse": 1205
+    },
+    "boundaries_after_unanalyzable_words": {},
+    "boundary_projection_note": "A boundary after an unanalyzable word lies between the adjacent retained tokens in the stressed-token stream; each such projection is counted here.",
+    "verses_in_analyzable_stream": 1205,
+    "major_blocks_in_analyzable_stream": 2350,
+    "minor_blocks_in_analyzable_stream": 4509
+  },
+  "all_pair_audit": {
+    "eligible_pairs": 292120,
+    "exact_word_rhyme_pairs_included": 2887,
+    "full_pairs": 8802,
+    "bridge_pairs": 1241,
+    "exact_word_pairs_excluded": 0
+  },
+  "nonexact_pair_audit": {
+    "eligible_pairs": 289118,
+    "exact_word_pairs_excluded": 3002,
+    "full_pairs": 5915,
+    "bridge_pairs": 1241,
+    "exact_word_rhyme_pairs_included": 0
+  },
+  "edge_audit": {
+    "edge_runs_censored": 0,
+    "edge_positions_censored": 0,
+    "edge_arrivals_censored": 0
+  },
+  "shift_audit": {
+    "requested_permutations": 500,
+    "used_permutations": 500,
+    "eligible_nonzero_shifts": 11930,
+    "rejected_run_splitting_or_merging_shifts": 2675,
+    "sampling": "without_replacement"
+  },
+  "coverage": {
+    "book": "exodus",
+    "tokens": 14626,
+    "eligible_stream_positions": 14606,
+    "analyzed_total_arrivals": 10043,
+    "active_positions": 6016,
+    "active_rate": 0.41188552649596055,
+    "boundary_test_burst_ends": 3341,
+    "fixed_blocks_total": 15,
+    "fixed_blocks_included": 15,
+    "included_blocks_with_activity": 15,
+    "complete_represented_verses": 1201,
+    "complete_verses_with_activity": 1183,
+    "complete_verse_activity_coverage": 0.9850124895920067,
+    "complete_verses_with_burst_end": 1169,
+    "complete_verse_burst_end_coverage": 0.9733555370524563
+  },
+  "lexical_decomposition": {
+    "book": "exodus",
+    "match_filter": "ALL",
+    "activity_threshold": 1,
+    "full_arrival_links_before_match_filter": 8802,
+    "bridge_arrival_links_before_match_filter": 1241,
+    "all_arrival_links": 10043,
+    "different_word_arrival_links": 7156,
+    "exact_word_arrival_links": 2887,
+    "exact_word_arrival_share": 0.2874639052076073,
+    "eligible_positions": 14606,
+    "positions_inactive": 8590,
+    "positions_exact_only": 1662,
+    "positions_different_word_only": 3657,
+    "positions_mixed": 697,
+    "positions_combined_only_at_threshold": 0
+  },
+  "book_alignment": {
+    "minor": {
+      "hits": 1179,
+      "burst_ends": 3341,
+      "summary": {
+        "observed": 0.3528883567794074,
+        "null_mean": 0.3080257407961688,
+        "difference": 0.044862615983238596,
+        "fold": 1.1456456719080685,
+        "null_sd": 0.00740369453741708,
+        "z": 6.059490401246318,
+        "p_enrich": 0.001996007984031936,
+        "p_deplete": 1.0,
+        "p_two_sided": 0.003992015968063872
+      }
+    },
+    "major": {
+      "hits": 621,
+      "burst_ends": 3341,
+      "summary": {
+        "observed": 0.18587249326548938,
+        "null_mean": 0.16047051780903923,
+        "difference": 0.02540197545645015,
+        "fold": 1.1582968373460265,
+        "null_sd": 0.005836549597405137,
+        "z": 4.352224723275473,
+        "p_enrich": 0.001996007984031936,
+        "p_deplete": 1.0,
+        "p_two_sided": 0.003992015968063872
+      }
+    },
+    "verse": {
+      "hits": 322,
+      "burst_ends": 3341,
+      "summary": {
+        "observed": 0.09637832984136487,
+        "null_mean": 0.08200538760850046,
+        "difference": 0.014372942232864408,
+        "fold": 1.1752682677567705,
+        "null_sd": 0.004202611761567174,
+        "z": 3.4200023814487848,
+        "p_enrich": 0.001996007984031936,
+        "p_deplete": 1.0,
+        "p_two_sided": 0.003992015968063872
+      }
+    }
+  },
+  "block_support": {
+    "minor": {
+      "eligible_blocks": 15,
+      "positive_share": {
+        "observed": 0.8666666666666667,
+        "null_mean": 0.496,
+        "difference": 0.3706666666666667,
+        "fold": 1.7473118279569892,
+        "null_sd": 0.12078263304152813,
+        "z": 3.0688738714548647,
+        "p_enrich": 0.003992015968063872,
+        "p_deplete": 1.0,
+        "p_two_sided": 0.007984031936127744
+      },
+      "median_difference": {
+        "observed": 0.038269268085604324,
+        "null_mean": 1.626467202683657e-05,
+        "difference": 0.038253003413577485,
+        "fold": 2352.907456262282,
+        "null_sd": 0.009350652523340504,
+        "z": 4.090944810331982,
+        "p_enrich": 0.001996007984031936,
+        "p_deplete": 1.0,
+        "p_two_sided": 0.003992015968063872
+      }
+    },
+    "major": {
+      "eligible_blocks": 15,
+      "positive_share": {
+        "observed": 0.8,
+        "null_mean": 0.4924,
+        "difference": 0.30760000000000004,
+        "fold": 1.6246953696181967,
+        "null_sd": 0.1290134187680577,
+        "z": 2.3842481110667104,
+        "p_enrich": 0.015968063872255488,
+        "p_deplete": 0.998003992015968,
+        "p_two_sided": 0.031936127744510975
+      },
+      "median_difference": {
+        "observed": 0.015755799158564537,
+        "null_mean": -0.0004736284169875529,
+        "difference": 0.01622942757555209,
+        "fold": -33.26616096807934,
+        "null_sd": 0.007062792537274828,
+        "z": 2.2978768652624475,
+        "p_enrich": 0.007984031936127744,
+        "p_deplete": 0.9940119760479041,
+        "p_two_sided": 0.015968063872255488
+      }
+    },
+    "verse": {
+      "eligible_blocks": 15,
+      "positive_share": {
+        "observed": 0.6666666666666666,
+        "null_mean": 0.49106666666666665,
+        "difference": 0.17559999999999998,
+        "fold": 1.3575889220743957,
+        "null_sd": 0.1296841290726561,
+        "z": 1.354059292032715,
+        "p_enrich": 0.14770459081836326,
+        "p_deplete": 0.93812375249501,
+        "p_two_sided": 0.2954091816367265
+      },
+      "median_difference": {
+        "observed": 0.01697236103875331,
+        "null_mean": -0.00039788360183144517,
+        "difference": 0.017370244640584755,
+        "fold": -42.65659846404851,
+        "null_sd": 0.005368242882064547,
+        "z": 3.235741195432725,
+        "p_enrich": 0.001996007984031936,
+        "p_deplete": 1.0,
+        "p_two_sided": 0.003992015968063872
+      }
+    }
+  }
+}

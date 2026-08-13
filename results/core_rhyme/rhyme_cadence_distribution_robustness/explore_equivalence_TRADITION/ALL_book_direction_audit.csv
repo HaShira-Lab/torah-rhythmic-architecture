@@ -1,0 +1,4 @@
+level,metric_role,books,books_positive_difference,positive_book_share,median_book_difference,interpretation
+minor,descriptive_robustness,5,5,1.0,0.044406547764475945,directional audit; books are not treated as independent replications
+major,descriptive_robustness,5,5,1.0,0.0231639275179098,directional audit; books are not treated as independent replications
+verse,exploratory,5,5,1.0,0.011672611776203268,directional audit; books are not treated as independent replications

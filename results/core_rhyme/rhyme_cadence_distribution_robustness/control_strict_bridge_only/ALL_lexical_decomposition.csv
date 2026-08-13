@@ -1,0 +1,6 @@
+book,match_filter,activity_threshold,full_arrival_links_before_match_filter,bridge_arrival_links_before_match_filter,all_arrival_links,different_word_arrival_links,exact_word_arrival_links,exact_word_arrival_share,eligible_positions,positions_inactive,positions_exact_only,positions_different_word_only,positions_mixed,positions_combined_only_at_threshold
+genesis,BRIDGE,1,9883,1097,1097,1097,0,0.0,18108,17205,0,903,0,0
+exodus,BRIDGE,1,8745,1081,1081,1081,0,0.0,14606,13734,0,872,0,0
+leviticus,BRIDGE,1,6639,624,624,624,0,0.0,10316,9798,0,518,0,0
+numbers,BRIDGE,1,8992,1206,1206,1206,0,0.0,14443,13457,0,986,0,0
+deuteronomy,BRIDGE,1,8037,706,706,706,0,0.0,12670,12079,0,591,0,0

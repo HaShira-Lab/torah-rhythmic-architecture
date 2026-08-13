@@ -41,6 +41,8 @@ results/**/*interval_examples.csv
 results/**/*hierarchy_relations.csv
 results/**/*boundary_reconstruction_predictions.csv
 results/**/*bursts.csv
+results/**/*_fixed_blocks.csv
+results/**/*_verse_coverage.csv
 
 # Qualitative utility exports are local unless curated as examples
 results/tools/

@@ -1,0 +1,169 @@
+{
+  "analysis": "rhyme_cadence_distribution_robustness",
+  "analysis_version": "1.0.0",
+  "run_label": "control_strict_L10",
+  "command_line": [
+    "C:\\Users\\eli\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "src\\analyses\\core_rhyme\\rhyme_cadence_distribution_robustness.py",
+    "--source-dir",
+    "data\\data_processed\\torah",
+    "--out-dir",
+    "results\\core_rhyme\\rhyme_cadence_distribution_robustness\\control_strict_L10",
+    "--run-label",
+    "control_strict_L10",
+    "--window",
+    "10",
+    "--activity-threshold",
+    "1",
+    "--match-filter",
+    "ALL",
+    "--equivalence-profile",
+    "STRICT",
+    "--block-size",
+    "1000",
+    "--minimum-block-fraction",
+    "0.5",
+    "--minimum-burst-ends-per-block",
+    "5",
+    "--boundary-permutations",
+    "500",
+    "--seed",
+    "20260728",
+    "--jobs",
+    "5"
+  ],
+  "books": [
+    "genesis",
+    "exodus",
+    "leviticus",
+    "numbers",
+    "deuteronomy"
+  ],
+  "parameters": {
+    "source_dir": "data\\data_processed\\torah",
+    "out_dir": "results\\core_rhyme\\rhyme_cadence_distribution_robustness\\control_strict_L10",
+    "window_in_analyzable_stressed_tokens": 10,
+    "activity_threshold": 1,
+    "match_filter": "ALL",
+    "exclude_exact": false,
+    "equivalence_profile": "STRICT",
+    "block_size_in_eligible_stream_positions": 1000,
+    "minimum_block_fraction": 0.5,
+    "minimum_burst_ends_per_block": 5,
+    "boundary_permutations_requested": 500,
+    "base_seed": 20260728,
+    "jobs": 5,
+    "rhyme_dense_block_trim_fractions": [
+      0,
+      0.01,
+      0.05,
+      0.1
+    ]
+  },
+  "scientific_roles": {
+    "main_observed_stream": "ALL matches including exact lexical repetitions",
+    "exact_word_policy": "Exact repetitions are retained as potentially structural; exact/different/mixed components are reported. Exclusion is a diagnostic control, not a validity criterion.",
+    "minor_and_major_fixed_block_distribution": "robustness",
+    "verse_fixed_block_distribution": "exploratory",
+    "leave_one_book_out": "robustness",
+    "rhyme_dense_block_trimming": "robustness",
+    "book_direction_count": "descriptive_robustness"
+  },
+  "null_model": "run_preserving_circular_translation",
+  "software": {
+    "python_version": "3.12.10",
+    "python_implementation": "CPython",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "code_and_protocol": {
+    "analysis_file": "C:\\HaShira-Lab\\torah-rhythmic-architecture\\src\\analyses\\core_rhyme\\rhyme_cadence_distribution_robustness.py",
+    "analysis_sha256": "ddefdaae811914e8fec345f30e17f130ec1692662a6358800315a5b7817b398e",
+    "rhyme_burst_architecture_file": "C:\\HaShira-Lab\\torah-rhythmic-architecture\\src\\analyses\\core_rhyme\\rhyme_burst_architecture.py",
+    "rhyme_burst_architecture_version": "5.0.2",
+    "rhyme_burst_architecture_sha256": "7346b973cdc2617c606636978c0cd5ac91a9071ecb41937ed92dab7e1b53d784",
+    "shared_rhyme_module": "C:\\HaShira-Lab\\torah-rhythmic-architecture\\src\\shared\\rhyme\\rhyme_protocol.py",
+    "shared_rhyme_module_sha256": "fd782cee87e5431fb0b2c464ee801ebbbc94f2d5b9f5a42b5bfed9420e571797",
+    "shared_rhyme_protocol_version": "4"
+  },
+  "inputs": [
+    {
+      "source_file": "data\\data_processed\\torah\\genesis_taamim_annotated.txt",
+      "source_sha256": "e07a07a219347cd7cbbc374aa5d4a6b6b0d903c2258b3a6c88ead6368dc85281",
+      "metadata_file": "data\\data_processed\\torah\\genesis_taamim_annotated.txt.meta.json",
+      "metadata_sha256": "7c97a95c18ee270da35a150b31342b386f3da9603b58035bd8d497418e994767",
+      "metadata_schema_version": "1.0",
+      "verified_against_output_sha256": true
+    },
+    {
+      "source_file": "data\\data_processed\\torah\\exodus_taamim_annotated.txt",
+      "source_sha256": "14d2301a22ebbd61835f688b72a7d2ebca70e481d4b9477bef0dbfca6ec48dbb",
+      "metadata_file": "data\\data_processed\\torah\\exodus_taamim_annotated.txt.meta.json",
+      "metadata_sha256": "17cd997c74037602eb08be93966714149e1f211c57f1126a9fea2894e9afa6de",
+      "metadata_schema_version": "1.0",
+      "verified_against_output_sha256": true
+    },
+    {
+      "source_file": "data\\data_processed\\torah\\leviticus_taamim_annotated.txt",
+      "source_sha256": "c00f5ece46ff799cee25f23620fa490eaf5c00dc7df627677059f536e3256769",
+      "metadata_file": "data\\data_processed\\torah\\leviticus_taamim_annotated.txt.meta.json",
+      "metadata_sha256": "7e0c2e57b488d60eefe8ab9814270bacfd6d3a88282a6005ba27367e944f77ac",
+      "metadata_schema_version": "1.0",
+      "verified_against_output_sha256": true
+    },
+    {
+      "source_file": "data\\data_processed\\torah\\numbers_taamim_annotated.txt",
+      "source_sha256": "83f153f92f146dd501246cffe5cc079fde19b9a39dbcdd7a7e28378335b7138c",
+      "metadata_file": "data\\data_processed\\torah\\numbers_taamim_annotated.txt.meta.json",
+      "metadata_sha256": "93287d937f4c43cbb7fbf18f3444e0787d202d375bc68fafb42b67db4345ae6a",
+      "metadata_schema_version": "1.0",
+      "verified_against_output_sha256": true
+    },
+    {
+      "source_file": "data\\data_processed\\torah\\deuteronomy_taamim_annotated.txt",
+      "source_sha256": "5f079df79c9498f669006a7494e0a577e8d3eaeeabb5a7f80e9b78f1a24ea035",
+      "metadata_file": "data\\data_processed\\torah\\deuteronomy_taamim_annotated.txt.meta.json",
+      "metadata_sha256": "c69bc5070e4934fd17847ba0e6205a84e9c86d7cc3517097d02e56f016e9f43b",
+      "metadata_schema_version": "1.0",
+      "verified_against_output_sha256": true
+    }
+  ],
+  "book_seeds": {
+    "genesis": 20261129,
+    "exodus": 21261132,
+    "leviticus": 22261135,
+    "numbers": 23261138,
+    "deuteronomy": 24261141
+  },
+  "output_sha256": {
+    "ALL_block_alignment_statistics.csv": "7b62a294e3ed52841a51d019ed95e0b5636ed2abc1b1e36ecde58a30d5b6f293",
+    "ALL_block_distribution_statistics.csv": "f375b0088be013c4684eca5eee6b97fd53fc73825498dba24b262b8cb8ab44d9",
+    "ALL_book_coverage.csv": "258170cad79a5aecf3d832aed10c7ce36293c414d544a66680bc17d145fdeb24",
+    "ALL_book_direction_audit.csv": "96c29950ebfb7b409acbd6131e9074badf185f499fb90a912627ed90dea56dd9",
+    "ALL_fixed_blocks.csv": "4aa1c2c139210ca482ea6ea20ec66ca446b3a1158054ad0e7214094f4e77469b",
+    "ALL_leave_one_book_out_statistics.csv": "e831af8a4af6cc30ceed1c2cd36e3d72cfe525b7ea209fd091c3affcb743171e",
+    "ALL_lexical_decomposition.csv": "6341c59f636fe087dadba6cfd4fe40587f2956ec60d0ef06e5ab58b61ebb647b",
+    "ALL_rhyme_dense_block_trim_statistics.csv": "ab0729d44878a3b0795b227866d9d3342866e41b98738aef43b680fcb8705dc8",
+    "ALL_summary.json": "a2aa57a390e535c1ce35b0ba7f86050e408f9b07c8e4a0fc705543687c9f33c3",
+    "ALL_verse_coverage.csv": "0dd5485b494049db21cbb0e280ffd00d19e67261b2a1be8852614b2acc3baed7",
+    "deuteronomy_block_alignment_statistics.csv": "a56ed52f0d96978ec51b6ea8614f7337c8e66830cc355d8c21da15aaee8ed3a0",
+    "deuteronomy_fixed_blocks.csv": "d36c2596d4ca9220beda656650efa80a4b40014a4f7f5a9b8b5faa1053ea8802",
+    "deuteronomy_summary.json": "5d5590952ebde94d272cd39c09bf067ae4717e7f5faf9e7cf067f9db87ccc558",
+    "deuteronomy_verse_coverage.csv": "8b082aa838b532c30f5f816970a123367f3fc20e75aa091f7d90f2267207efe0",
+    "exodus_block_alignment_statistics.csv": "952e1e41074c7829ea703f265d3a68b49b5a23d8e6e853802b358f64dc4930b3",
+    "exodus_fixed_blocks.csv": "e4631353b0bfc6a6e37ecba3bb376663f8be7a6d613ed05d7eab6da6e03dac6e",
+    "exodus_summary.json": "24bc359c3e5ed7c6f8d674efdf758dc9670ae075795632a274ddd30aa555928f",
+    "exodus_verse_coverage.csv": "e5dbe25bae91c12bcb7aae8187ef8dafe8c222c8f050d1d19fc2f808c090270a",
+    "genesis_block_alignment_statistics.csv": "63719621925073843293dce52dd0f2b329e4f056dbd254ccc332fa4d24affe99",
+    "genesis_fixed_blocks.csv": "e9770e491bad0326582e16c2bf5feb52a2411589869688efa14ae4de4f50dd7b",
+    "genesis_summary.json": "b26fbe9e620cbd15176dc6e04be765d8e1bb9c2c543492ceba7a593da3ca4392",
+    "genesis_verse_coverage.csv": "d517537d016c8ccf4d5dab4a31b196bff848074087b43e73d1e67bdd3aa39e0d",
+    "leviticus_block_alignment_statistics.csv": "289490b1c0025b1227d3a5ef41bfcb28befcdd70945d108abde0c4c66c1edd52",
+    "leviticus_fixed_blocks.csv": "fbf005421133a023c307629c8a241b42caa6c6314e38a648a841a1b4cfee8572",
+    "leviticus_summary.json": "5bc76c748e5e3c43a801fc3fb23fb6ee2438370c3036e1eb0d4b7dbb98bb4f49",
+    "leviticus_verse_coverage.csv": "986bfb4ed45fa8a7d7db06c686d20fa3c3dff7d7145fec14b8583e0d8fca08f5",
+    "numbers_block_alignment_statistics.csv": "540892d3e7fffea78f1189b877e5ad93f510b6be0dc12be80b0e4aa02da7c0e9",
+    "numbers_fixed_blocks.csv": "d80cc572a742a9dcb3dbe4e5740f7c3ea2df4d0432295891061288dfa169ad8a",
+    "numbers_summary.json": "f6b435095a71610fa32349cd800a129efed13e28faf79eaacafd069bec53a411",
+    "numbers_verse_coverage.csv": "3c55037efb6c0d83e3e64ded7981aaaf9841d432877328b63ebb6a0dafdd45f5"
+  }
+}

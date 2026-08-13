@@ -1,0 +1,229 @@
+{
+  "analysis": "rhyme_cadence_distribution_robustness",
+  "analysis_version": "1.0.0",
+  "book": "deuteronomy",
+  "input": {
+    "source_file": "data\\data_processed\\torah\\deuteronomy_taamim_annotated.txt",
+    "source_sha256": "5f079df79c9498f669006a7494e0a577e8d3eaeeabb5a7f80e9b78f1a24ea035",
+    "metadata_file": "data\\data_processed\\torah\\deuteronomy_taamim_annotated.txt.meta.json",
+    "metadata_sha256": "c69bc5070e4934fd17847ba0e6205a84e9c86d7cc3517097d02e56f016e9f43b",
+    "metadata_schema_version": "1.0",
+    "verified_against_output_sha256": true
+  },
+  "parameters": {
+    "window_in_analyzable_stressed_tokens": 20,
+    "activity_threshold": 1,
+    "match_filter": "FULL",
+    "exclude_exact": true,
+    "equivalence_profile": "STRICT",
+    "block_size_in_eligible_stream_positions": 1000,
+    "minimum_block_fraction": 0.5,
+    "minimum_burst_ends_per_block": 5,
+    "boundary_permutations_requested": 500
+  },
+  "seed": 24261141,
+  "parse_audit": {
+    "source_word_tokens": 14269,
+    "analyzable_stressed_tokens": 12690,
+    "missing_stress_tokens": 1579,
+    "structural_markers": 1036,
+    "external_markers_attached": 1036,
+    "orphan_structural_markers": 0,
+    "source_boundary_counts_nested": {
+      "minor": 3812,
+      "major": 1862,
+      "verse": 954
+    },
+    "boundaries_after_unanalyzable_words": {
+      "verse": 3
+    },
+    "boundary_projection_note": "A boundary after an unanalyzable word lies between the adjacent retained tokens in the stressed-token stream; each such projection is counted here.",
+    "verses_in_analyzable_stream": 954,
+    "major_blocks_in_analyzable_stream": 1862,
+    "minor_blocks_in_analyzable_stream": 3812
+  },
+  "all_pair_audit": {
+    "eligible_pairs": 253400,
+    "full_pairs": 8037,
+    "exact_word_rhyme_pairs_included": 2091,
+    "bridge_pairs": 706,
+    "exact_word_pairs_excluded": 0
+  },
+  "nonexact_pair_audit": {
+    "eligible_pairs": 251225,
+    "full_pairs": 5946,
+    "exact_word_pairs_excluded": 2175,
+    "bridge_pairs": 706,
+    "exact_word_rhyme_pairs_included": 0
+  },
+  "edge_audit": {
+    "edge_runs_censored": 0,
+    "edge_positions_censored": 0,
+    "edge_arrivals_censored": 0
+  },
+  "shift_audit": {
+    "requested_permutations": 500,
+    "used_permutations": 500,
+    "eligible_nonzero_shifts": 11658,
+    "rejected_run_splitting_or_merging_shifts": 1011,
+    "sampling": "without_replacement"
+  },
+  "coverage": {
+    "book": "deuteronomy",
+    "tokens": 12690,
+    "eligible_stream_positions": 12670,
+    "analyzed_total_arrivals": 5946,
+    "active_positions": 3322,
+    "active_rate": 0.26219415943172847,
+    "boundary_test_burst_ends": 2311,
+    "fixed_blocks_total": 13,
+    "fixed_blocks_included": 13,
+    "included_blocks_with_activity": 13,
+    "complete_represented_verses": 953,
+    "complete_verses_with_activity": 882,
+    "complete_verse_activity_coverage": 0.925498426023085,
+    "complete_verses_with_burst_end": 875,
+    "complete_verse_burst_end_coverage": 0.9181532004197271
+  },
+  "lexical_decomposition": {
+    "book": "deuteronomy",
+    "match_filter": "FULL",
+    "activity_threshold": 1,
+    "full_arrival_links_before_match_filter": 8037,
+    "bridge_arrival_links_before_match_filter": 706,
+    "all_arrival_links": 8037,
+    "different_word_arrival_links": 5946,
+    "exact_word_arrival_links": 2091,
+    "exact_word_arrival_share": 0.2601717058603957,
+    "eligible_positions": 12670,
+    "positions_inactive": 7979,
+    "positions_exact_only": 1369,
+    "positions_different_word_only": 2992,
+    "positions_mixed": 330,
+    "positions_combined_only_at_threshold": 0
+  },
+  "book_alignment": {
+    "minor": {
+      "hits": 798,
+      "burst_ends": 2311,
+      "summary": {
+        "observed": 0.3453050627434011,
+        "null_mean": 0.3011112072695803,
+        "difference": 0.04419385547382082,
+        "fold": 1.1467692148510924,
+        "null_sd": 0.00946214637892411,
+        "z": 4.670595201555724,
+        "p_enrich": 0.001996007984031936,
+        "p_deplete": 1.0,
+        "p_two_sided": 0.003992015968063872
+      }
+    },
+    "major": {
+      "hits": 375,
+      "burst_ends": 2311,
+      "summary": {
+        "observed": 0.1622674167027261,
+        "null_mean": 0.14763998269147555,
+        "difference": 0.01462743401125055,
+        "fold": 1.0990750184644604,
+        "null_sd": 0.0069565625538060795,
+        "z": 2.102681302455561,
+        "p_enrich": 0.013972055888223553,
+        "p_deplete": 0.9900199600798403,
+        "p_two_sided": 0.027944111776447105
+      }
+    },
+    "verse": {
+      "hits": 200,
+      "burst_ends": 2311,
+      "summary": {
+        "observed": 0.08654262224145391,
+        "null_mean": 0.07584249242752056,
+        "difference": 0.010700129813933354,
+        "fold": 1.1410835729608835,
+        "null_sd": 0.005040653023433129,
+        "z": 2.122766586827201,
+        "p_enrich": 0.027944111776447105,
+        "p_deplete": 0.9800399201596807,
+        "p_two_sided": 0.05588822355289421
+      }
+    }
+  },
+  "block_support": {
+    "minor": {
+      "eligible_blocks": 13,
+      "positive_share": {
+        "observed": 0.8461538461538461,
+        "null_mean": 0.498,
+        "difference": 0.34815384615384615,
+        "fold": 1.699104108742663,
+        "null_sd": 0.14336043044631067,
+        "z": 2.42852121097831,
+        "p_enrich": 0.011976047904191617,
+        "p_deplete": 1.0,
+        "p_two_sided": 0.023952095808383235
+      },
+      "median_difference": {
+        "observed": 0.04615095198165026,
+        "null_mean": -0.0001450757755761497,
+        "difference": 0.0462960277572264,
+        "fold": -318.11618306617845,
+        "null_sd": 0.011286441175048668,
+        "z": 4.101915478864557,
+        "p_enrich": 0.001996007984031936,
+        "p_deplete": 1.0,
+        "p_two_sided": 0.003992015968063872
+      }
+    },
+    "major": {
+      "eligible_blocks": 13,
+      "positive_share": {
+        "observed": 0.7692307692307693,
+        "null_mean": 0.4906153846153846,
+        "difference": 0.27861538461538465,
+        "fold": 1.5678896205707118,
+        "null_sd": 0.13963426445772859,
+        "z": 1.9953224639911342,
+        "p_enrich": 0.033932135728542916,
+        "p_deplete": 0.9900199600798403,
+        "p_two_sided": 0.06786427145708583
+      },
+      "median_difference": {
+        "observed": 0.012900724937633584,
+        "null_mean": -0.0006778012273660058,
+        "difference": 0.01357852616499959,
+        "fold": -19.033197959476876,
+        "null_sd": 0.009090294076664,
+        "z": 1.493738931929329,
+        "p_enrich": 0.07584830339321358,
+        "p_deplete": 0.9261477045908184,
+        "p_two_sided": 0.15169660678642716
+      }
+    },
+    "verse": {
+      "eligible_blocks": 13,
+      "positive_share": {
+        "observed": 0.8461538461538461,
+        "null_mean": 0.4823076923076923,
+        "difference": 0.3638461538461538,
+        "fold": 1.7543859649122806,
+        "null_sd": 0.13771379290904906,
+        "z": 2.6420458413083603,
+        "p_enrich": 0.011976047904191617,
+        "p_deplete": 1.0,
+        "p_two_sided": 0.023952095808383235
+      },
+      "median_difference": {
+        "observed": 0.011438108987079268,
+        "null_mean": -0.00044079153779136786,
+        "difference": 0.011878900524870636,
+        "fold": -25.949021263863436,
+        "null_sd": 0.0062904924784567984,
+        "z": 1.8883895919997669,
+        "p_enrich": 0.033932135728542916,
+        "p_deplete": 0.9700598802395209,
+        "p_two_sided": 0.06786427145708583
+      }
+    }
+  }
+}

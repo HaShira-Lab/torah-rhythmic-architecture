@@ -1,0 +1,229 @@
+{
+  "analysis": "rhyme_cadence_distribution_robustness",
+  "analysis_version": "1.0.0",
+  "book": "numbers",
+  "input": {
+    "source_file": "data\\data_processed\\torah\\numbers_taamim_annotated.txt",
+    "source_sha256": "83f153f92f146dd501246cffe5cc079fde19b9a39dbcdd7a7e28378335b7138c",
+    "metadata_file": "data\\data_processed\\torah\\numbers_taamim_annotated.txt.meta.json",
+    "metadata_sha256": "93287d937f4c43cbb7fbf18f3444e0787d202d375bc68fafb42b67db4345ae6a",
+    "metadata_schema_version": "1.0",
+    "verified_against_output_sha256": true
+  },
+  "parameters": {
+    "window_in_analyzable_stressed_tokens": 20,
+    "activity_threshold": 2,
+    "match_filter": "ALL",
+    "exclude_exact": false,
+    "equivalence_profile": "STRICT",
+    "block_size_in_eligible_stream_positions": 1000,
+    "minimum_block_fraction": 0.5,
+    "minimum_burst_ends_per_block": 5,
+    "boundary_permutations_requested": 500
+  },
+  "seed": 23261138,
+  "parse_audit": {
+    "source_word_tokens": 16404,
+    "analyzable_stressed_tokens": 14463,
+    "missing_stress_tokens": 1941,
+    "structural_markers": 1364,
+    "external_markers_attached": 1364,
+    "orphan_structural_markers": 0,
+    "source_boundary_counts_nested": {
+      "major": 2435,
+      "minor": 4495,
+      "verse": 1284
+    },
+    "boundaries_after_unanalyzable_words": {
+      "verse": 1
+    },
+    "boundary_projection_note": "A boundary after an unanalyzable word lies between the adjacent retained tokens in the stressed-token stream; each such projection is counted here.",
+    "verses_in_analyzable_stream": 1284,
+    "major_blocks_in_analyzable_stream": 2435,
+    "minor_blocks_in_analyzable_stream": 4495
+  },
+  "all_pair_audit": {
+    "eligible_pairs": 288860,
+    "full_pairs": 8992,
+    "bridge_pairs": 1206,
+    "exact_word_rhyme_pairs_included": 3115,
+    "exact_word_pairs_excluded": 0
+  },
+  "nonexact_pair_audit": {
+    "eligible_pairs": 285644,
+    "full_pairs": 5877,
+    "bridge_pairs": 1206,
+    "exact_word_pairs_excluded": 3216,
+    "exact_word_rhyme_pairs_included": 0
+  },
+  "edge_audit": {
+    "edge_runs_censored": 0,
+    "edge_positions_censored": 0,
+    "edge_arrivals_censored": 0
+  },
+  "shift_audit": {
+    "requested_permutations": 500,
+    "used_permutations": 500,
+    "eligible_nonzero_shifts": 13936,
+    "rejected_run_splitting_or_merging_shifts": 506,
+    "sampling": "without_replacement"
+  },
+  "coverage": {
+    "book": "numbers",
+    "tokens": 14463,
+    "eligible_stream_positions": 14443,
+    "analyzed_total_arrivals": 6495,
+    "active_positions": 2441,
+    "active_rate": 0.169009208613169,
+    "boundary_test_burst_ends": 1935,
+    "fixed_blocks_total": 15,
+    "fixed_blocks_included": 14,
+    "included_blocks_with_activity": 14,
+    "complete_represented_verses": 1282,
+    "complete_verses_with_activity": 1009,
+    "complete_verse_activity_coverage": 0.7870514820592823,
+    "complete_verses_with_burst_end": 1004,
+    "complete_verse_burst_end_coverage": 0.7831513260530422
+  },
+  "lexical_decomposition": {
+    "book": "numbers",
+    "match_filter": "ALL",
+    "activity_threshold": 2,
+    "full_arrival_links_before_match_filter": 8992,
+    "bridge_arrival_links_before_match_filter": 1206,
+    "all_arrival_links": 10198,
+    "different_word_arrival_links": 7083,
+    "exact_word_arrival_links": 3115,
+    "exact_word_arrival_share": 0.3054520494214552,
+    "eligible_positions": 14443,
+    "positions_inactive": 12002,
+    "positions_exact_only": 464,
+    "positions_different_word_only": 1561,
+    "positions_mixed": 29,
+    "positions_combined_only_at_threshold": 387
+  },
+  "book_alignment": {
+    "minor": {
+      "hits": 600,
+      "burst_ends": 1935,
+      "summary": {
+        "observed": 0.31007751937984496,
+        "null_mean": 0.3109808785529716,
+        "difference": -0.0009033591731266166,
+        "fold": 0.9970951295226573,
+        "null_sd": 0.01012941644021143,
+        "z": -0.08918175873789634,
+        "p_enrich": 0.5548902195608783,
+        "p_deplete": 0.47105788423153694,
+        "p_two_sided": 0.9421157684630739
+      }
+    },
+    "major": {
+      "hits": 347,
+      "burst_ends": 1935,
+      "summary": {
+        "observed": 0.179328165374677,
+        "null_mean": 0.16806098191214472,
+        "difference": 0.011267183462532276,
+        "fold": 1.0670422327320586,
+        "null_sd": 0.007935581771914633,
+        "z": 1.4198308059037013,
+        "p_enrich": 0.08383233532934131,
+        "p_deplete": 0.9341317365269461,
+        "p_two_sided": 0.16766467065868262
+      }
+    },
+    "verse": {
+      "hits": 179,
+      "burst_ends": 1935,
+      "summary": {
+        "observed": 0.09250645994832041,
+        "null_mean": 0.08865322997416021,
+        "difference": 0.0038532299741601966,
+        "fold": 1.0434640675278644,
+        "null_sd": 0.005939962383927635,
+        "z": 0.6486960228209989,
+        "p_enrich": 0.2634730538922156,
+        "p_deplete": 0.7664670658682635,
+        "p_two_sided": 0.5269461077844312
+      }
+    }
+  },
+  "block_support": {
+    "minor": {
+      "eligible_blocks": 14,
+      "positive_share": {
+        "observed": 0.5714285714285714,
+        "null_mean": 0.4931428571428571,
+        "difference": 0.07828571428571429,
+        "fold": 1.1587485515643106,
+        "null_sd": 0.13129620663808617,
+        "z": 0.5962526739367755,
+        "p_enrich": 0.36926147704590817,
+        "p_deplete": 0.8063872255489022,
+        "p_two_sided": 0.7385229540918163
+      },
+      "median_difference": {
+        "observed": 0.013845340910774717,
+        "null_mean": -0.0005688706534504194,
+        "difference": 0.014414211564225137,
+        "fold": -24.338293471103487,
+        "null_sd": 0.011981570146630482,
+        "z": 1.2030319388714488,
+        "p_enrich": 0.11177644710578842,
+        "p_deplete": 0.8902195608782435,
+        "p_two_sided": 0.22355289421157684
+      }
+    },
+    "major": {
+      "eligible_blocks": 14,
+      "positive_share": {
+        "observed": 0.7857142857142857,
+        "null_mean": 0.4838571428571428,
+        "difference": 0.3018571428571429,
+        "fold": 1.6238559196929436,
+        "null_sd": 0.12965661084068902,
+        "z": 2.3281276666103756,
+        "p_enrich": 0.021956087824351298,
+        "p_deplete": 0.998003992015968,
+        "p_two_sided": 0.043912175648702596
+      },
+      "median_difference": {
+        "observed": 0.02539090635583849,
+        "null_mean": -0.001033710676116195,
+        "difference": 0.026424617031954683,
+        "fold": -24.56287522465755,
+        "null_sd": 0.009765749037889961,
+        "z": 2.70584641581821,
+        "p_enrich": 0.003992015968063872,
+        "p_deplete": 0.998003992015968,
+        "p_two_sided": 0.007984031936127744
+      }
+    },
+    "verse": {
+      "eligible_blocks": 14,
+      "positive_share": {
+        "observed": 0.6428571428571429,
+        "null_mean": 0.49,
+        "difference": 0.1528571428571429,
+        "fold": 1.3119533527696794,
+        "null_sd": 0.12881722536609927,
+        "z": 1.1866203640291277,
+        "p_enrich": 0.18562874251497005,
+        "p_deplete": 0.9321357285429142,
+        "p_two_sided": 0.3712574850299401
+      },
+      "median_difference": {
+        "observed": 0.017316109649606566,
+        "null_mean": -0.0007551330254219609,
+        "difference": 0.018071242675028527,
+        "fold": -22.931204260243412,
+        "null_sd": 0.0075822250217467855,
+        "z": 2.383369343853276,
+        "p_enrich": 0.017964071856287425,
+        "p_deplete": 0.9840319361277445,
+        "p_two_sided": 0.03592814371257485
+      }
+    }
+  }
+}
