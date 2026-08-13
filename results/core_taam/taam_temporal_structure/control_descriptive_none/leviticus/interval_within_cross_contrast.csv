@@ -1,0 +1,4 @@
+﻿book,model,within_n,cross_n,within_top3_share,cross_top3_share,delta_top3_within_minus_cross,delta_top3_null_mean,delta_top3_null_sd,delta_top3_z,delta_top3_empirical_p,delta_top3_empirical_p_tail,within_entropy,cross_entropy,delta_entropy_within_minus_cross,delta_entropy_null_mean,delta_entropy_null_sd,delta_entropy_z,delta_entropy_empirical_p,delta_entropy_empirical_p_tail,null_model
+leviticus,sof_only,9480,856,0.85116034,0.75233645,0.09882389,,,,,upper,0.71892451,0.80974424,-0.09081973,,,,,lower,none
+leviticus,major,8667,1669,0.85819776,0.7669263,0.09127146,,,,,upper,0.7119886,0.79567843,-0.08368983,,,,,lower,none
+leviticus,major_minor,7259,3077,0.86885246,0.78030549,0.08854697,,,,,upper,0.6948047,0.79107464,-0.09626994,,,,,lower,none

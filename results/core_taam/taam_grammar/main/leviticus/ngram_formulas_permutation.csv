@@ -1,0 +1,195 @@
+﻿k,pattern,observed_count,observed_share,enrichment_ratio,total_ngrams,null_mean,null_sd,null_unique_values,z,z_reliable,empirical_p,null_exceedances,permutations,rank,book,run_label,stream_type
+3,pashta munah zaqef_qatan,374,0.03179461,42.236025,11763,8.855,2.7204742,16,134.221085,True,0.00497512,0,200,1,leviticus,main,full
+3,tipeha meteg sof_pasuq,455,0.03868061,30.172414,11763,15.08,3.7084177,19,118.627414,True,0.00497512,0,200,2,leviticus,main,full
+3,merkha meteg sof_pasuq,365,0.0310295,29.072083,11763,12.555,3.71293745,22,94.923495,True,0.00497512,0,200,3,leviticus,main,full
+3,darga tevir tipeha,82,0.00697101,93.181818,11763,0.88,0.86564816,5,93.710128,True,0.00497512,0,200,4,leviticus,main,full
+3,tevir merkha tipeha,221,0.01878772,32.886905,11763,6.72,2.48039549,14,86.389449,True,0.00497512,0,200,5,leviticus,main,full
+3,mahapakh pashta zaqef_qatan,150,0.01275185,50.33557,11763,2.98,1.72757709,10,85.101846,True,0.00497512,0,200,6,leviticus,main,full
+3,darga tevir merkha,64,0.00544079,96.240602,11763,0.665,0.78476383,4,80.705809,True,0.00497512,0,200,7,leviticus,main,full
+3,tipeha munah atnah,334,0.02839412,25.131678,11763,13.29,3.98437905,20,80.49184,True,0.00497512,0,200,8,leviticus,main,full
+3,qadma geresh munah,66,0.00561081,105.6,11763,0.625,0.82326412,4,79.409509,True,0.00497512,0,200,9,leviticus,main,full
+3,sof_pasuq qadma geresh,45,0.00382555,128.571429,11763,0.35,0.57371224,3,77.826473,True,0.00497512,0,200,10,leviticus,main,full
+3,mahapakh pashta munah,149,0.01266684,36.033857,11763,4.135,1.96624147,11,73.676098,True,0.00497512,0,200,11,leviticus,main,full
+3,geresh munah revia,44,0.00374054,103.529412,11763,0.425,0.60514959,3,72.006989,True,0.00497512,0,200,12,leviticus,main,full
+3,tipeha merkha meteg,370,0.03145456,15.034539,11763,24.61,5.06519308,25,68.188911,True,0.00497512,0,200,13,leviticus,main,full
+3,zaqef_qatan merkha tipeha,272,0.02312335,16.370749,11763,16.615,3.90551408,21,65.390879,True,0.00497512,0,200,14,leviticus,main,full
+3,merkha tipeha atnah,235,0.0199779,17.078488,11763,13.76,3.55324185,19,62.264267,True,0.00497512,0,200,15,leviticus,main,full
+3,revia mahapakh pashta,59,0.00501573,67.045455,11763,0.88,0.94342475,6,61.605338,True,0.00497512,0,200,16,leviticus,main,full
+3,qadma mahapakh pashta,54,0.00459067,48.430493,11763,1.115,0.96770723,6,54.649793,True,0.00497512,0,200,17,leviticus,main,full
+3,yetiv munah zaqef_qatan,37,0.00314546,79.569892,11763,0.465,0.67902901,4,53.80477,True,0.00497512,0,200,18,leviticus,main,full
+3,munah zaqef_qatan tipeha,243,0.020658,15.060428,11763,16.135,4.24817726,23,53.402903,True,0.00497512,0,200,19,leviticus,main,full
+3,meteg sof_pasuq qadma,100,0.00850123,32.310178,11763,3.095,1.83104852,9,52.923229,True,0.00497512,0,200,20,leviticus,main,full
+3,merkha tipeha meteg,252,0.02142311,10.332103,11763,24.39,4.33611687,21,52.491666,True,0.00497512,0,200,21,leviticus,main,full
+3,munah paseq munah,42,0.00357052,65.116279,11763,0.645,0.79506961,4,52.014314,True,0.00497512,0,200,22,leviticus,main,full
+3,atnah darga tevir,36,0.00306044,76.595745,11763,0.47,0.72921793,5,48.723431,True,0.00497512,0,200,23,leviticus,main,full
+3,munah zaqef_qatan merkha,180,0.01530222,13.688213,11763,13.15,3.67218254,21,45.436194,True,0.00497512,0,200,24,leviticus,main,full
+3,atnah mahapakh pashta,73,0.0062059,31.330472,11763,2.33,1.56632271,9,45.118416,True,0.00497512,0,200,25,leviticus,main,full
+3,sof_pasuq mahapakh pashta,78,0.00663096,28.467153,11763,2.74,1.73419641,9,43.397622,True,0.00497512,0,200,26,leviticus,main,full
+3,zaqef_qatan tipeha atnah,129,0.01096659,13.804173,11763,9.345,2.79374301,14,42.829637,True,0.00497512,0,200,27,leviticus,main,full
+3,mahapakh pashta pashta,69,0.00586585,25.321101,11763,2.725,1.63792214,8,40.462851,True,0.00497512,0,200,28,leviticus,main,full
+3,meteg sof_pasuq gershayim,33,0.00280541,52.8,11763,0.625,0.81713742,5,39.620019,True,0.00497512,0,200,29,leviticus,main,full
+3,meteg sof_pasuq mahapakh,88,0.00748108,21.701603,11763,4.055,2.12947135,12,39.420582,True,0.00497512,0,200,30,leviticus,main,full
+3,meteg sof_pasuq telisha_qetana,30,0.00255037,47.619048,11763,0.63,0.79767249,4,36.819622,True,0.00497512,0,200,31,leviticus,main,full
+3,meteg sof_pasuq munah,140,0.01190173,12.05857,11763,11.61,3.56953891,19,35.968231,True,0.00497512,0,200,32,leviticus,main,full
+3,meteg sof_pasuq merkha,131,0.01113661,10.501002,11763,12.475,3.34444338,18,35.43938,True,0.00497512,0,200,33,leviticus,main,full
+3,atnah merkha tipeha,142,0.01207175,10.7739,11763,13.18,3.67903199,21,35.014645,True,0.00497512,0,200,34,leviticus,main,full
+3,pashta zaqef_qatan tipeha,131,0.01113661,11.634103,11763,11.26,3.57157961,20,33.525782,True,0.00497512,0,200,35,leviticus,main,full
+3,merkha tipeha merkha,174,0.01479214,7.93072,11763,21.94,4.6100611,25,32.984378,True,0.00497512,0,200,36,leviticus,main,full
+3,sof_pasuq darga tevir,21,0.00178526,48.837209,11763,0.43,0.66883233,4,30.755092,True,0.00497512,0,200,37,leviticus,main,full
+3,sof_pasuq munah revia,43,0.00365553,16.929134,11763,2.54,1.42779304,7,28.33744,True,0.00497512,0,200,38,leviticus,main,full
+3,merkha tipeha munah,140,0.01190173,6.285073,11763,22.275,4.23070554,22,27.826328,True,0.00497512,0,200,39,leviticus,main,full
+3,mahapakh meteg pashta,62,0.00527076,14.622642,11763,4.24,2.13663898,11,27.033112,True,0.00497512,0,200,40,leviticus,main,full
+3,zaqef_qatan tipeha munah,115,0.00977642,7.167342,11763,16.045,3.68522447,19,26.851824,True,0.00497512,0,200,41,leviticus,main,full
+3,meteg sof_pasuq revia,46,0.00391057,16.576577,11763,2.775,1.68181973,9,25.701328,True,0.00497512,0,200,42,leviticus,main,full
+3,pashta zaqef_qatan merkha,89,0.0075661,9.834254,11763,9.05,3.13474611,17,25.504458,True,0.00497512,0,200,43,leviticus,main,full
+3,munah revia mahapakh,31,0.00263538,24.21875,11763,1.28,1.19949738,8,24.777044,True,0.00497512,0,200,44,leviticus,main,full
+3,zaqef_qatan tipeha meteg,107,0.00909632,6.190338,11763,17.285,3.72871177,20,24.060589,True,0.00497512,0,200,45,leviticus,main,full
+3,tipeha atnah merkha,97,0.0082462,7.001083,11763,13.855,3.5007501,18,23.750624,True,0.00497512,0,200,46,leviticus,main,full
+3,merkha tevir tipeha,66,0.00561081,9.635036,11763,6.85,2.49371068,14,23.719672,True,0.00497512,0,200,47,leviticus,main,full
+3,atnah tevir merkha,44,0.00374054,13.095238,11763,3.36,1.75092223,9,23.210625,True,0.00497512,0,200,48,leviticus,main,full
+3,sof_pasuq merkha tipeha,99,0.00841622,7.003891,11763,14.135,3.65699921,18,23.206185,True,0.00497512,0,200,49,leviticus,main,full
+3,munah revia pashta,41,0.00348551,15.738964,11763,2.605,1.66216393,9,23.099406,True,0.00497512,0,200,50,leviticus,main,full
+4,tipeha merkha meteg sof_pasuq,363,0.0308621,212.280702,11762,1.71,1.328429,7,271.967865,True,0.00497512,0,200,1,leviticus,main,full
+4,mahapakh pashta munah zaqef_qatan,139,0.01181772,370.666667,11762,0.375,0.62153562,4,223.03629,True,0.00497512,0,200,2,leviticus,main,full
+4,merkha tipeha meteg sof_pasuq,231,0.01963952,135.483871,11762,1.705,1.10638848,7,207.246373,True,0.00497512,0,200,3,leviticus,main,full
+4,meteg sof_pasuq mahapakh pashta,78,0.00663153,229.411765,11762,0.34,0.55310907,3,140.406302,True,0.00497512,0,200,4,leviticus,main,full
+4,pashta munah zaqef_qatan tipeha,149,0.01266791,113.740458,11762,1.31,1.1403517,7,129.512675,True,0.00497512,0,200,5,leviticus,main,full
+4,munah zaqef_qatan merkha tipeha,159,0.01351811,78.908189,11762,2.015,1.37631618,8,114.061727,True,0.00497512,0,200,6,leviticus,main,full
+4,pashta munah zaqef_qatan merkha,119,0.01011733,109.677419,11762,1.085,1.04558175,6,112.774539,True,0.00497512,0,200,7,leviticus,main,full
+4,merkha tipeha munah atnah,139,0.01181772,102.205882,11762,1.36,1.22388294,7,112.461736,True,0.00497512,0,200,8,leviticus,main,full
+4,merkha tipeha merkha meteg,174,0.0147934,63.043478,11762,2.76,1.56994383,9,109.073966,True,0.00497512,0,200,9,leviticus,main,full
+4,zaqef_qatan tipeha munah atnah,108,0.00918211,105.365854,11762,1.025,1.06774312,6,100.187955,True,0.00497512,0,200,10,leviticus,main,full
+4,zaqef_qatan merkha tipeha atnah,104,0.00884203,83.534137,11762,1.245,1.03456592,6,99.321849,True,0.00497512,0,200,11,leviticus,main,full
+4,tevir merkha tipeha atnah,61,0.00518619,128.421053,11762,0.475,0.6868287,4,88.122409,True,0.00497512,0,200,12,leviticus,main,full
+4,tipeha meteg sof_pasuq qadma,58,0.00493113,141.463415,11762,0.41,0.65884016,4,87.411187,True,0.00497512,0,200,13,leviticus,main,full
+4,mahapakh pashta zaqef_qatan merkha,50,0.00425098,149.253731,11762,0.335,0.57831413,4,85.878932,True,0.00497512,0,200,14,leviticus,main,full
+4,meteg sof_pasuq munah revia,43,0.00365584,156.363636,11762,0.275,0.52031591,3,82.113576,True,0.00497512,0,200,15,leviticus,main,full
+4,zaqef_qatan tipeha meteg sof_pasuq,87,0.0073967,75.324675,11762,1.155,1.08945378,6,78.796367,True,0.00497512,0,200,16,leviticus,main,full
+4,mahapakh pashta zaqef_qatan tipeha,51,0.004336,113.333333,11762,0.45,0.64776384,4,78.0377,True,0.00497512,0,200,17,leviticus,main,full
+4,tipeha atnah mahapakh pashta,40,0.00340078,131.147541,11762,0.305,0.51311934,4,77.360171,True,0.00497512,0,200,18,leviticus,main,full
+4,meteg sof_pasuq merkha tipeha,99,0.00841694,56.090652,11762,1.765,1.33742985,8,72.702879,True,0.00497512,0,200,19,leviticus,main,full
+4,tevir merkha tipeha meteg,65,0.00552627,83.333333,11762,0.78,0.89195173,4,71.999412,True,0.00497512,0,200,20,leviticus,main,full
+4,pashta pashta munah zaqef_qatan,60,0.00510117,96.774194,11762,0.62,0.8361193,5,71.018574,True,0.00497512,0,200,21,leviticus,main,full
+4,atnah tipeha meteg sof_pasuq,70,0.00595137,58.577406,11762,1.195,0.97040374,5,70.903478,True,0.00497512,0,200,22,leviticus,main,full
+4,sof_pasuq mahapakh pashta zaqef_qatan,35,0.00297568,155.555556,11762,0.225,0.50562166,4,68.776721,True,0.00497512,0,200,23,leviticus,main,full
+4,munah zaqef_qatan tipeha atnah,74,0.00629145,66.666667,11762,1.11,1.05996113,6,68.766673,True,0.00497512,0,200,24,leviticus,main,full
+4,pashta zaqef_qatan merkha tipeha,82,0.0069716,60.740741,11762,1.35,1.20196656,7,67.098372,True,0.00497512,0,200,25,leviticus,main,full
+4,atnah mahapakh pashta zaqef_qatan,34,0.00289066,141.666667,11762,0.24,0.50365498,3,67.030013,True,0.00497512,0,200,26,leviticus,main,full
+4,tipeha meteg sof_pasuq mahapakh,46,0.0039109,85.185185,11762,0.54,0.68611498,4,66.257116,True,0.00497512,0,200,27,leviticus,main,full
+4,tevir tipeha munah atnah,43,0.00365584,94.505495,11762,0.455,0.65583964,4,64.871041,True,0.00497512,0,200,28,leviticus,main,full
+4,atnah merkha tipeha meteg,81,0.00688658,49.693252,11762,1.63,1.22908635,6,64.576423,True,0.00497512,0,200,29,leviticus,main,full
+4,tevir merkha tipeha merkha,54,0.00459106,71.523179,11762,0.755,0.86528527,5,61.53462,True,0.00497512,0,200,30,leviticus,main,full
+4,tipeha munah atnah merkha,76,0.00646149,48.101266,11762,1.58,1.2169655,6,61.152103,True,0.00497512,0,200,31,leviticus,main,full
+4,tipeha meteg sof_pasuq munah,74,0.00629145,44.311377,11762,1.67,1.20347069,7,60.101173,True,0.00497512,0,200,32,leviticus,main,full
+4,tevir tipeha merkha meteg,52,0.00442102,60.465116,11762,0.86,0.8799269,5,58.118464,True,0.00497512,0,200,33,leviticus,main,full
+4,tipeha meteg sof_pasuq merkha,79,0.00671654,42.359249,11762,1.865,1.32875995,7,58.050365,True,0.00497512,0,200,34,leviticus,main,full
+4,sof_pasuq mahapakh pashta munah,33,0.00280565,100.0,11762,0.33,0.56807884,4,57.509623,True,0.00497512,0,200,35,leviticus,main,full
+4,munah atnah merkha tipeha,61,0.00518619,51.476793,11762,1.185,1.06132325,6,56.35889,True,0.00497512,0,200,36,leviticus,main,full
+4,merkha meteg sof_pasuq mahapakh,39,0.00331576,82.978723,11762,0.47,0.69390744,4,55.526137,True,0.00497512,0,200,37,leviticus,main,full
+4,merkha meteg sof_pasuq munah,63,0.00535623,45.985401,11762,1.37,1.13999912,6,54.061445,True,0.00497512,0,200,38,leviticus,main,full
+4,zaqef_qatan merkha tipeha meteg,79,0.00671654,36.829837,11762,2.145,1.42270709,9,54.020255,True,0.00497512,0,200,39,leviticus,main,full
+4,tipeha munah atnah mahapakh,36,0.0030607,79.120879,11762,0.455,0.67098892,4,52.974049,True,0.00497512,0,200,40,leviticus,main,full
+4,mahapakh pashta pashta munah,28,0.00238055,96.551724,11762,0.29,0.52657994,3,52.62259,True,0.00497512,0,200,41,leviticus,main,full
+4,atnah tevir merkha tipeha,41,0.0034858,77.358491,11762,0.53,0.77595783,4,52.154896,True,0.00497512,0,200,42,leviticus,main,full
+4,merkha meteg sof_pasuq qadma,38,0.00323074,91.566265,11762,0.415,0.7248462,5,51.852379,True,0.00497512,0,200,43,leviticus,main,full
+4,tevir merkha tipeha munah,41,0.0034858,52.903226,11762,0.775,0.79847531,4,50.377262,True,0.00497512,0,200,44,leviticus,main,full
+4,tipeha atnah merkha tipeha,75,0.00637647,37.783375,11762,1.985,1.47500958,8,49.501373,True,0.00497512,0,200,45,leviticus,main,full
+4,atnah merkha tipeha merkha,61,0.00518619,38.607595,11762,1.58,1.20451412,8,49.331094,True,0.00497512,0,200,46,leviticus,main,full
+4,pashta zaqef_qatan tipeha atnah,43,0.00365584,55.844156,11762,0.77,0.86069973,5,49.06473,True,0.00497512,0,200,47,leviticus,main,full
+4,sof_pasuq pashta munah zaqef_qatan,38,0.00323074,65.517241,11762,0.58,0.80426001,5,46.527242,True,0.00497512,0,200,48,leviticus,main,full
+4,zaqef_qatan merkha tipeha munah,64,0.00544125,33.246753,11762,1.925,1.3522269,8,45.905757,True,0.00497512,0,200,49,leviticus,main,full
+4,merkha tipeha atnah merkha,55,0.00467608,34.482759,11762,1.595,1.16523123,7,45.832105,True,0.00497512,0,200,50,leviticus,main,full
+5,munah zaqef_qatan merkha tipeha munah,39,0.00331604,152.941176,11761,0.255,0.52089505,3,74.381585,True,0.00497512,0,200,1,leviticus,main,full
+5,merkha tipeha merkha meteg sof_pasuq,171,0.01453958,1068.75,11761,0.16,0.38095358,3,,False,0.00497512,0,200,2,leviticus,main,full
+5,pashta munah zaqef_qatan merkha tipeha,107,0.00909787,611.428571,11761,0.175,0.43046662,3,,False,0.00497512,0,200,3,leviticus,main,full
+5,atnah merkha tipeha meteg sof_pasuq,78,0.00663209,709.090909,11761,0.11,0.34422734,3,,False,0.00497512,0,200,4,leviticus,main,full
+5,zaqef_qatan tipeha merkha meteg sof_pasuq,71,0.0060369,489.655172,11761,0.145,0.40595442,3,,False,0.00497512,0,200,5,leviticus,main,full
+5,zaqef_qatan merkha tipeha meteg sof_pasuq,70,0.00595187,437.5,11761,0.16,0.36752602,2,,False,0.00497512,0,200,6,leviticus,main,full
+5,munah zaqef_qatan tipeha munah atnah,64,0.00544171,609.52381,11761,0.105,0.33844902,3,,False,0.00497512,0,200,7,leviticus,main,full
+5,tipeha merkha meteg sof_pasuq munah,63,0.00535669,331.578947,11761,0.19,0.44144577,4,,False,0.00497512,0,200,8,leviticus,main,full
+5,zaqef_qatan merkha tipeha munah atnah,63,0.00535669,572.727273,11761,0.11,0.32930565,3,,False,0.00497512,0,200,9,leviticus,main,full
+5,munah zaqef_qatan merkha tipeha atnah,62,0.00527166,375.757576,11761,0.165,0.39820577,3,,False,0.00497512,0,200,10,leviticus,main,full
+5,tipeha meteg sof_pasuq merkha tipeha,62,0.00527166,253.061224,11761,0.245,0.47550555,3,,False,0.00497512,0,200,11,leviticus,main,full
+5,atnah merkha tipeha merkha meteg,61,0.00518663,297.560976,11761,0.205,0.46265022,3,,False,0.00497512,0,200,12,leviticus,main,full
+5,tipeha munah atnah merkha tipeha,61,0.00518663,297.560976,11761,0.205,0.45165803,3,,False,0.00497512,0,200,13,leviticus,main,full
+5,tevir merkha tipeha meteg sof_pasuq,58,0.00493155,2320.0,11761,0.025,0.15651673,2,,False,0.00497512,0,200,14,leviticus,main,full
+5,tevir merkha tipeha merkha meteg,54,0.00459145,540.0,11761,0.1,0.33249476,3,,False,0.00497512,0,200,15,leviticus,main,full
+5,tevir tipeha merkha meteg sof_pasuq,52,0.00442139,1040.0,11761,0.05,0.21849186,2,,False,0.00497512,0,200,16,leviticus,main,full
+5,atnah tipeha merkha meteg sof_pasuq,49,0.00416631,426.086957,11761,0.115,0.33516665,3,,False,0.00497512,0,200,17,leviticus,main,full
+5,mahapakh pashta munah zaqef_qatan tipeha,48,0.00408129,960.0,11761,0.05,0.21849186,2,,False,0.00497512,0,200,18,leviticus,main,full
+5,mahapakh pashta zaqef_qatan merkha tipeha,48,0.00408129,738.461538,11761,0.065,0.2471445,2,,False,0.00497512,0,200,19,leviticus,main,full
+5,munah zaqef_qatan tipeha merkha meteg,47,0.00399626,213.636364,11761,0.22,0.45012561,3,,False,0.00497512,0,200,20,leviticus,main,full
+5,pashta munah zaqef_qatan tipeha atnah,46,0.00391123,613.333333,11761,0.075,0.28244268,3,,False,0.00497512,0,200,21,leviticus,main,full
+5,mahapakh pashta munah zaqef_qatan merkha,45,0.00382621,818.181818,11761,0.055,0.22855236,2,,False,0.00497512,0,200,22,leviticus,main,full
+5,tipeha atnah merkha tipeha meteg,45,0.00382621,214.285714,11761,0.21,0.46581641,3,,False,0.00497512,0,200,23,leviticus,main,full
+5,munah zaqef_qatan tipeha meteg sof_pasuq,44,0.00374118,382.608696,11761,0.115,0.3198225,2,,False,0.00497512,0,200,24,leviticus,main,full
+5,pashta munah zaqef_qatan tipeha munah,44,0.00374118,325.925926,11761,0.135,0.3425811,2,,False,0.00497512,0,200,25,leviticus,main,full
+5,tipeha merkha meteg sof_pasuq merkha,44,0.00374118,214.634146,11761,0.205,0.45165803,3,,False,0.00497512,0,200,26,leviticus,main,full
+5,tipeha meteg sof_pasuq mahapakh pashta,44,0.00374118,880.0,11761,0.05,0.21849186,2,,False,0.00497512,0,200,27,leviticus,main,full
+5,munah zaqef_qatan merkha tipeha meteg,43,0.00365615,232.432432,11761,0.185,0.42624338,3,,False,0.00497512,0,200,28,leviticus,main,full
+5,merkha tipeha atnah merkha tipeha,42,0.00357112,178.723404,11761,0.235,0.45916135,3,,False,0.00497512,0,200,29,leviticus,main,full
+5,meteg sof_pasuq merkha tipeha atnah,42,0.00357112,336.0,11761,0.125,0.34637389,3,,False,0.00497512,0,200,30,leviticus,main,full
+5,tevir merkha tipeha munah atnah,41,0.0034861,911.111111,11761,0.045,0.20782434,2,,False,0.00497512,0,200,31,leviticus,main,full
+5,tipeha atnah tipeha meteg sof_pasuq,40,0.00340107,222.222222,11761,0.18,0.41041712,3,,False,0.00497512,0,200,32,leviticus,main,full
+5,tipeha merkha meteg sof_pasuq mahapakh,39,0.00331604,866.666667,11761,0.045,0.25157793,3,,False,0.00497512,0,200,33,leviticus,main,full
+5,merkha tipeha meteg sof_pasuq munah,38,0.00323102,190.0,11761,0.2,0.48078663,4,,False,0.00497512,0,200,34,leviticus,main,full
+5,meteg sof_pasuq pashta munah zaqef_qatan,38,0.00323102,447.058824,11761,0.085,0.27958153,2,,False,0.00497512,0,200,35,leviticus,main,full
+5,tipeha merkha meteg sof_pasuq qadma,38,0.00323102,633.333333,11761,0.06,0.23808279,2,,False,0.00497512,0,200,36,leviticus,main,full
+5,merkha tipeha meteg sof_pasuq merkha,37,0.00314599,180.487805,11761,0.205,0.44039156,3,,False,0.00497512,0,200,37,leviticus,main,full
+5,meteg sof_pasuq mahapakh pashta zaqef_qatan,35,0.00297594,1400.0,11761,0.025,0.15651673,2,,False,0.00497512,0,200,38,leviticus,main,full
+5,merkha meteg sof_pasuq merkha tipeha,33,0.00280588,146.666667,11761,0.225,0.47487105,4,,False,0.00497512,0,200,39,leviticus,main,full
+5,meteg sof_pasuq mahapakh pashta munah,33,0.00280588,1320.0,11761,0.025,0.15651673,2,,False,0.00497512,0,200,40,leviticus,main,full
+5,munah atnah merkha tipeha meteg,33,0.00280588,212.903226,11761,0.155,0.38953006,3,,False,0.00497512,0,200,41,leviticus,main,full
+5,pashta zaqef_qatan tipeha meteg sof_pasuq,33,0.00280588,440.0,11761,0.075,0.2640523,2,,False,0.00497512,0,200,42,leviticus,main,full
+5,merkha tipeha munah atnah merkha,32,0.00272086,213.333333,11761,0.15,0.38502105,3,,False,0.00497512,0,200,43,leviticus,main,full
+5,pashta munah zaqef_qatan tipeha meteg,32,0.00272086,177.777778,11761,0.18,0.42248368,3,,False,0.00497512,0,200,44,leviticus,main,full
+5,tipeha munah atnah tipeha meteg,32,0.00272086,156.097561,11761,0.205,0.47338724,4,,False,0.00497512,0,200,45,leviticus,main,full
+5,merkha meteg sof_pasuq mahapakh pashta,31,0.00263583,688.888889,11761,0.045,0.20782434,2,,False,0.00497512,0,200,46,leviticus,main,full
+5,sof_pasuq mahapakh pashta munah zaqef_qatan,30,0.0025508,545.454545,11761,0.055,0.22855236,2,,False,0.00497512,0,200,47,leviticus,main,full
+5,tipeha atnah merkha tipeha merkha,30,0.0025508,122.44898,11761,0.245,0.49619153,3,,False,0.00497512,0,200,48,leviticus,main,full
+5,tipeha atnah tipeha merkha meteg,30,0.0025508,171.428571,11761,0.175,0.41863021,3,,False,0.00497512,0,200,49,leviticus,main,full
+5,tipeha munah atnah mahapakh pashta,30,0.0025508,1000.0,11761,0.03,0.1710153,2,,False,0.00497512,0,200,50,leviticus,main,full
+6,atnah merkha tipeha merkha meteg sof_pasuq,61,0.00518707,6100.0,11760,0.01,0.09974843,2,,False,0.00497512,0,200,1,leviticus,main,full
+6,tevir merkha tipeha merkha meteg sof_pasuq,53,0.0045068,inf,11760,0.0,0.0,1,,False,0.00497512,0,200,2,leviticus,main,full
+6,munah zaqef_qatan tipeha merkha meteg sof_pasuq,46,0.00391156,1533.333333,11760,0.03,0.1710153,2,,False,0.00497512,0,200,3,leviticus,main,full
+6,pashta munah zaqef_qatan merkha tipeha atnah,45,0.00382653,9000.0,11760,0.005,0.07071068,2,,False,0.00497512,0,200,4,leviticus,main,full
+6,mahapakh pashta munah zaqef_qatan merkha tipeha,42,0.00357143,8400.0,11760,0.005,0.07071068,2,,False,0.00497512,0,200,5,leviticus,main,full
+6,tipeha atnah merkha tipeha meteg sof_pasuq,42,0.00357143,4200.0,11760,0.01,0.09974843,2,,False,0.00497512,0,200,6,leviticus,main,full
+6,pashta munah zaqef_qatan tipeha munah atnah,41,0.00348639,2733.333333,11760,0.015,0.12185748,2,,False,0.00497512,0,200,7,leviticus,main,full
+6,munah zaqef_qatan merkha tipeha munah atnah,39,0.00331633,7800.0,11760,0.005,0.07071068,2,,False,0.00497512,0,200,8,leviticus,main,full
+6,munah zaqef_qatan merkha tipeha meteg sof_pasuq,36,0.00306122,3600.0,11760,0.01,0.09974843,2,,False,0.00497512,0,200,9,leviticus,main,full
+6,munah atnah merkha tipeha meteg sof_pasuq,33,0.00280612,2200.0,11760,0.015,0.12185748,2,,False,0.00497512,0,200,10,leviticus,main,full
+6,tipeha merkha meteg sof_pasuq merkha tipeha,33,0.00280612,825.0,11760,0.04,0.22055207,3,,False,0.00497512,0,200,11,leviticus,main,full
+6,tipeha munah atnah merkha tipeha meteg,33,0.00280612,825.0,11760,0.04,0.19645092,2,,False,0.00497512,0,200,12,leviticus,main,full
+6,tipeha merkha meteg sof_pasuq mahapakh pashta,31,0.00263605,1550.0,11760,0.02,0.14035132,2,,False,0.00497512,0,200,13,leviticus,main,full
+6,meteg sof_pasuq mahapakh pashta munah zaqef_qatan,30,0.00255102,6000.0,11760,0.005,0.07071068,2,,False,0.00497512,0,200,14,leviticus,main,full
+6,tipeha atnah merkha tipeha merkha meteg,30,0.00255102,2000.0,11760,0.015,0.12185748,2,,False,0.00497512,0,200,15,leviticus,main,full
+6,merkha tipeha meteg sof_pasuq merkha tipeha,29,0.00246599,2900.0,11760,0.01,0.09974843,2,,False,0.00497512,0,200,16,leviticus,main,full
+6,pashta munah zaqef_qatan merkha tipeha munah,29,0.00246599,1933.333333,11760,0.015,0.12185748,2,,False,0.00497512,0,200,17,leviticus,main,full
+6,tipeha munah atnah tipeha meteg sof_pasuq,29,0.00246599,1933.333333,11760,0.015,0.12185748,2,,False,0.00497512,0,200,18,leviticus,main,full
+6,merkha tipeha meteg sof_pasuq mahapakh pashta,28,0.00238095,inf,11760,0.0,0.0,1,,False,0.00497512,0,200,19,leviticus,main,full
+6,munah atnah merkha tipeha merkha meteg,28,0.00238095,2800.0,11760,0.01,0.09974843,2,,False,0.00497512,0,200,20,leviticus,main,full
+6,tipeha atnah tipeha merkha meteg sof_pasuq,28,0.00238095,2800.0,11760,0.01,0.09974843,2,,False,0.00497512,0,200,21,leviticus,main,full
+6,tipeha munah atnah merkha tipeha merkha,28,0.00238095,1120.0,11760,0.025,0.15651673,2,,False,0.00497512,0,200,22,leviticus,main,full
+6,darga tevir tipeha merkha meteg sof_pasuq,27,0.00229592,inf,11760,0.0,0.0,1,,False,0.00497512,0,200,23,leviticus,main,full
+6,meteg sof_pasuq merkha tipeha merkha meteg,27,0.00229592,1350.0,11760,0.02,0.14035132,2,,False,0.00497512,0,200,24,leviticus,main,full
+6,pashta munah zaqef_qatan tipeha merkha meteg,27,0.00229592,1800.0,11760,0.015,0.12185748,2,,False,0.00497512,0,200,25,leviticus,main,full
+6,pashta zaqef_qatan merkha tipeha meteg sof_pasuq,26,0.00221088,1733.333333,11760,0.015,0.12185748,2,,False,0.00497512,0,200,26,leviticus,main,full
+6,sof_pasuq merkha tipeha merkha meteg sof_pasuq,26,0.00221088,1300.0,11760,0.02,0.14035132,2,,False,0.00497512,0,200,27,leviticus,main,full
+6,tipeha meteg sof_pasuq merkha tipeha atnah,26,0.00221088,1733.333333,11760,0.015,0.12185748,2,,False,0.00497512,0,200,28,leviticus,main,full
+6,pashta munah zaqef_qatan tipeha meteg sof_pasuq,25,0.00212585,2500.0,11760,0.01,0.09974843,2,,False,0.00497512,0,200,29,leviticus,main,full
+6,merkha tipeha merkha meteg sof_pasuq munah,24,0.00204082,960.0,11760,0.025,0.15651673,2,,False,0.00497512,0,200,30,leviticus,main,full
+6,merkha tipeha munah atnah merkha tipeha,24,0.00204082,1600.0,11760,0.015,0.12185748,2,,False,0.00497512,0,200,31,leviticus,main,full
+6,meteg sof_pasuq merkha tipeha munah atnah,24,0.00204082,960.0,11760,0.025,0.15651673,2,,False,0.00497512,0,200,32,leviticus,main,full
+6,zaqef_qatan merkha tipeha merkha meteg sof_pasuq,24,0.00204082,1200.0,11760,0.02,0.14035132,2,,False,0.00497512,0,200,33,leviticus,main,full
+6,atnah tevir merkha tipeha meteg sof_pasuq,23,0.00195578,inf,11760,0.0,0.0,1,,False,0.00497512,0,200,34,leviticus,main,full
+6,darga tevir merkha tipeha merkha meteg,22,0.00187075,4400.0,11760,0.005,0.07071068,2,,False,0.00497512,0,200,35,leviticus,main,full
+6,zaqef_qatan tipeha munah atnah merkha tipeha,22,0.00187075,1100.0,11760,0.02,0.14035132,2,,False,0.00497512,0,200,36,leviticus,main,full
+6,merkha tipeha atnah merkha tipeha merkha,21,0.00178571,1050.0,11760,0.02,0.14035132,2,,False,0.00497512,0,200,37,leviticus,main,full
+6,merkha tipeha atnah merkha tipeha meteg,21,0.00178571,840.0,11760,0.025,0.15651673,2,,False,0.00497512,0,200,38,leviticus,main,full
+6,merkha tipeha merkha meteg sof_pasuq merkha,21,0.00178571,1400.0,11760,0.015,0.12185748,2,,False,0.00497512,0,200,39,leviticus,main,full
+6,merkha tipeha merkha meteg sof_pasuq qadma,21,0.00178571,4200.0,11760,0.005,0.07071068,2,,False,0.00497512,0,200,40,leviticus,main,full
+6,tipeha meteg sof_pasuq mahapakh pashta munah,21,0.00178571,4200.0,11760,0.005,0.07071068,2,,False,0.00497512,0,200,41,leviticus,main,full
+6,tipeha meteg sof_pasuq pashta munah zaqef_qatan,21,0.00178571,2100.0,11760,0.01,0.09974843,2,,False,0.00497512,0,200,42,leviticus,main,full
+6,zaqef_qatan merkha tipeha atnah merkha tipeha,21,0.00178571,840.0,11760,0.025,0.15651673,2,,False,0.00497512,0,200,43,leviticus,main,full
+6,merkha tevir tipeha merkha meteg sof_pasuq,20,0.00170068,1333.333333,11760,0.015,0.12185748,2,,False,0.00497512,0,200,44,leviticus,main,full

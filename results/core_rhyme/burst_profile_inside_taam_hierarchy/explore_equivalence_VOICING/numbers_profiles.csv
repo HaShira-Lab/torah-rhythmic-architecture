@@ -1,0 +1,16 @@
+book,level,coordinate_mode,aggregation,value_mode,equivalence_profile,eligible_segments,bin,normalized_position_midpoint,distance_to_cadence,mean_count,active_rate,n_contributions,n_segments_contributing,n_tokens
+numbers,minor,normalized,segment,raw,VOICING,2976,1,0.1,,0.663698476702509,0.3812163978494624,2976,2976,3067
+numbers,minor,normalized,segment,raw,VOICING,2976,2,0.3,,0.8362241494329553,0.487769624193907,1499,1499,1613
+numbers,minor,normalized,segment,raw,VOICING,2976,3,0.5,,0.8407476058078467,0.4776799505715168,2158,2158,2414
+numbers,minor,normalized,segment,raw,VOICING,2976,4,0.7,,0.7033577940849455,0.43173226595508113,1499,1499,1613
+numbers,minor,normalized,segment,raw,VOICING,2976,5,0.9,,0.7577844982078853,0.4580533154121864,2976,2976,3067
+numbers,major,normalized,segment,raw,VOICING,2213,1,0.1,,0.6633152583220365,0.365868353667721,2213,2213,2937
+numbers,major,normalized,segment,raw,VOICING,2213,2,0.3,,0.7783783783783784,0.46675675675675676,1850,1850,2680
+numbers,major,normalized,segment,raw,VOICING,2213,3,0.5,,0.8336018617973505,0.47874149659863946,1862,1862,2770
+numbers,major,normalized,segment,raw,VOICING,2213,4,0.7,,0.7625675675675676,0.4464864864864865,1850,1850,2680
+numbers,major,normalized,segment,raw,VOICING,2213,5,0.9,,0.7844931465582166,0.4629085705678566,2213,2213,2937
+numbers,verse,normalized,segment,raw,VOICING,1281,1,0.1,,0.7768540202966432,0.4209211553473849,1281,1281,2893
+numbers,verse,normalized,segment,raw,VOICING,1281,2,0.3,,0.8092739798622152,0.48565182829888714,1258,1258,2893
+numbers,verse,normalized,segment,raw,VOICING,1281,3,0.5,,0.8818257261410788,0.4927524204702628,1205,1205,2861
+numbers,verse,normalized,segment,raw,VOICING,1281,4,0.7,,0.8058426073131956,0.45547164811870694,1258,1258,2893
+numbers,verse,normalized,segment,raw,VOICING,1281,5,0.9,,0.7642466822794691,0.4385766328389279,1281,1281,2893

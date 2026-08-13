@@ -1,0 +1,11 @@
+﻿book,model,relation,reset_taamim,n_words,n_pulses,n_accents,n_intervals,unique_intervals,mean_interval,median_interval,entropy_norm,top1_interval,top1_share,top3_intervals,top3_share,top5_intervals,top5_share,null_model,null_top3_mean,null_top3_sd,top3_z,top3_empirical_p,top3_empirical_p_tail,null_entropy_mean,null_entropy_sd,entropy_z,entropy_empirical_p,entropy_empirical_p_tail
+genesis,continuous,continuous,none,20596,45729,18129,18128,8,2.522341,2.0,0.66723706,2,0.40175419,2+3+1,0.85012136,2+3+1+4+5,0.99282877,not_applicable_distribution_preserved,,,,,,,,,,
+genesis,sof_only,within,sof_pasuq,20596,45729,18129,16599,8,2.506115,2,0.66612726,2,0.40809687,2+3+1,0.85270197,2+3+1+4+5,0.99277065,none,,,,,upper,,,,,lower
+genesis,sof_only,cross_reset,sof_pasuq,20596,45729,18129,1529,7,2.698496,3,0.71248788,3,0.3911053,3+2+4,0.85938522,3+2+4+1+5,0.99345978,none,,,,,upper,,,,,lower
+genesis,sof_only,all,sof_pasuq,20596,45729,18129,18128,8,2.522341,2.0,0.66723706,2,0.40175419,2+3+1,0.85012136,2+3+1+4+5,0.99282877,not_applicable_distribution_preserved,,,,,,,,,,
+genesis,major,within,atnah+atnah_hafukh+sof_pasuq,20596,45729,18129,15133,8,2.500231,2,0.6627226,2,0.41260821,2+3+1,0.85515099,2+3+1+4+5,0.9931276,none,,,,,upper,,,,,lower
+genesis,major,cross_reset,atnah+atnah_hafukh+sof_pasuq,20596,45729,18129,2995,7,2.634057,3,0.73133542,3,0.35358932,3+2+4,0.83105175,3+2+4+1+5,0.99131886,none,,,,,upper,,,,,lower
+genesis,major,all,atnah+atnah_hafukh+sof_pasuq,20596,45729,18129,18128,8,2.522341,2.0,0.66723706,2,0.40175419,2+3+1,0.85012136,2+3+1+4+5,0.99282877,not_applicable_distribution_preserved,,,,,,,,,,
+genesis,major_minor,within,atnah+atnah_hafukh+paseq+revia+shalshelet+sof_pasuq+zaqef_gadol+zaqef_qatan,20596,45729,18129,12382,8,2.489259,2.0,0.64983719,2,0.42432563,2+3+1,0.86310774,2+3+1+4+5,0.99458892,none,,,,,upper,,,,,lower
+genesis,major_minor,cross_reset,atnah+atnah_hafukh+paseq+revia+shalshelet+sof_pasuq+zaqef_gadol+zaqef_qatan,20596,45729,18129,5746,7,2.59363,3.0,0.74757779,2,0.35311521,2+3+1,0.82213714,2+3+1+4+5,0.98903585,none,,,,,upper,,,,,lower
+genesis,major_minor,all,atnah+atnah_hafukh+paseq+revia+shalshelet+sof_pasuq+zaqef_gadol+zaqef_qatan,20596,45729,18129,18128,8,2.522341,2.0,0.66723706,2,0.40175419,2+3+1,0.85012136,2+3+1+4+5,0.99282877,not_applicable_distribution_preserved,,,,,,,,,,

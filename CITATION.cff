@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it and identify the exact commit or release used."
+title: "Torah Rhythmic Architecture"
+type: software
+authors:
+  - name: "HaShira-Lab"
+repository-code: "https://github.com/HaShira-Lab/torah-rhythmic-architecture"
+url: "https://github.com/HaShira-Lab/torah-rhythmic-architecture"
+abstract: >-
+  Reproducible computational analyses of taamim, temporal organization,
+  hierarchical segmentation, and rhyme architecture in the Torah.
+keywords:
+  - Torah
+  - biblical Hebrew
+  - taamim
+  - cantillation
+  - rhythm
+  - rhyme
+  - computational poetics
+  - digital humanities
+license: MIT

@@ -1,0 +1,8 @@
+﻿cadence_node,rank,predecessor,count,share_of_cadence_predecessors,book,run_label,stream_type
+atnah,1,tipeha,618,0.53832753,exodus,control_exclude_meteg,core_projected
+atnah,2,munah,524,0.45644599,exodus,control_exclude_meteg,core_projected
+revia,1,munah,306,0.6035503,exodus,control_exclude_meteg,core_projected
+sof_pasuq,1,tipeha,736,0.61078838,exodus,control_exclude_meteg,core_projected
+sof_pasuq,2,merkha,456,0.37842324,exodus,control_exclude_meteg,core_projected
+zaqef_qatan,1,munah,896,0.60622463,exodus,control_exclude_meteg,core_projected
+zaqef_qatan,2,pashta,527,0.35656292,exodus,control_exclude_meteg,core_projected

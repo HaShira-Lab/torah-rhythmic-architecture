@@ -1,0 +1,252 @@
+{
+  "analysis": "burst_profile_inside_taam_hierarchy",
+  "analysis_version": "5.0.0",
+  "book": "exodus",
+  "input": {
+    "source_file": "data\\data_processed\\torah\\exodus_taamim_annotated.txt",
+    "source_sha256": "14d2301a22ebbd61835f688b72a7d2ebca70e481d4b9477bef0dbfca6ec48dbb",
+    "metadata_file": "data\\data_processed\\torah\\exodus_taamim_annotated.txt.meta.json",
+    "metadata_sha256": "17cd997c74037602eb08be93966714149e1f211c57f1126a9fea2894e9afa6de",
+    "metadata_schema_version": "1.0",
+    "verified_against_output_sha256": true
+  },
+  "tokens": 14626,
+  "eligible_stream_positions": 14616,
+  "raw_total_arrivals": 5248,
+  "analyzed_total_arrivals": 5248,
+  "active_positions": 3926,
+  "active_rate": 0.2686097427476738,
+  "profile_inference_total_arrivals": 5248,
+  "profile_inference_active_positions": 3926,
+  "profile_inference_active_rate": 0.2686097427476738,
+  "profile_edge_audit": {
+    "edge_runs_censored": 0,
+    "edge_positions_censored": 0,
+    "edge_arrivals_censored": 0
+  },
+  "parameters": {
+    "window_in_analyzable_stressed_tokens": 10,
+    "circular_permutations_requested": 500,
+    "within_segment_permutations": 500,
+    "exclude_exact": false,
+    "match_filter": "ALL",
+    "activity_threshold": 1,
+    "equivalence_profile": "STRICT",
+    "equivalence_groups": [],
+    "multigraphs": [
+      "kh",
+      "sh",
+      "ts"
+    ],
+    "bins": 5,
+    "coordinate_mode": "normalized",
+    "max_distance": 7,
+    "aggregation": "segment",
+    "value_mode": "raw",
+    "exclude_cadence_word": false,
+    "min_segment_length_before_cadence_exclusion": 3,
+    "max_segment_length_before_cadence_exclusion": 0
+  },
+  "seeds": {
+    "base_seed": 20260728,
+    "book_index": 1,
+    "levels": {
+      "minor": {
+        "circular_seed": 21260832,
+        "within_segment_seed": 21260942
+      },
+      "major": {
+        "circular_seed": 21270839,
+        "within_segment_seed": 21270949
+      },
+      "verse": {
+        "circular_seed": 21280846,
+        "within_segment_seed": 21280956
+      }
+    }
+  },
+  "parse_audit": {
+    "source_word_tokens": 16701,
+    "analyzable_stressed_tokens": 14626,
+    "missing_stress_tokens": 2075,
+    "structural_markers": 1284,
+    "external_markers_attached": 1284,
+    "orphan_structural_markers": 0,
+    "source_boundary_counts_nested": {
+      "minor": 4509,
+      "major": 2350,
+      "verse": 1205
+    },
+    "boundaries_after_unanalyzable_words": {},
+    "boundary_projection_note": "A boundary after an unanalyzable word lies between the adjacent retained tokens in the stressed-token stream; each such projection is counted here.",
+    "verses_in_analyzable_stream": 1205,
+    "major_blocks_in_analyzable_stream": 2350,
+    "minor_blocks_in_analyzable_stream": 4509
+  },
+  "pair_audit": {
+    "eligible_pairs": 146160,
+    "bridge_pairs": 535,
+    "full_pairs": 4713,
+    "exact_word_rhyme_pairs_included": 1517,
+    "exact_word_pairs_excluded": 0
+  },
+  "comparison_cache_entries": 90368,
+  "raw_arrival_histogram": {
+    "0": 10690,
+    "1": 2922,
+    "2": 749,
+    "3": 201,
+    "4": 46,
+    "5": 7,
+    "6": 1
+  },
+  "analyzed_arrival_histogram": {
+    "0": 10690,
+    "1": 2922,
+    "2": 749,
+    "3": 201,
+    "4": 46,
+    "5": 7,
+    "6": 1
+  },
+  "levels": {
+    "minor": {
+      "coverage": {
+        "represented_segments": 4505,
+        "complete_segments": 4504,
+        "eligible_segments": 3065,
+        "eligible_share_of_complete": 0.68050621669627,
+        "complete_length_min": 1,
+        "complete_length_mean": 3.244893428063943,
+        "complete_length_max": 13,
+        "eligible_length_min": 3,
+        "eligible_length_mean": 3.934747145187602,
+        "eligible_length_max": 13,
+        "inventory_counts": {
+          "below_minimum_length": 1439,
+          "eligible": 3065,
+          "truncated_by_left_window_edge": 1
+        }
+      },
+      "observed_profiles": {
+        "mean_count": {
+          "terminal_contrast": 0.02811310494834146,
+          "linear_slope": 0.01735870783030796,
+          "cadence_peak": -0.021536299694255412,
+          "profile_energy": 0.006261168861643,
+          "profile_amplitude": 0.07616834978193149
+        },
+        "active_rate": {
+          "terminal_contrast": 0.03512778684067425,
+          "linear_slope": 0.025115072282505146,
+          "cadence_peak": -0.004832584771672921,
+          "profile_energy": 0.007009224029496772,
+          "profile_amplitude": 0.06574853604619069
+        }
+      },
+      "run_preserving_shift_audit": {
+        "requested_permutations": 500,
+        "used_permutations": 500,
+        "eligible_nonzero_shifts": 13393,
+        "rejected_run_splitting_or_merging_shifts": 1222,
+        "sampling": "without_replacement"
+      },
+      "seeds": {
+        "circular_seed": 21260832,
+        "within_segment_seed": 21260942
+      }
+    },
+    "major": {
+      "coverage": {
+        "represented_segments": 2349,
+        "complete_segments": 2348,
+        "eligible_segments": 2198,
+        "eligible_share_of_complete": 0.9361158432708688,
+        "complete_length_min": 1,
+        "complete_length_mean": 6.224446337308348,
+        "complete_length_max": 24,
+        "eligible_length_min": 3,
+        "eligible_length_mean": 6.515923566878981,
+        "eligible_length_max": 24,
+        "inventory_counts": {
+          "below_minimum_length": 150,
+          "eligible": 2198,
+          "truncated_by_left_window_edge": 1
+        }
+      },
+      "observed_profiles": {
+        "mean_count": {
+          "terminal_contrast": 0.04112071580224441,
+          "linear_slope": 0.051271678842327695,
+          "cadence_peak": 0.004697878533571509,
+          "profile_energy": 0.0031411435098811736,
+          "profile_amplitude": 0.06351668112146497
+        },
+        "active_rate": {
+          "terminal_contrast": 0.031240521686381556,
+          "linear_slope": 0.03324468618403903,
+          "cadence_peak": 0.0036410572252426054,
+          "profile_energy": 0.0029694996060975446,
+          "profile_amplitude": 0.042304805355996206
+        }
+      },
+      "run_preserving_shift_audit": {
+        "requested_permutations": 500,
+        "used_permutations": 500,
+        "eligible_nonzero_shifts": 13393,
+        "rejected_run_splitting_or_merging_shifts": 1222,
+        "sampling": "without_replacement"
+      },
+      "seeds": {
+        "circular_seed": 21270839,
+        "within_segment_seed": 21270949
+      }
+    },
+    "verse": {
+      "coverage": {
+        "represented_segments": 1205,
+        "complete_segments": 1204,
+        "eligible_segments": 1201,
+        "eligible_share_of_complete": 0.9975083056478405,
+        "complete_length_min": 2,
+        "complete_length_mean": 12.138704318936878,
+        "complete_length_max": 44,
+        "eligible_length_min": 3,
+        "eligible_length_mean": 12.164029975020815,
+        "eligible_length_max": 44,
+        "inventory_counts": {
+          "below_minimum_length": 3,
+          "eligible": 1201,
+          "truncated_by_left_window_edge": 1
+        }
+      },
+      "observed_profiles": {
+        "mean_count": {
+          "terminal_contrast": 0.0327898047923027,
+          "linear_slope": 0.06050381888987271,
+          "cadence_peak": 0.0056352520026412,
+          "profile_energy": 0.003969925506733423,
+          "profile_amplitude": 0.0685536430023147
+        },
+        "active_rate": {
+          "terminal_contrast": 0.020966324359330157,
+          "linear_slope": 0.04126868013747892,
+          "cadence_peak": 0.0027579415889448233,
+          "profile_energy": 0.0035670225170545693,
+          "profile_amplitude": 0.046764158539126244
+        }
+      },
+      "run_preserving_shift_audit": {
+        "requested_permutations": 500,
+        "used_permutations": 500,
+        "eligible_nonzero_shifts": 13393,
+        "rejected_run_splitting_or_merging_shifts": 1222,
+        "sampling": "without_replacement"
+      },
+      "seeds": {
+        "circular_seed": 21280846,
+        "within_segment_seed": 21280956
+      }
+    }
+  }
+}

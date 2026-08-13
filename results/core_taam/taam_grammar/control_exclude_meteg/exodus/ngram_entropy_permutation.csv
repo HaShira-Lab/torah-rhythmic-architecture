@@ -1,0 +1,6 @@
+﻿k,observed_entropy,null_mean,null_sd,null_unique_values,z,z_reliable,empirical_p,null_exceedances,permutations,book,run_label,stream_type
+2,5.73243474,7.30274153,0.00151664,200,-1035.382081,True,0.00497512,0,200,exodus,control_exclude_meteg,full
+3,7.37147343,10.67636976,0.00526193,200,-628.076413,True,0.00497512,0,200,exodus,control_exclude_meteg,full
+4,8.89356865,12.9678604,0.00824368,200,-494.232077,True,0.00497512,0,200,exodus,control_exclude_meteg,full
+5,10.27557079,13.72086689,0.00454601,199,-757.872954,True,0.00497512,0,200,exodus,control_exclude_meteg,full
+6,11.45059789,13.83016298,0.00154459,113,-1540.576046,True,0.00497512,0,200,exodus,control_exclude_meteg,full

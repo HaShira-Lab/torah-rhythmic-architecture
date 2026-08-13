@@ -1,0 +1,3 @@
+book,equivalence_profile,family,metric_role,metric,null,permutations,observed,null_mean,difference,fold,null_sd,z,p_enrich,p_deplete,p_two_sided
+deuteronomy,STRICT,local_rhyme_enrichment,primary,mean_arrivals,shuffle_tokens_then_recompute,500,0.6900552486187845,0.4267715864246251,0.26328366219415944,1.6169193792864176,0.005786236756634959,45.501709188145036,0.001996007984031936,1.0,0.003992015968063872
+deuteronomy,STRICT,local_rhyme_enrichment,secondary,active_rate,shuffle_tokens_then_recompute,500,0.3998421468034728,0.31144735595895817,0.08839479084451463,1.2838193651454954,0.002848229605117486,31.03499475101778,0.001996007984031936,1.0,0.003992015968063872

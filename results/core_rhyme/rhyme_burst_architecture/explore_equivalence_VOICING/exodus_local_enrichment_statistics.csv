@@ -1,0 +1,3 @@
+book,equivalence_profile,family,metric_role,metric,null,permutations,observed,null_mean,difference,fold,null_sd,z,p_enrich,p_deplete,p_two_sided
+exodus,VOICING,local_rhyme_enrichment,primary,mean_arrivals,shuffle_tokens_then_recompute,250,0.7146378200739422,0.38861563740928384,0.3260221826646583,1.8389322283531708,0.005084697819269364,64.11830048761982,0.00398406374501992,1.0,0.00796812749003984
+exodus,VOICING,local_rhyme_enrichment,secondary,active_rate,shuffle_tokens_then_recompute,250,0.4204436532931672,0.2915588114473504,0.12888484184581678,1.4420543533087176,0.0027648830707493674,46.61493399461738,0.00398406374501992,1.0,0.00796812749003984

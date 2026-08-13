@@ -1,0 +1,15 @@
+﻿cadence_node,rank,predecessor,count,share_of_cadence_predecessors,book,run_label,stream_type
+atnah,1,tipeha,513,0.5625,deuteronomy,explore_k3_7_edges20,full
+atnah,2,munah,360,0.39473684,deuteronomy,explore_k3_7_edges20,full
+atnah,3,meteg,34,0.0372807,deuteronomy,explore_k3_7_edges20,full
+paseq,1,munah,66,0.80487805,deuteronomy,explore_k3_7_edges20,full
+revia,1,munah,269,0.52539062,deuteronomy,explore_k3_7_edges20,full
+revia,2,geresh,69,0.13476562,deuteronomy,explore_k3_7_edges20,full
+revia,3,sof_pasuq,65,0.12695312,deuteronomy,explore_k3_7_edges20,full
+revia,4,atnah,44,0.0859375,deuteronomy,explore_k3_7_edges20,full
+revia,5,meteg,40,0.078125,deuteronomy,explore_k3_7_edges20,full
+sof_pasuq,1,meteg,943,0.9884696,deuteronomy,explore_k3_7_edges20,full
+zaqef_gadol,1,zaqef_qatan,31,0.44285714,deuteronomy,explore_k3_7_edges20,full
+zaqef_qatan,1,munah,790,0.61098221,deuteronomy,explore_k3_7_edges20,full
+zaqef_qatan,2,pashta,364,0.28151585,deuteronomy,explore_k3_7_edges20,full
+zaqef_qatan,3,meteg,110,0.08507347,deuteronomy,explore_k3_7_edges20,full

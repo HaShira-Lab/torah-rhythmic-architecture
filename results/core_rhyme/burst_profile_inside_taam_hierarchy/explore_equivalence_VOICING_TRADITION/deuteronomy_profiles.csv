@@ -1,0 +1,16 @@
+book,level,coordinate_mode,aggregation,value_mode,equivalence_profile,eligible_segments,bin,normalized_position_midpoint,distance_to_cadence,mean_count,active_rate,n_contributions,n_segments_contributing,n_tokens
+deuteronomy,minor,normalized,segment,raw,VOICING_TRADITION,2697,1,0.1,,0.6531331108639229,0.3985910270671116,2697,2697,2782
+deuteronomy,minor,normalized,segment,raw,VOICING_TRADITION,2697,2,0.3,,0.7801498127340823,0.449438202247191,1335,1335,1456
+deuteronomy,minor,normalized,segment,raw,VOICING_TRADITION,2697,3,0.5,,0.7256841411144082,0.42317837124958785,2022,2022,2252
+deuteronomy,minor,normalized,segment,raw,VOICING_TRADITION,2697,4,0.7,,0.7235955056179775,0.42971285892634203,1335,1335,1456
+deuteronomy,minor,normalized,segment,raw,VOICING_TRADITION,2697,5,0.9,,0.7715980719317761,0.42806822395253985,2697,2697,2782
+deuteronomy,major,normalized,segment,raw,VOICING_TRADITION,1768,1,0.1,,0.7077394419306183,0.40663650075414776,1768,1768,2590
+deuteronomy,major,normalized,segment,raw,VOICING_TRADITION,1768,2,0.3,,0.7617799352750809,0.43092772384034517,1545,1545,2393
+deuteronomy,major,normalized,segment,raw,VOICING_TRADITION,1768,3,0.5,,0.7495898100172711,0.43584844559585495,1544,1544,2521
+deuteronomy,major,normalized,segment,raw,VOICING_TRADITION,1768,4,0.7,,0.7430097087378641,0.4253721682847897,1545,1545,2393
+deuteronomy,major,normalized,segment,raw,VOICING_TRADITION,1768,5,0.9,,0.7799396681749623,0.4192496229260935,1768,1768,2590
+deuteronomy,verse,normalized,segment,raw,VOICING_TRADITION,950,1,0.1,,0.6758596491228069,0.40703508771929825,950,950,2527
+deuteronomy,verse,normalized,segment,raw,VOICING_TRADITION,950,2,0.3,,0.7334750265674814,0.42578816861494867,941,941,2540
+deuteronomy,verse,normalized,segment,raw,VOICING_TRADITION,950,3,0.5,,0.7809801840056616,0.42484076433121015,942,942,2530
+deuteronomy,verse,normalized,segment,raw,VOICING_TRADITION,950,4,0.7,,0.7562876372653206,0.43280198370527806,941,941,2540
+deuteronomy,verse,normalized,segment,raw,VOICING_TRADITION,950,5,0.9,,0.7596666666666666,0.42250877192982456,950,950,2527

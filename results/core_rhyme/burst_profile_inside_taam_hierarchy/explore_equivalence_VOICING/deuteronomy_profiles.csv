@@ -1,0 +1,16 @@
+book,level,coordinate_mode,aggregation,value_mode,equivalence_profile,eligible_segments,bin,normalized_position_midpoint,distance_to_cadence,mean_count,active_rate,n_contributions,n_segments_contributing,n_tokens
+deuteronomy,minor,normalized,segment,raw,VOICING,2697,1,0.1,,0.6294030404152763,0.38802373007044866,2697,2697,2782
+deuteronomy,minor,normalized,segment,raw,VOICING,2697,2,0.3,,0.7415730337078652,0.4385767790262172,1335,1335,1456
+deuteronomy,minor,normalized,segment,raw,VOICING,2697,3,0.5,,0.6851302340916584,0.4103198153643257,2022,2022,2252
+deuteronomy,minor,normalized,segment,raw,VOICING,2697,4,0.7,,0.6797752808988764,0.41473158551810235,1335,1335,1456
+deuteronomy,minor,normalized,segment,raw,VOICING,2697,5,0.9,,0.7473118279569892,0.41879866518353726,2697,2697,2782
+deuteronomy,major,normalized,segment,raw,VOICING,1768,1,0.1,,0.6776206636500754,0.39306184012066364,1768,1768,2590
+deuteronomy,major,normalized,segment,raw,VOICING,1768,2,0.3,,0.7306580366774541,0.4204638619201726,1545,1545,2393
+deuteronomy,major,normalized,segment,raw,VOICING,1768,3,0.5,,0.7181778929188255,0.42510794473229707,1544,1544,2521
+deuteronomy,major,normalized,segment,raw,VOICING,1768,4,0.7,,0.7032578209277238,0.41269687162891044,1545,1545,2393
+deuteronomy,major,normalized,segment,raw,VOICING,1768,5,0.9,,0.758116515837104,0.41232088989441934,1768,1768,2590
+deuteronomy,verse,normalized,segment,raw,VOICING,950,1,0.1,,0.6586140350877192,0.398859649122807,950,950,2527
+deuteronomy,verse,normalized,segment,raw,VOICING,950,2,0.3,,0.6886468296138859,0.4076514346439958,941,941,2540
+deuteronomy,verse,normalized,segment,raw,VOICING,950,3,0.5,,0.7418789808917198,0.41146496815286626,942,942,2530
+deuteronomy,verse,normalized,segment,raw,VOICING,950,4,0.7,,0.7309422600070846,0.42440665958200496,941,941,2540
+deuteronomy,verse,normalized,segment,raw,VOICING,950,5,0.9,,0.7359473684210526,0.41492982456140354,950,950,2527

@@ -1,0 +1,16 @@
+book,level,coordinate_mode,aggregation,value_mode,equivalence_profile,eligible_segments,bin,normalized_position_midpoint,distance_to_cadence,mean_count,active_rate,n_contributions,n_segments_contributing,n_tokens
+deuteronomy,minor,normalized,segment,raw,EXPANDED_ALL,2697,1,0.1,,0.6553578049684835,0.40007415647015204,2697,2697,2782
+deuteronomy,minor,normalized,segment,raw,EXPANDED_ALL,2697,2,0.3,,0.7816479400749063,0.450936329588015,1335,1335,1456
+deuteronomy,minor,normalized,segment,raw,EXPANDED_ALL,2697,3,0.5,,0.7269205407187602,0.4239202110121991,2022,2022,2252
+deuteronomy,minor,normalized,segment,raw,EXPANDED_ALL,2697,4,0.7,,0.7250936329588015,0.43046192259675403,1335,1335,1456
+deuteronomy,minor,normalized,segment,raw,EXPANDED_ALL,2697,5,0.9,,0.7734519836855765,0.42880978865406005,2697,2697,2782
+deuteronomy,major,normalized,segment,raw,EXPANDED_ALL,1768,1,0.1,,0.7124057315233786,0.40960595776772246,1768,1768,2590
+deuteronomy,major,normalized,segment,raw,EXPANDED_ALL,1768,2,0.3,,0.7633980582524272,0.4318985976267529,1545,1545,2393
+deuteronomy,major,normalized,segment,raw,EXPANDED_ALL,1768,3,0.5,,0.7500755613126079,0.43633419689119174,1544,1544,2521
+deuteronomy,major,normalized,segment,raw,EXPANDED_ALL,1768,4,0.7,,0.7433333333333334,0.4253721682847897,1545,1545,2393
+deuteronomy,major,normalized,segment,raw,EXPANDED_ALL,1768,5,0.9,,0.7827677224736048,0.4206636500754148,1768,1768,2590
+deuteronomy,verse,normalized,segment,raw,EXPANDED_ALL,950,1,0.1,,0.6796666666666666,0.40978947368421054,950,950,2527
+deuteronomy,verse,normalized,segment,raw,EXPANDED_ALL,950,2,0.3,,0.7340063761955367,0.4263195182430039,941,941,2540
+deuteronomy,verse,normalized,segment,raw,EXPANDED_ALL,950,3,0.5,,0.7809801840056616,0.42484076433121015,942,942,2530
+deuteronomy,verse,normalized,segment,raw,EXPANDED_ALL,950,4,0.7,,0.7606269925611052,0.4341303577754162,941,941,2540
+deuteronomy,verse,normalized,segment,raw,EXPANDED_ALL,950,5,0.9,,0.7608947368421053,0.4233859649122807,950,950,2527

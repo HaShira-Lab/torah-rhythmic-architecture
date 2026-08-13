@@ -1,0 +1,258 @@
+{
+  "analysis": "burst_profile_inside_taam_hierarchy",
+  "analysis_version": "5.0.0",
+  "book": "leviticus",
+  "input": {
+    "source_file": "data\\data_processed\\torah\\leviticus_taamim_annotated.txt",
+    "source_sha256": "c00f5ece46ff799cee25f23620fa490eaf5c00dc7df627677059f536e3256769",
+    "metadata_file": "data\\data_processed\\torah\\leviticus_taamim_annotated.txt.meta.json",
+    "metadata_sha256": "7e0c2e57b488d60eefe8ab9814270bacfd6d3a88282a6005ba27367e944f77ac",
+    "metadata_schema_version": "1.0",
+    "verified_against_output_sha256": true
+  },
+  "tokens": 10336,
+  "eligible_stream_positions": 10316,
+  "raw_total_arrivals": 7263,
+  "analyzed_total_arrivals": 7263,
+  "active_positions": 4306,
+  "active_rate": 0.4174098487785964,
+  "profile_inference_total_arrivals": 7263,
+  "profile_inference_active_positions": 4306,
+  "profile_inference_active_rate": 0.4174098487785964,
+  "profile_edge_audit": {
+    "edge_runs_censored": 0,
+    "edge_positions_censored": 0,
+    "edge_arrivals_censored": 0
+  },
+  "parameters": {
+    "window_in_analyzable_stressed_tokens": 20,
+    "circular_permutations_requested": 250,
+    "within_segment_permutations": 250,
+    "exclude_exact": false,
+    "match_filter": "ALL",
+    "activity_threshold": 1,
+    "equivalence_profile": "STRICT",
+    "equivalence_groups": [],
+    "multigraphs": [
+      "kh",
+      "sh",
+      "ts"
+    ],
+    "bins": 5,
+    "coordinate_mode": "normalized",
+    "max_distance": 7,
+    "aggregation": "segment",
+    "value_mode": "raw",
+    "exclude_cadence_word": false,
+    "min_segment_length_before_cadence_exclusion": 3,
+    "max_segment_length_before_cadence_exclusion": 0
+  },
+  "seeds": {
+    "base_seed": 20260728,
+    "book_index": 2,
+    "levels": {
+      "minor": {
+        "circular_seed": 22260835,
+        "within_segment_seed": 22260945
+      },
+      "major": {
+        "circular_seed": 22270842,
+        "within_segment_seed": 22270952
+      },
+      "verse": {
+        "circular_seed": 22280849,
+        "within_segment_seed": 22280959
+      }
+    }
+  },
+  "parse_audit": {
+    "source_word_tokens": 11945,
+    "analyzable_stressed_tokens": 10336,
+    "missing_stress_tokens": 1609,
+    "structural_markers": 911,
+    "external_markers_attached": 911,
+    "orphan_structural_markers": 0,
+    "source_boundary_counts_nested": {
+      "major": 1670,
+      "minor": 3078,
+      "verse": 857
+    },
+    "boundaries_after_unanalyzable_words": {
+      "verse": 1
+    },
+    "boundary_projection_note": "A boundary after an unanalyzable word lies between the adjacent retained tokens in the stressed-token stream; each such projection is counted here.",
+    "verses_in_analyzable_stream": 857,
+    "major_blocks_in_analyzable_stream": 1670,
+    "minor_blocks_in_analyzable_stream": 3078
+  },
+  "pair_audit": {
+    "eligible_pairs": 206320,
+    "full_pairs": 6639,
+    "exact_word_rhyme_pairs_included": 2446,
+    "bridge_pairs": 624,
+    "exact_word_pairs_excluded": 0
+  },
+  "comparison_cache_entries": 90582,
+  "raw_arrival_histogram": {
+    "0": 6010,
+    "1": 2632,
+    "2": 986,
+    "3": 383,
+    "4": 154,
+    "5": 67,
+    "6": 48,
+    "7": 18,
+    "8": 17,
+    "9": 1
+  },
+  "analyzed_arrival_histogram": {
+    "0": 6010,
+    "1": 2632,
+    "2": 986,
+    "3": 383,
+    "4": 154,
+    "5": 67,
+    "6": 48,
+    "7": 18,
+    "8": 17,
+    "9": 1
+  },
+  "levels": {
+    "minor": {
+      "coverage": {
+        "represented_segments": 3071,
+        "complete_segments": 3071,
+        "eligible_segments": 2152,
+        "eligible_share_of_complete": 0.7007489417127971,
+        "complete_length_min": 1,
+        "complete_length_mean": 3.359166395310974,
+        "complete_length_max": 14,
+        "eligible_length_min": 3,
+        "eligible_length_mean": 4.020910780669145,
+        "eligible_length_max": 14,
+        "inventory_counts": {
+          "below_minimum_length": 919,
+          "eligible": 2152
+        }
+      },
+      "observed_profiles": {
+        "mean_count": {
+          "terminal_contrast": 0.06157063197026025,
+          "linear_slope": 0.10207179747142575,
+          "cadence_peak": 0.03527804676735902,
+          "profile_energy": 0.0029536629263524515,
+          "profile_amplitude": 0.09189976689976687
+        },
+        "active_rate": {
+          "terminal_contrast": 0.02997211895910784,
+          "linear_slope": 0.04949426348125235,
+          "cadence_peak": 0.013202974483178975,
+          "profile_energy": 0.0016682736526571623,
+          "profile_amplitude": 0.03904428904428903
+        }
+      },
+      "run_preserving_shift_audit": {
+        "requested_permutations": 250,
+        "used_permutations": 250,
+        "eligible_nonzero_shifts": 8372,
+        "rejected_run_splitting_or_merging_shifts": 1943,
+        "sampling": "without_replacement"
+      },
+      "seeds": {
+        "circular_seed": 22260835,
+        "within_segment_seed": 22260945
+      }
+    },
+    "major": {
+      "coverage": {
+        "represented_segments": 1667,
+        "complete_segments": 1666,
+        "eligible_segments": 1564,
+        "eligible_share_of_complete": 0.9387755102040817,
+        "complete_length_min": 1,
+        "complete_length_mean": 6.18967587034814,
+        "complete_length_max": 18,
+        "eligible_length_min": 3,
+        "eligible_length_mean": 6.466112531969309,
+        "eligible_length_max": 18,
+        "inventory_counts": {
+          "below_minimum_length": 102,
+          "eligible": 1564,
+          "truncated_by_left_window_edge": 1
+        }
+      },
+      "observed_profiles": {
+        "mean_count": {
+          "terminal_contrast": 0.08322676896845693,
+          "linear_slope": 0.08468061702586843,
+          "cadence_peak": 0.05067877016778577,
+          "profile_energy": 0.0015198524530171177,
+          "profile_amplitude": 0.08322676896845693
+        },
+        "active_rate": {
+          "terminal_contrast": 0.04086743393009373,
+          "linear_slope": 0.05163209614241743,
+          "cadence_peak": 0.025274824742914537,
+          "profile_energy": 0.0012441029576537902,
+          "profile_amplitude": 0.04086743393009373
+        }
+      },
+      "run_preserving_shift_audit": {
+        "requested_permutations": 250,
+        "used_permutations": 250,
+        "eligible_nonzero_shifts": 8372,
+        "rejected_run_splitting_or_merging_shifts": 1943,
+        "sampling": "without_replacement"
+      },
+      "seeds": {
+        "circular_seed": 22270842,
+        "within_segment_seed": 22270952
+      }
+    },
+    "verse": {
+      "coverage": {
+        "represented_segments": 856,
+        "complete_segments": 855,
+        "eligible_segments": 855,
+        "eligible_share_of_complete": 1.0,
+        "complete_length_min": 3,
+        "complete_length_mean": 12.060818713450292,
+        "complete_length_max": 25,
+        "eligible_length_min": 3,
+        "eligible_length_mean": 12.060818713450292,
+        "eligible_length_max": 25,
+        "inventory_counts": {
+          "eligible": 855,
+          "truncated_by_left_window_edge": 1
+        }
+      },
+      "observed_profiles": {
+        "mean_count": {
+          "terminal_contrast": -0.021929824561403466,
+          "linear_slope": 0.039132209203810546,
+          "cadence_peak": -0.03006759202011733,
+          "profile_energy": 0.003256527003611353,
+          "profile_amplitude": 0.12212406753042804
+        },
+        "active_rate": {
+          "terminal_contrast": 0.00641325536062376,
+          "linear_slope": 0.01754399741009371,
+          "cadence_peak": 0.0007011977966183136,
+          "profile_energy": 0.00034221171044385563,
+          "profile_amplitude": 0.02226148409893991
+        }
+      },
+      "run_preserving_shift_audit": {
+        "requested_permutations": 250,
+        "used_permutations": 250,
+        "eligible_nonzero_shifts": 8372,
+        "rejected_run_splitting_or_merging_shifts": 1943,
+        "sampling": "without_replacement"
+      },
+      "seeds": {
+        "circular_seed": 22280849,
+        "within_segment_seed": 22280959
+      }
+    }
+  }
+}

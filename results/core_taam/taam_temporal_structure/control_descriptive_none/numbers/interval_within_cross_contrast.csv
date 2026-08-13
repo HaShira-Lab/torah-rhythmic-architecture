@@ -1,0 +1,4 @@
+﻿book,model,within_n,cross_n,within_top3_share,cross_top3_share,delta_top3_within_minus_cross,delta_top3_null_mean,delta_top3_null_sd,delta_top3_z,delta_top3_empirical_p,delta_top3_empirical_p_tail,within_entropy,cross_entropy,delta_entropy_within_minus_cross,delta_entropy_null_mean,delta_entropy_null_sd,delta_entropy_z,delta_entropy_empirical_p,delta_entropy_empirical_p_tail,null_model
+numbers,sof_only,13180,1283,0.83778452,0.81917381,0.01861071,,,,,upper,0.68348769,0.74087607,-0.05738838,,,,,lower,none
+numbers,major,12029,2434,0.83947128,0.8147083,0.02476298,,,,,upper,0.68049553,0.75028251,-0.06978698,,,,,lower,none
+numbers,major_minor,9969,4494,0.84441769,0.81508678,0.02933091,,,,,upper,0.6706682,0.71248687,-0.04181867,,,,,lower,none

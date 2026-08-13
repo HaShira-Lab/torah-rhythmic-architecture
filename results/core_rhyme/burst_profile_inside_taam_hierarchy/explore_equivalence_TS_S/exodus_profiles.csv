@@ -1,0 +1,16 @@
+book,level,coordinate_mode,aggregation,value_mode,equivalence_profile,eligible_segments,bin,normalized_position_midpoint,distance_to_cadence,mean_count,active_rate,n_contributions,n_segments_contributing,n_tokens
+exodus,minor,normalized,segment,raw,TS_S,3063,1,0.1,,0.5952769615845032,0.3562955707911633,3063,3063,3125
+exodus,minor,normalized,segment,raw,TS_S,3063,2,0.3,,0.6915818490245972,0.4174088210347752,1572,1572,1697
+exodus,minor,normalized,segment,raw,TS_S,3063,3,0.5,,0.7384216940889702,0.4354814137720902,2188,2188,2409
+exodus,minor,normalized,segment,raw,TS_S,3063,4,0.7,,0.6809796437659033,0.40701865988125535,1572,1572,1697
+exodus,minor,normalized,segment,raw,TS_S,3063,5,0.9,,0.6535531613886169,0.41359233866579603,3063,3063,3125
+exodus,major,normalized,segment,raw,TS_S,2195,1,0.1,,0.6599468488990129,0.3788382687927107,2195,2195,2978
+exodus,major,normalized,segment,raw,TS_S,2195,2,0.3,,0.6914712523883968,0.422902553413236,1919,1919,2776
+exodus,major,normalized,segment,raw,TS_S,2195,3,0.5,,0.6774074074074073,0.4073333333333334,1800,1800,2803
+exodus,major,normalized,segment,raw,TS_S,2195,4,0.7,,0.7303717213826646,0.43112732325864167,1919,1919,2776
+exodus,major,normalized,segment,raw,TS_S,2195,5,0.9,,0.6926347760060744,0.4135914958238421,2195,2195,2978
+exodus,verse,normalized,segment,raw,TS_S,1198,1,0.1,,0.6767250973845298,0.39428909293266556,1198,1198,2916
+exodus,verse,normalized,segment,raw,TS_S,1198,2,0.3,,0.6801003344481605,0.3978887959866221,1196,1196,2921
+exodus,verse,normalized,segment,raw,TS_S,1198,3,0.5,,0.6853225348110259,0.40521251979052486,1173,1173,2924
+exodus,verse,normalized,segment,raw,TS_S,1198,4,0.7,,0.7315798030471944,0.432548309178744,1196,1196,2921
+exodus,verse,normalized,segment,raw,TS_S,1198,5,0.9,,0.6909965683546652,0.4086440363568911,1198,1198,2916

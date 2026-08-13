@@ -1,0 +1,46 @@
+CORPUS PROVENANCE AND LICENSE NOTICE
+
+Project: Torah Rhythmic Architecture
+Project author: HaShira-Lab
+
+SOURCE CORPUS
+
+The files under `data/data_raw/torah/` were obtained through the Sefaria API
+using the requested Hebrew version:
+
+    Tanach_with_Ta'amei_Hamikra
+
+Sefaria presents the version as "Tanach with Ta'amei Hamikra", identifies
+`tanach.us` as the source, credits Sefaria for digitization, and marks the
+version "Public Domain".
+
+Version record example:
+https://www.sefaria.org/Deuteronomy.34.5?lang=bi&vhe=hebrew%7CTanach_with_Ta%27amei_Hamikra&with=About
+
+The complete per-run provenance, final request URLs, timestamps, returned
+version titles, and SHA-256 hashes are retained in:
+
+    data/data_raw/torah/download_manifest.json
+    data/data_raw/torah/download_summary.csv
+
+DERIVED CORPUS
+
+The files under `data/data_processed/torah/` are deterministic computational
+derivatives created by this project from the above source snapshot. Each book
+is accompanied by metadata containing the exact input and output SHA-256.
+These derivatives do not claim copyright in the underlying public-domain
+scriptural text. Project-authored selection, annotation conventions,
+documentation, and generated analytical outputs are licensed as described in
+`LICENSE-DATA`.
+
+ATTRIBUTION
+
+When reusing the corpus snapshot, retain this notice and the download metadata.
+Suggested provenance statement:
+
+    Hebrew source: "Tanach with Ta'amei Hamikra", source tanach.us,
+    digitization by Sefaria, Public Domain; retrieved through the Sefaria API.
+
+Sefaria and tanach.us are independent third parties. Their names are used only
+for factual attribution. No affiliation, sponsorship, or endorsement is
+implied.

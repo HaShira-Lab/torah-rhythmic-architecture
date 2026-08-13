@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "source_type": "torah_pointed_hebrew",
+  "qamats_u05b8": "a",
+  "qamats_qatan_u05c7": "o",
+  "accent_encoding": "combining_acute_u0301",
+  "external_taam_annotation": "{paseq} and {sof_pasuq}",
+  "sof_pasuq_accent": "no; preserved as {sof_pasuq}",
+  "visible_punctuation": "none",
+  "taam_annotation": "word[taam1,taam2,...]",
+  "input_sha256": "7032c95ee6e1776fb3316e659de9ffad25791b0548af10959f6a5f7af22a5213",
+  "output_sha256": "83f153f92f146dd501246cffe5cc079fde19b9a39dbcdd7a7e28378335b7138c",
+  "validation": {
+    "masora_circle_ignored": 0,
+    "rafe_ignored": 0,
+    "upper_dot_ignored": 8,
+    "unknown_marks": 0
+  },
+  "timestamp_utc": "2026-08-05T09:10:26.040054+00:00"
+}

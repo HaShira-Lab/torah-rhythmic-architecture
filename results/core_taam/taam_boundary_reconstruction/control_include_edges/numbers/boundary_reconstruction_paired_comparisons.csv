@@ -1,0 +1,8 @@
+﻿book,run_label,model,comparator,observed_f1_difference,null_mean,null_sd,z,empirical_p_one_sided,permutations,cluster_unit,nonzero_clusters
+numbers,control_include_edges,current_only,structure,0.15194175,0.0003101,0.0176959,8.568747,0.00019996,5000,major_unit,771
+numbers,control_include_edges,adjacent_only,structure,0.34223301,-4.99e-05,0.01843178,18.570255,0.00019996,5000,major_unit,802
+numbers,control_include_edges,local_taam,structure,0.39466019,-4.951e-05,0.01847586,21.363532,0.00019996,5000,major_unit,791
+numbers,control_include_edges,local_taam,adjacent_only,0.05242718,-7.612e-05,0.00985062,5.329951,0.00019996,5000,major_unit,366
+numbers,control_include_edges,structure_current,structure,0.28932039,0.00012311,0.01478166,19.564605,0.00019996,5000,major_unit,607
+numbers,control_include_edges,structure_local,structure,0.4,0.00027883,0.01816576,22.004098,0.00019996,5000,major_unit,721
+numbers,control_include_edges,structure_local,structure_current,0.11067961,6.485e-05,0.00941589,11.747667,0.00019996,5000,major_unit,285

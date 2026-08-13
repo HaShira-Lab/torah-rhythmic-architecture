@@ -1,0 +1,17 @@
+﻿taam,event_count,event_share,out_total,in_total,out_degree,in_degree,successor_entropy,successor_norm_entropy,predecessor_entropy,predecessor_norm_entropy,top_successor,top_successor_prob,top_predecessor,top_predecessor_prob,book,run_label,stream_type
+atnah,912,0.07373272,912,912,14,6,3.17953083,0.83510229,1.05486876,0.40807894,munah,0.19736842,tipeha,0.58662281,deuteronomy,control_exclude_meteg,core_projected
+darga,209,0.01689708,209,209,6,10,0.67572403,0.26140574,2.78339965,0.83788679,tevir,0.87559809,qadma,0.24880383,deuteronomy,control_exclude_meteg,core_projected
+geresh,245,0.01980758,245,245,8,9,2.33012696,0.77670899,0.79848177,0.25189295,munah,0.30612245,qadma,0.88979592,deuteronomy,control_exclude_meteg,core_projected
+mahapakh,573,0.04632549,573,573,5,10,0.15996435,0.0688929,2.79007921,0.83989753,pashta,0.98254799,atnah,0.20767888,deuteronomy,control_exclude_meteg,core_projected
+merkha,1599,0.1292748,1599,1599,10,16,1.44836386,0.43600097,2.64851633,0.66212908,tipeha,0.65103189,zaqef_qatan,0.27704816,deuteronomy,control_exclude_meteg,core_projected
+munah,1812,0.14649527,1812,1811,16,14,2.30875843,0.57718961,2.84557336,0.74738852,zaqef_qatan,0.46357616,pashta,0.32192159,deuteronomy,control_exclude_meteg,core_projected
+paseq,82,0.00662948,82,82,12,6,1.98756039,0.55441595,1.13865491,0.44049185,munah,0.67073171,munah,0.80487805,deuteronomy,control_exclude_meteg,core_projected
+pashta,1218,0.09847199,1218,1218,11,11,1.64464599,0.47540931,2.36679441,0.68415702,munah,0.47865353,mahapakh,0.46223317,deuteronomy,control_exclude_meteg,core_projected
+qadma,440,0.0355728,440,440,9,14,2.01603432,0.63598802,2.74148307,0.72004925,geresh,0.49545455,telisha_qetana,0.25681818,deuteronomy,control_exclude_meteg,core_projected
+revia,512,0.04139381,512,512,11,6,2.71314689,0.78427533,1.78351048,0.68995604,pashta,0.30859375,munah,0.5859375,deuteronomy,control_exclude_meteg,core_projected
+sof_pasuq,954,0.0771283,953,954,14,9,3.1310898,0.82237928,1.08651253,0.34275654,munah,0.28121721,tipeha,0.5932914,deuteronomy,control_exclude_meteg,core_projected
+telisha_qetana,118,0.00953998,118,118,5,12,0.33450557,0.14406371,2.40313418,0.67033733,qadma,0.95762712,sof_pasuq,0.40677966,deuteronomy,control_exclude_meteg,core_projected
+tevir,477,0.03856415,477,477,7,10,1.03138452,0.36738658,2.35912861,0.71016848,merkha,0.68343816,darga,0.3836478,deuteronomy,control_exclude_meteg,core_projected
+tipeha,1855,0.1499717,1855,1855,7,12,2.00292498,0.71345627,1.74942546,0.48798989,sof_pasuq,0.30512129,merkha,0.56118598,deuteronomy,control_exclude_meteg,core_projected
+zaqef_gadol,70,0.00565931,70,70,9,4,2.07854445,0.65570777,1.71070579,0.8553529,merkha,0.45714286,zaqef_qatan,0.45714286,deuteronomy,control_exclude_meteg,core_projected
+zaqef_qatan,1293,0.10453553,1293,1293,14,9,2.4111756,0.63329415,1.16470677,0.36742408,tipeha,0.38051044,munah,0.64965197,deuteronomy,control_exclude_meteg,core_projected

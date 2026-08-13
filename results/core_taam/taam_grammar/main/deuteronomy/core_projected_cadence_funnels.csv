@@ -1,0 +1,8 @@
+﻿cadence_node,rank,predecessor,count,share_of_cadence_predecessors,book,run_label,stream_type
+atnah,1,tipeha,513,0.5625,deuteronomy,main,core_projected
+atnah,2,munah,360,0.39473684,deuteronomy,main,core_projected
+revia,1,munah,272,0.53125,deuteronomy,main,core_projected
+sof_pasuq,1,meteg,944,0.98951782,deuteronomy,main,core_projected
+zaqef_qatan,1,munah,790,0.61098221,deuteronomy,main,core_projected
+zaqef_qatan,2,pashta,364,0.28151585,deuteronomy,main,core_projected
+zaqef_qatan,3,meteg,110,0.08507347,deuteronomy,main,core_projected

@@ -1,0 +1,16 @@
+book,level,coordinate_mode,aggregation,value_mode,equivalence_profile,eligible_segments,bin,normalized_position_midpoint,distance_to_cadence,mean_count,active_rate,n_contributions,n_segments_contributing,n_tokens
+deuteronomy,minor,normalized,segment,raw,TS_S,2697,1,0.1,,0.6156840934371524,0.3828327771598072,2697,2697,2782
+deuteronomy,minor,normalized,segment,raw,TS_S,2697,2,0.3,,0.7213483146067415,0.4254681647940075,1335,1335,1456
+deuteronomy,minor,normalized,segment,raw,TS_S,2697,3,0.5,,0.671529838443785,0.4024068578964721,2022,2022,2252
+deuteronomy,minor,normalized,segment,raw,TS_S,2697,4,0.7,,0.6584269662921348,0.39937578027465664,1335,1335,1456
+deuteronomy,minor,normalized,segment,raw,TS_S,2697,5,0.9,,0.7324805339265851,0.4074898034853541,2697,2697,2782
+deuteronomy,major,normalized,segment,raw,TS_S,1768,1,0.1,,0.6662613122171946,0.3886783559577677,1768,1768,2590
+deuteronomy,major,normalized,segment,raw,TS_S,1768,2,0.3,,0.7138295577130528,0.4080582524271845,1545,1545,2393
+deuteronomy,major,normalized,segment,raw,TS_S,1768,3,0.5,,0.6978842832469775,0.4142055267702936,1544,1544,2521
+deuteronomy,major,normalized,segment,raw,TS_S,1768,4,0.7,,0.6853505933117583,0.40433656957928804,1545,1545,2393
+deuteronomy,major,normalized,segment,raw,TS_S,1768,5,0.9,,0.7417138009049773,0.40072586726998494,1768,1768,2590
+deuteronomy,verse,normalized,segment,raw,TS_S,950,1,0.1,,0.6402631578947369,0.3891578947368421,950,950,2527
+deuteronomy,verse,normalized,segment,raw,TS_S,950,2,0.3,,0.6699078993978037,0.3971307120085016,941,941,2540
+deuteronomy,verse,normalized,segment,raw,TS_S,950,3,0.5,,0.7249469214437367,0.40362703467799005,942,942,2530
+deuteronomy,verse,normalized,segment,raw,TS_S,950,4,0.7,,0.7205986539142757,0.41705632306057383,941,941,2540
+deuteronomy,verse,normalized,segment,raw,TS_S,950,5,0.9,,0.7165789473684211,0.4010877192982456,950,950,2527

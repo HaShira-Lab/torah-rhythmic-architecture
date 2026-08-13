@@ -1,0 +1,17 @@
+﻿cadence_node,rank,predecessor,count,share_of_cadence_predecessors,book,run_label,stream_type
+atnah,1,tipeha,582,0.50696864,exodus,explore_k3_7_edges20,core_projected
+atnah,2,munah,515,0.44860627,exodus,explore_k3_7_edges20,core_projected
+atnah,3,meteg,46,0.04006969,exodus,explore_k3_7_edges20,core_projected
+paseq,1,munah,67,0.84810127,exodus,explore_k3_7_edges20,core_projected
+revia,1,munah,273,0.53846154,exodus,explore_k3_7_edges20,core_projected
+revia,2,geresh,64,0.12623274,exodus,explore_k3_7_edges20,core_projected
+revia,3,sof_pasuq,57,0.11242604,exodus,explore_k3_7_edges20,core_projected
+revia,4,meteg,52,0.1025641,exodus,explore_k3_7_edges20,core_projected
+revia,5,atnah,46,0.09072978,exodus,explore_k3_7_edges20,core_projected
+sof_pasuq,1,meteg,1200,0.99585062,exodus,explore_k3_7_edges20,core_projected
+zaqef_gadol,1,zaqef_qatan,39,0.39393939,exodus,explore_k3_7_edges20,core_projected
+zaqef_gadol,2,atnah,37,0.37373737,exodus,explore_k3_7_edges20,core_projected
+zaqef_qatan,1,munah,852,0.57645467,exodus,explore_k3_7_edges20,core_projected
+zaqef_qatan,2,pashta,447,0.30243572,exodus,explore_k3_7_edges20,core_projected
+zaqef_qatan,3,meteg,132,0.08930988,exodus,explore_k3_7_edges20,core_projected
+zaqef_qatan,4,qadma,22,0.01488498,exodus,explore_k3_7_edges20,core_projected

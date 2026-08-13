@@ -1,0 +1,16 @@
+book,level,coordinate_mode,aggregation,value_mode,equivalence_profile,eligible_segments,bin,normalized_position_midpoint,distance_to_cadence,mean_count,active_rate,n_contributions,n_segments_contributing,n_tokens
+leviticus,minor,normalized,segment,raw,VOICING_TRADITION,2152,1,0.1,,0.6953996282527881,0.41960966542750927,2152,2152,2217
+leviticus,minor,normalized,segment,raw,VOICING_TRADITION,2152,2,0.3,,0.683420745920746,0.4264277389277389,1144,1144,1242
+leviticus,minor,normalized,segment,raw,VOICING_TRADITION,2152,3,0.5,,0.7705128205128206,0.44658119658119655,1560,1560,1735
+leviticus,minor,normalized,segment,raw,VOICING_TRADITION,2152,4,0.7,,0.7561188811188811,0.44711538461538464,1144,1144,1242
+leviticus,minor,normalized,segment,raw,VOICING_TRADITION,2152,5,0.9,,0.7568928128872366,0.44261152416356875,2152,2152,2217
+leviticus,major,normalized,segment,raw,VOICING_TRADITION,1564,1,0.1,,0.7124893435635123,0.42449914748508094,1564,1564,2108
+leviticus,major,normalized,segment,raw,VOICING_TRADITION,1564,2,0.3,,0.7667037861915368,0.4349789656025736,1347,1347,1953
+leviticus,major,normalized,segment,raw,VOICING_TRADITION,1564,3,0.5,,0.7423772609819121,0.43817829457364343,1290,1290,1991
+leviticus,major,normalized,segment,raw,VOICING_TRADITION,1564,4,0.7,,0.7586612224696857,0.45019797079930707,1347,1347,1953
+leviticus,major,normalized,segment,raw,VOICING_TRADITION,1564,5,0.9,,0.7926790281329923,0.45742753623188404,1564,1564,2108
+leviticus,verse,normalized,segment,raw,VOICING_TRADITION,855,1,0.1,,0.7623001949317738,0.4406627680311891,855,855,2072
+leviticus,verse,normalized,segment,raw,VOICING_TRADITION,855,2,0.3,,0.7097173144876324,0.4345700824499411,849,849,2057
+leviticus,verse,normalized,segment,raw,VOICING_TRADITION,855,3,0.5,,0.7580104923325263,0.44330104923325264,826,826,2054
+leviticus,verse,normalized,segment,raw,VOICING_TRADITION,855,4,0.7,,0.8385551629367883,0.4536317235963879,849,849,2057
+leviticus,verse,normalized,segment,raw,VOICING_TRADITION,855,5,0.9,,0.7418908382066277,0.442261208576998,855,855,2072

@@ -1,0 +1,24 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 HaShira-Lab
+
+Except where otherwise noted, the project-authored methodological protocols,
+documentation, and generated result tables in this repository are licensed
+under the Creative Commons Attribution 4.0 International Public License.
+
+You are free to share and adapt this material for any purpose, provided that
+appropriate credit is given, a link to the license is supplied, and changes
+are indicated. No additional restrictions may be applied.
+
+License identifier: CC-BY-4.0
+License text: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+This license does not apply to:
+
+1. software under `src/` and `run/`, which is governed by the MIT License in
+   `LICENSE`;
+2. the source Torah corpus, which Sefaria identifies as Public Domain and which
+   is described in `NOTICE`;
+3. third-party names, trademarks, or material explicitly carrying another
+   notice.

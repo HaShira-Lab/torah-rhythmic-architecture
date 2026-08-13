@@ -1,0 +1,16 @@
+﻿taam,event_count,event_share,out_total,in_total,out_degree,in_degree,successor_entropy,successor_norm_entropy,predecessor_entropy,predecessor_norm_entropy,top_successor,top_successor_prob,top_predecessor,top_predecessor_prob,book,run_label,stream_type
+atnah,813,0.07720798,813,813,14,3,3.22793524,0.84781569,1.21730547,0.76803424,merkha,0.22140221,tipeha,0.5399754,leviticus,control_exclude_external,core_projected
+darga,171,0.01623932,171,171,4,8,0.60357799,0.30178899,2.63339727,0.87779909,tevir,0.89473684,qadma,0.22807018,leviticus,control_exclude_external,core_projected
+geresh,174,0.01652422,174,174,8,4,2.33457393,0.77819131,0.65307179,0.32653589,munah,0.43103448,qadma,0.86781609,leviticus,control_exclude_external,core_projected
+mahapakh,451,0.04283001,451,451,3,8,0.60568857,0.38214694,2.51651071,0.8388369,pashta,0.85809313,meteg,0.33037694,leviticus,control_exclude_external,core_projected
+merkha,1373,0.13038936,1373,1373,6,11,1.38987661,0.53767767,2.60906609,0.75418924,tipeha,0.58412236,tipeha,0.26948288,leviticus,control_exclude_external,core_projected
+meteg,1453,0.1379867,1452,1453,15,15,3.59084984,0.91910683,2.69846398,0.69069351,munah,0.14600551,tipeha,0.35375086,leviticus,control_exclude_external,core_projected
+munah,1352,0.12839506,1352,1352,12,11,2.35629764,0.6572726,2.6604867,0.76905313,zaqef_qatan,0.42233728,pashta,0.29585799,leviticus,control_exclude_external,core_projected
+pashta,900,0.08547009,900,900,7,9,1.76091501,0.62725058,2.36936721,0.74745213,munah,0.44444444,mahapakh,0.43,leviticus,control_exclude_external,core_projected
+qadma,334,0.0317189,334,334,7,9,2.25458347,0.80309884,2.39401985,0.75522918,geresh,0.45209581,meteg,0.38922156,leviticus,control_exclude_external,core_projected
+revia,312,0.02962963,312,312,10,5,2.92537905,0.88062684,1.5951987,0.68701468,pashta,0.22435897,munah,0.57371795,leviticus,control_exclude_external,core_projected
+telisha_qetana,71,0.00674264,71,71,2,4,0.18512476,0.18512476,1.6236746,0.8118373,qadma,0.97183099,meteg,0.53521127,leviticus,control_exclude_external,core_projected
+tevir,416,0.03950617,416,416,3,7,1.17945146,0.74415102,2.37539297,0.84613205,merkha,0.57211538,darga,0.36778846,leviticus,control_exclude_external,core_projected
+tipeha,1668,0.15840456,1668,1667,5,9,1.98824824,0.85629191,2.00614229,0.63286743,meteg,0.30815348,merkha,0.48110378,leviticus,control_exclude_external,core_projected
+zaqef_gadol,55,0.00522317,55,55,5,3,1.88523484,0.81192645,1.54129669,0.97244994,tipeha,0.38181818,zaqef_qatan,0.43636364,leviticus,control_exclude_external,core_projected
+zaqef_qatan,987,0.09373219,987,987,12,7,2.33594706,0.65159595,1.46284035,0.52107425,tipeha,0.43059777,munah,0.57852077,leviticus,control_exclude_external,core_projected

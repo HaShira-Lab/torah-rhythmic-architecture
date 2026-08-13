@@ -1,0 +1,213 @@
+{
+  "analysis": "rhyme_burst_architecture",
+  "analysis_version": "5.0.2",
+  "run_label": "control_strict_bridge_only",
+  "command_line": [
+    "C:\\Users\\eli\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "src\\analyses\\core_rhyme\\rhyme_burst_architecture.py",
+    "--source-dir",
+    "data\\data_processed\\torah",
+    "--out-dir",
+    "results\\core_rhyme\\rhyme_burst_architecture\\control_strict_bridge_only",
+    "--run-label",
+    "control_strict_bridge_only",
+    "--window",
+    "20",
+    "--enrichment-permutations",
+    "250",
+    "--clustering-permutations",
+    "250",
+    "--boundary-permutations",
+    "500",
+    "--activity-threshold",
+    "1",
+    "--match-filter",
+    "BRIDGE",
+    "--equivalence-profile",
+    "STRICT",
+    "--seed",
+    "20260728",
+    "--jobs",
+    "5"
+  ],
+  "books": [
+    "genesis",
+    "exodus",
+    "leviticus",
+    "numbers",
+    "deuteronomy"
+  ],
+  "available_equivalence_profiles": [
+    "STRICT",
+    "VF",
+    "DT",
+    "PB",
+    "QK",
+    "H_KH",
+    "TS_S",
+    "VOICING",
+    "TRADITION",
+    "VOICING_TRADITION",
+    "EXPANDED_ALL"
+  ],
+  "parameters": {
+    "source_dir": "data\\data_processed\\torah",
+    "out_dir": "results\\core_rhyme\\rhyme_burst_architecture\\control_strict_bridge_only",
+    "window_in_analyzable_stressed_tokens": 20,
+    "enrichment_permutations": 250,
+    "clustering_permutations": 250,
+    "boundary_permutations_requested": 500,
+    "base_seed": 20260728,
+    "jobs": 5,
+    "exclude_exact": false,
+    "match_filter": "BRIDGE",
+    "activity_threshold": 1,
+    "equivalence_profile": "STRICT"
+  },
+  "null_models": {
+    "local_rhyme_enrichment": "shuffle_tokens_then_recompute",
+    "burst_clustering": "shuffle_observed_thresholded_arrival_stream",
+    "boundary_alignment": "run_preserving_circular_translation"
+  },
+  "primary_metrics": {
+    "local_rhyme_enrichment": [
+      "mean_arrivals"
+    ],
+    "burst_clustering": [
+      "active_lag1_corr",
+      "fano_w10"
+    ],
+    "boundary_alignment": [
+      "run_ends_minor_boundary",
+      "run_ends_major_boundary",
+      "run_ends_verse_boundary"
+    ]
+  },
+  "software": {
+    "python_version": "3.12.10",
+    "python_implementation": "CPython",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "code_and_protocol": {
+    "analysis_file": "C:\\HaShira-Lab\\torah-rhythmic-architecture\\src\\analyses\\core_rhyme\\rhyme_burst_architecture.py",
+    "analysis_sha256": "7346b973cdc2617c606636978c0cd5ac91a9071ecb41937ed92dab7e1b53d784",
+    "shared_rhyme_module": "C:\\HaShira-Lab\\torah-rhythmic-architecture\\src\\shared\\rhyme\\rhyme_protocol.py",
+    "shared_rhyme_module_sha256": "fd782cee87e5431fb0b2c464ee801ebbbc94f2d5b9f5a42b5bfed9420e571797",
+    "shared_rhyme_protocol_version": "4"
+  },
+  "inputs": [
+    {
+      "source_file": "data\\data_processed\\torah\\genesis_taamim_annotated.txt",
+      "source_sha256": "e07a07a219347cd7cbbc374aa5d4a6b6b0d903c2258b3a6c88ead6368dc85281",
+      "metadata_file": "data\\data_processed\\torah\\genesis_taamim_annotated.txt.meta.json",
+      "metadata_sha256": "7c97a95c18ee270da35a150b31342b386f3da9603b58035bd8d497418e994767",
+      "metadata_schema_version": "1.0",
+      "verified_against_output_sha256": true
+    },
+    {
+      "source_file": "data\\data_processed\\torah\\exodus_taamim_annotated.txt",
+      "source_sha256": "14d2301a22ebbd61835f688b72a7d2ebca70e481d4b9477bef0dbfca6ec48dbb",
+      "metadata_file": "data\\data_processed\\torah\\exodus_taamim_annotated.txt.meta.json",
+      "metadata_sha256": "17cd997c74037602eb08be93966714149e1f211c57f1126a9fea2894e9afa6de",
+      "metadata_schema_version": "1.0",
+      "verified_against_output_sha256": true
+    },
+    {
+      "source_file": "data\\data_processed\\torah\\leviticus_taamim_annotated.txt",
+      "source_sha256": "c00f5ece46ff799cee25f23620fa490eaf5c00dc7df627677059f536e3256769",
+      "metadata_file": "data\\data_processed\\torah\\leviticus_taamim_annotated.txt.meta.json",
+      "metadata_sha256": "7e0c2e57b488d60eefe8ab9814270bacfd6d3a88282a6005ba27367e944f77ac",
+      "metadata_schema_version": "1.0",
+      "verified_against_output_sha256": true
+    },
+    {
+      "source_file": "data\\data_processed\\torah\\numbers_taamim_annotated.txt",
+      "source_sha256": "83f153f92f146dd501246cffe5cc079fde19b9a39dbcdd7a7e28378335b7138c",
+      "metadata_file": "data\\data_processed\\torah\\numbers_taamim_annotated.txt.meta.json",
+      "metadata_sha256": "93287d937f4c43cbb7fbf18f3444e0787d202d375bc68fafb42b67db4345ae6a",
+      "metadata_schema_version": "1.0",
+      "verified_against_output_sha256": true
+    },
+    {
+      "source_file": "data\\data_processed\\torah\\deuteronomy_taamim_annotated.txt",
+      "source_sha256": "5f079df79c9498f669006a7494e0a577e8d3eaeeabb5a7f80e9b78f1a24ea035",
+      "metadata_file": "data\\data_processed\\torah\\deuteronomy_taamim_annotated.txt.meta.json",
+      "metadata_sha256": "c69bc5070e4934fd17847ba0e6205a84e9c86d7cc3517097d02e56f016e9f43b",
+      "metadata_schema_version": "1.0",
+      "verified_against_output_sha256": true
+    }
+  ],
+  "book_seeds": {
+    "genesis": {
+      "base_seed": 20260728,
+      "book_index": 0,
+      "enrichment_seed": 20260829,
+      "clustering_seed": 20260939,
+      "boundary_seed": 20261035
+    },
+    "exodus": {
+      "base_seed": 20260728,
+      "book_index": 1,
+      "enrichment_seed": 21260832,
+      "clustering_seed": 21260942,
+      "boundary_seed": 21261038
+    },
+    "leviticus": {
+      "base_seed": 20260728,
+      "book_index": 2,
+      "enrichment_seed": 22260835,
+      "clustering_seed": 22260945,
+      "boundary_seed": 22261041
+    },
+    "numbers": {
+      "base_seed": 20260728,
+      "book_index": 3,
+      "enrichment_seed": 23260838,
+      "clustering_seed": 23260948,
+      "boundary_seed": 23261044
+    },
+    "deuteronomy": {
+      "base_seed": 20260728,
+      "book_index": 4,
+      "enrichment_seed": 24260841,
+      "clustering_seed": 24260951,
+      "boundary_seed": 24261047
+    }
+  },
+  "output_sha256": {
+    "ALL_boundary_alignment_statistics.csv": "7101c5b5eb3fd6a275cd9398f6975640dc001ca8b87e2cd5447fde0a278f285f",
+    "ALL_burst_clustering_statistics.csv": "32ab1afeddc886a3cd03b1a88d0e4b8e92e275b63b18f737897591e276912bb3",
+    "ALL_local_enrichment_statistics.csv": "4837195554bb5cecc5949760089373b04f61b9b80c7ef19eefb09597c08b60da",
+    "ALL_summary.json": "514f9bb73ab5a7db54b8856c6ffda3359ef09b86c5921cf0bc6f7ada5fe02556",
+    "deuteronomy_arrival_stream.csv": "dbfdcafb2ccff39de0ec424da2019e654400db689f7c25dcf71a0a19f2b4d5c9",
+    "deuteronomy_boundary_alignment_statistics.csv": "971ec3d01741446d7aff1d084a7674c7887743938b2df5e1d514468434feb3ce",
+    "deuteronomy_burst_clustering_statistics.csv": "7dc5d485eead8db9ee5bdcb8d610442a4476a9e808206c92bfa26d5c8c0797f8",
+    "deuteronomy_bursts.csv": "a696ff995b72eaf87e0e87c0b79168030d0f89b91cc17ac130743542326605e7",
+    "deuteronomy_local_enrichment_statistics.csv": "d527a730d0924f12b06a0a795403a505d73180f95a806ec1a94347b34611c2f6",
+    "deuteronomy_summary.json": "4ead9501a014560675c88cc4ddcb2f7a6a826e5d3ce4c3f1049296eb48931d22",
+    "exodus_arrival_stream.csv": "f10b90542810249961539f5306d9a3bbc0a9bc74e8ca1c03402180b3149b81bf",
+    "exodus_boundary_alignment_statistics.csv": "de604e66545d60968e76bb7110e14fc028409ee46fa9afb17e8d27c7e176a2a6",
+    "exodus_burst_clustering_statistics.csv": "9ba8aed49b70f5674167bbdf8de63800aaab6ea9733efcc25088ef1ae552e9cb",
+    "exodus_bursts.csv": "47ceee324ae8da48ee2737c680b44ac7f6af703edc8f75121ca6d46c267f1bd7",
+    "exodus_local_enrichment_statistics.csv": "7eb20f74cab410071b558867cd96acada790d9b6dfd465679c6ad2a044691561",
+    "exodus_summary.json": "909715ad7844dc98f5407c4507cc6fc006b545bf70d03cb23fd0f0497aabd237",
+    "genesis_arrival_stream.csv": "0135d8dc26a3b2d713e8648fa2f4fad206be5af94a9862a2698d21beabf23ff9",
+    "genesis_boundary_alignment_statistics.csv": "ff24dbd56b4d810700cde3894d93dbcfa617d670495135e7969ac2cbb4a5fd0a",
+    "genesis_burst_clustering_statistics.csv": "aa7c20e4660c4d63a74a70a6f816fd503f3ff97afe52204153bfe13228da389c",
+    "genesis_bursts.csv": "0c49ee53c80c641cd24e102ab70a17ca4fa4ef858b1e5bab807b1ab49223a0ee",
+    "genesis_local_enrichment_statistics.csv": "24f083fd6c98f3f2ad8169bf3e38220df74dbc144f7003bf8b1889d69517e9a6",
+    "genesis_summary.json": "9c0bf57e4ae05edca386151da3553a1b4fc80d7572819ad5492c97e9d7e10494",
+    "leviticus_arrival_stream.csv": "a86b11b8b6d0e29bcd9a156a0cebe037fb8a62d7ef510f581de7fbdda04e217c",
+    "leviticus_boundary_alignment_statistics.csv": "0eb5fffbd69ff3fc5df784a4b82353fd995074c6299e84d2f5852394e95072d8",
+    "leviticus_burst_clustering_statistics.csv": "1ad4271837ce4498f2a0c6175d37055149ddc08893ffe2cdda59f947546dd623",
+    "leviticus_bursts.csv": "d9ce4b183781c2556aefdbb33fc24e18e639abe3c46ee700423cb7dfd4d4efaa",
+    "leviticus_local_enrichment_statistics.csv": "007ce4da40d1145c7241458ce31e9256d98e6fae1883d1e6b7fb5c547463e928",
+    "leviticus_summary.json": "5476fd3db6ef284be1922f93236977b85257ddcf143e610c6eba23433ac8a43e",
+    "numbers_arrival_stream.csv": "7000171c3017c832dc28e329537efd558cabff8d31335f3c9e831ceb1fe63766",
+    "numbers_boundary_alignment_statistics.csv": "cecec632083c9a41f93030226d8ffa6838579d574b58740e2831cfa4f23ba21b",
+    "numbers_burst_clustering_statistics.csv": "299b9762f4359466d3a7741160eb23ded9085a8c6d1098728f3db4b6d035fde8",
+    "numbers_bursts.csv": "0ff8709094c597fa2391701f49bd78c45d0f552760c5f2780dd904b716cab3dd",
+    "numbers_local_enrichment_statistics.csv": "3f53e65e88b1e32614b33a4d3ae8d26b132f9f6690ddd0699ecae7449f3f002c",
+    "numbers_summary.json": "466e58f26ec23a73fae0e9a590232c26992ffbde76a644473160ed9ac601e4e5"
+  }
+}

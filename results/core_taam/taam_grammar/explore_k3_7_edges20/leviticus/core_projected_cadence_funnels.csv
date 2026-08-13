@@ -1,0 +1,15 @@
+﻿cadence_node,rank,predecessor,count,share_of_cadence_predecessors,book,run_label,stream_type
+atnah,1,tipeha,439,0.5399754,leviticus,explore_k3_7_edges20,core_projected
+atnah,2,munah,335,0.41205412,leviticus,explore_k3_7_edges20,core_projected
+atnah,3,meteg,38,0.04674047,leviticus,explore_k3_7_edges20,core_projected
+paseq,1,munah,47,0.87037037,leviticus,explore_k3_7_edges20,core_projected
+revia,1,munah,178,0.57051282,leviticus,explore_k3_7_edges20,core_projected
+revia,2,sof_pasuq,46,0.1474359,leviticus,explore_k3_7_edges20,core_projected
+revia,3,geresh,38,0.12179487,leviticus,explore_k3_7_edges20,core_projected
+revia,4,meteg,32,0.1025641,leviticus,explore_k3_7_edges20,core_projected
+sof_pasuq,1,meteg,856,0.99883314,leviticus,explore_k3_7_edges20,core_projected
+zaqef_gadol,1,zaqef_qatan,24,0.43636364,leviticus,explore_k3_7_edges20,core_projected
+zaqef_qatan,1,munah,571,0.57852077,leviticus,explore_k3_7_edges20,core_projected
+zaqef_qatan,2,pashta,309,0.31306991,leviticus,explore_k3_7_edges20,core_projected
+zaqef_qatan,3,meteg,69,0.06990881,leviticus,explore_k3_7_edges20,core_projected
+zaqef_qatan,4,qadma,21,0.0212766,leviticus,explore_k3_7_edges20,core_projected

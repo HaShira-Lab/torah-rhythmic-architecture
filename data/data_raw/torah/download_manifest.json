@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "script": "download_torah.py",
+  "source": "Sefaria API",
+  "api_endpoint": "https://www.sefaria.org/api/texts/{book}",
+  "requested_version": "Tanach_with_Ta'amei_Hamikra",
+  "started_utc": "2026-08-04T14:15:02+00:00",
+  "outdir": "C:\\HaShira-Lab\\torah-rhythmic-architecture\\data\\data_raw\\torah",
+  "books_requested": [
+    "Genesis",
+    "Exodus",
+    "Leviticus",
+    "Numbers",
+    "Deuteronomy"
+  ],
+  "results": [
+    {
+      "book": "Genesis",
+      "status": "ok",
+      "file": "genesis_raw.txt",
+      "segments": 1533,
+      "chars": 185600,
+      "sha256": "7b7f0125b9618ccaf207c94e1cf8413a87471b3afaddf42569807b8a3aa299cb",
+      "requested_version": "Tanach_with_Ta'amei_Hamikra",
+      "returned_version": "Tanach with Ta'amei Hamikra",
+      "version_check": "match",
+      "source_url": "https://www.sefaria.org/api/texts/Genesis?lang=he&vhe=Tanach_with_Ta%27amei_Hamikra&context=0&pad=0&commentary=0",
+      "error": ""
+    },
+    {
+      "book": "Exodus",
+      "status": "ok",
+      "file": "exodus_raw.txt",
+      "segments": 1210,
+      "chars": 152348,
+      "sha256": "ce2c5e70e6de160982dd03e7fa0775e2e2f4e411e00e75e119994852c61c0df4",
+      "requested_version": "Tanach_with_Ta'amei_Hamikra",
+      "returned_version": "Tanach with Ta'amei Hamikra",
+      "version_check": "match",
+      "source_url": "https://www.sefaria.org/api/texts/Exodus?lang=he&vhe=Tanach_with_Ta%27amei_Hamikra&context=0&pad=0&commentary=0",
+      "error": ""
+    },
+    {
+      "book": "Leviticus",
+      "status": "ok",
+      "file": "leviticus_raw.txt",
+      "segments": 859,
+      "chars": 106659,
+      "sha256": "78c7cec307b4a0b0a0c20b47f38555640a7fa076b40b09fc619a1147036a0c4d",
+      "requested_version": "Tanach_with_Ta'amei_Hamikra",
+      "returned_version": "Tanach with Ta'amei Hamikra",
+      "version_check": "match",
+      "source_url": "https://www.sefaria.org/api/texts/Leviticus?lang=he&vhe=Tanach_with_Ta%27amei_Hamikra&context=0&pad=0&commentary=0",
+      "error": ""
+    },
+    {
+      "book": "Numbers",
+      "status": "ok",
+      "file": "numbers_raw.txt",
+      "segments": 1288,
+      "chars": 151347,
+      "sha256": "8257d50a22393949ba1796025aad2bca9d714a727c3e7b9fe44e1c216e97c2aa",
+      "requested_version": "Tanach_with_Ta'amei_Hamikra",
+      "returned_version": "Tanach with Ta'amei Hamikra",
+      "version_check": "match",
+      "source_url": "https://www.sefaria.org/api/texts/Numbers?lang=he&vhe=Tanach_with_Ta%27amei_Hamikra&context=0&pad=0&commentary=0",
+      "error": ""
+    },
+    {
+      "book": "Deuteronomy",
+      "status": "ok",
+      "file": "deuteronomy_raw.txt",
+      "segments": 956,
+      "chars": 131082,
+      "sha256": "0f6b107328b4467415a98ff30c1cfb02f57c0ddc23dfdf104f38d32381e7789a",
+      "requested_version": "Tanach_with_Ta'amei_Hamikra",
+      "returned_version": "Tanach with Ta'amei Hamikra",
+      "version_check": "match",
+      "source_url": "https://www.sefaria.org/api/texts/Deuteronomy?lang=he&vhe=Tanach_with_Ta%27amei_Hamikra&context=0&pad=0&commentary=0",
+      "error": ""
+    }
+  ],
+  "finished_utc": "2026-08-04T14:15:07+00:00",
+  "ok_count": 5,
+  "error_count": 0
+}

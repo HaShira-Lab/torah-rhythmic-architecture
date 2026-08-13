@@ -1,0 +1,3 @@
+﻿relation,n_parent_segments,child_count_mean,child_count_median,child_count_entropy_norm,child_count_top5,child_count_top5_share,child_count_1_share,child_count_2_share,child_count_3_share,partition_exact_share,top_child_pulse_sequences,top_child_accent_sequences,top_child_bucket_sequences,book,run_label
+verse_contains_major,857,1.94865811,2,0.19553796,2+1+3,1.0,0.05250875,0.94632439,0.00116686,1.0,11+13+9+17+10+21+17+9+9,4+6+3+5+4+8+4+7+5,P25+_A8+ | P7-9_A3+P10-12_A4+P25+_A8+ | P10-12_A4+P25+_A8+ | P16-18_A6-7+P19-24_A8+ | P16-18_A6-7,leviticus,control_top200
+major_contains_minor,1670,1.84311377,2.0,0.74203913,1+2+3+4+5,1.0,0.4239521,0.36407186,0.16526946,1.0,9+11+10+8+7,3+4+2+5+3+3,P7-9_A3+P10-12_A4+P7-9_A4+P10-12_A5+P5-6_A2,leviticus,control_top200
