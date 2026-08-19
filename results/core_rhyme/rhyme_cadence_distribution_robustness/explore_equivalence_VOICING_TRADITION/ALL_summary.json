@@ -1,6 +1,6 @@
 {
   "analysis": "rhyme_cadence_distribution_robustness",
-  "analysis_version": "1.0.0",
+  "analysis_version": "1.0.1",
   "books": [
     "genesis",
     "exodus",
@@ -11,6 +11,7 @@
   "book_coverage": [
     {
       "book": "genesis",
+      "coverage_unit": "canonical_chapter_verse",
       "tokens": 18128,
       "eligible_stream_positions": 18108,
       "analyzed_total_arrivals": 11945,
@@ -20,14 +21,17 @@
       "fixed_blocks_total": 19,
       "fixed_blocks_included": 18,
       "included_blocks_with_activity": 18,
-      "complete_represented_verses": 1527,
-      "complete_verses_with_activity": 1507,
-      "complete_verse_activity_coverage": 0.9869024230517355,
-      "complete_verses_with_burst_end": 1489,
-      "complete_verse_burst_end_coverage": 0.9751146037982973
+      "canonical_verses_total": 1533,
+      "canonical_verses_with_analyzable_tokens": 1533,
+      "complete_represented_canonical_verses": 1530,
+      "complete_canonical_verses_with_activity": 1510,
+      "complete_canonical_verse_activity_coverage": 0.9869281045751634,
+      "complete_canonical_verses_with_burst_end": 1492,
+      "complete_canonical_verse_burst_end_coverage": 0.9751633986928104
     },
     {
       "book": "exodus",
+      "coverage_unit": "canonical_chapter_verse",
       "tokens": 14626,
       "eligible_stream_positions": 14606,
       "analyzed_total_arrivals": 10655,
@@ -37,14 +41,17 @@
       "fixed_blocks_total": 15,
       "fixed_blocks_included": 15,
       "included_blocks_with_activity": 15,
-      "complete_represented_verses": 1201,
-      "complete_verses_with_activity": 1185,
-      "complete_verse_activity_coverage": 0.9866777685262281,
-      "complete_verses_with_burst_end": 1170,
-      "complete_verse_burst_end_coverage": 0.974188176519567
+      "canonical_verses_total": 1210,
+      "canonical_verses_with_analyzable_tokens": 1210,
+      "complete_represented_canonical_verses": 1206,
+      "complete_canonical_verses_with_activity": 1188,
+      "complete_canonical_verse_activity_coverage": 0.9850746268656716,
+      "complete_canonical_verses_with_burst_end": 1174,
+      "complete_canonical_verse_burst_end_coverage": 0.9734660033167496
     },
     {
       "book": "leviticus",
+      "coverage_unit": "canonical_chapter_verse",
       "tokens": 10336,
       "eligible_stream_positions": 10316,
       "analyzed_total_arrivals": 7730,
@@ -54,14 +61,17 @@
       "fixed_blocks_total": 11,
       "fixed_blocks_included": 10,
       "included_blocks_with_activity": 10,
-      "complete_represented_verses": 855,
-      "complete_verses_with_activity": 840,
-      "complete_verse_activity_coverage": 0.9824561403508771,
-      "complete_verses_with_burst_end": 835,
-      "complete_verse_burst_end_coverage": 0.9766081871345029
+      "canonical_verses_total": 859,
+      "canonical_verses_with_analyzable_tokens": 859,
+      "complete_represented_canonical_verses": 857,
+      "complete_canonical_verses_with_activity": 842,
+      "complete_canonical_verse_activity_coverage": 0.9824970828471412,
+      "complete_canonical_verses_with_burst_end": 837,
+      "complete_canonical_verse_burst_end_coverage": 0.9766627771295215
     },
     {
       "book": "numbers",
+      "coverage_unit": "canonical_chapter_verse",
       "tokens": 14463,
       "eligible_stream_positions": 14443,
       "analyzed_total_arrivals": 11121,
@@ -71,14 +81,17 @@
       "fixed_blocks_total": 15,
       "fixed_blocks_included": 14,
       "included_blocks_with_activity": 14,
-      "complete_represented_verses": 1282,
-      "complete_verses_with_activity": 1265,
-      "complete_verse_activity_coverage": 0.9867394695787831,
-      "complete_verses_with_burst_end": 1250,
-      "complete_verse_burst_end_coverage": 0.9750390015600624
+      "canonical_verses_total": 1288,
+      "canonical_verses_with_analyzable_tokens": 1288,
+      "complete_represented_canonical_verses": 1286,
+      "complete_canonical_verses_with_activity": 1269,
+      "complete_canonical_verse_activity_coverage": 0.9867807153965785,
+      "complete_canonical_verses_with_burst_end": 1254,
+      "complete_canonical_verse_burst_end_coverage": 0.9751166407465007
     },
     {
       "book": "deuteronomy",
+      "coverage_unit": "canonical_chapter_verse",
       "tokens": 12690,
       "eligible_stream_positions": 12670,
       "analyzed_total_arrivals": 9388,
@@ -88,11 +101,13 @@
       "fixed_blocks_total": 13,
       "fixed_blocks_included": 13,
       "included_blocks_with_activity": 13,
-      "complete_represented_verses": 953,
-      "complete_verses_with_activity": 941,
-      "complete_verse_activity_coverage": 0.9874081846799581,
-      "complete_verses_with_burst_end": 932,
-      "complete_verse_burst_end_coverage": 0.9779643231899265
+      "canonical_verses_total": 956,
+      "canonical_verses_with_analyzable_tokens": 956,
+      "complete_represented_canonical_verses": 955,
+      "complete_canonical_verses_with_activity": 942,
+      "complete_canonical_verse_activity_coverage": 0.9863874345549738,
+      "complete_canonical_verses_with_burst_end": 933,
+      "complete_canonical_verse_burst_end_coverage": 0.9769633507853404
     }
   ],
   "lexical_decomposition": [

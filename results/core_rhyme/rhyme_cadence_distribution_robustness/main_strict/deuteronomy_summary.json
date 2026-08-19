@@ -1,6 +1,6 @@
 {
   "analysis": "rhyme_cadence_distribution_robustness",
-  "analysis_version": "1.0.0",
+  "analysis_version": "1.0.1",
   "book": "deuteronomy",
   "input": {
     "source_file": "data\\data_processed\\torah\\deuteronomy_taamim_annotated.txt",
@@ -42,6 +42,19 @@
     "major_blocks_in_analyzable_stream": 1862,
     "minor_blocks_in_analyzable_stream": 3812
   },
+  "canonical_verse_map_audit": {
+    "map_file": "data\\data_processed\\torah\\deuteronomy_taamim_annotated.txt.verse_map.json",
+    "map_sha256": "41ec0a552e2ced1bf729618c70838f4cab7e8c94020b2ab106735bf752c26022",
+    "schema_version": "1.0",
+    "canonical_reference_system": "Sefaria chapter/verse array indices",
+    "canonical_verse_count": 956,
+    "source_word_count": 14269,
+    "processed_file_sha256_verified": true,
+    "reconstruction_verified_token_for_token": true,
+    "api_payload_canonical_json_sha256": "ec70046e0b12591291e71ae977a082bee433de4ee5f97a50ce542a4a00be7148",
+    "hebrew_version_title": "Tanach with Ta'amei Hamikra",
+    "hebrew_version_source": "http://www.tanach.us/Tanach.xml"
+  },
   "all_pair_audit": {
     "eligible_pairs": 253400,
     "full_pairs": 8037,
@@ -70,6 +83,7 @@
   },
   "coverage": {
     "book": "deuteronomy",
+    "coverage_unit": "canonical_chapter_verse",
     "tokens": 12690,
     "eligible_stream_positions": 12670,
     "analyzed_total_arrivals": 8743,
@@ -79,11 +93,13 @@
     "fixed_blocks_total": 13,
     "fixed_blocks_included": 13,
     "included_blocks_with_activity": 13,
-    "complete_represented_verses": 953,
-    "complete_verses_with_activity": 935,
-    "complete_verse_activity_coverage": 0.9811122770199371,
-    "complete_verses_with_burst_end": 927,
-    "complete_verse_burst_end_coverage": 0.9727177334732424
+    "canonical_verses_total": 956,
+    "canonical_verses_with_analyzable_tokens": 956,
+    "complete_represented_canonical_verses": 955,
+    "complete_canonical_verses_with_activity": 937,
+    "complete_canonical_verse_activity_coverage": 0.981151832460733,
+    "complete_canonical_verses_with_burst_end": 928,
+    "complete_canonical_verse_burst_end_coverage": 0.9717277486910995
   },
   "lexical_decomposition": {
     "book": "deuteronomy",

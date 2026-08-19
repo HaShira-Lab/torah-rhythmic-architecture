@@ -1,0 +1,6890 @@
+{
+  "schema_version": "1.0",
+  "book": "leviticus",
+  "canonical_reference_system": "Sefaria chapter/verse array indices",
+  "hebrew_version_title": "Tanach with Ta'amei Hamikra",
+  "hebrew_version_source": "http://www.tanach.us/Tanach.xml",
+  "requested_version": "Tanach_with_Ta'amei_Hamikra",
+  "api_reference": "Leviticus",
+  "api_response_source": "https://www.sefaria.org/api/texts/Leviticus?lang=he&vhe=Tanach_with_Ta%27amei_Hamikra&context=0&pad=0&commentary=0",
+  "api_payload_canonical_json_sha256": "c46b270dbe6d7da3fa9e93ea55448bd6607541dd498826578602d583f06f5d75",
+  "processed_file": "leviticus_taamim_annotated.txt",
+  "processed_file_sha256": "c00f5ece46ff799cee25f23620fa490eaf5c00dc7df627677059f536e3256769",
+  "reconstruction_verified_token_for_token": true,
+  "canonical_verse_count": 859,
+  "source_word_count": 11945,
+  "spans": [
+    {
+      "canonical_verse_ordinal": 1,
+      "chapter": 1,
+      "verse": 1,
+      "first_source_word_index": 0,
+      "last_source_word_index_exclusive": 9,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 2,
+      "chapter": 1,
+      "verse": 2,
+      "first_source_word_index": 9,
+      "last_source_word_index_exclusive": 30,
+      "source_word_count": 21
+    },
+    {
+      "canonical_verse_ordinal": 3,
+      "chapter": 1,
+      "verse": 3,
+      "first_source_word_index": 30,
+      "last_source_word_index_exclusive": 47,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 4,
+      "chapter": 1,
+      "verse": 4,
+      "first_source_word_index": 47,
+      "last_source_word_index_exclusive": 56,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 5,
+      "chapter": 1,
+      "verse": 5,
+      "first_source_word_index": 56,
+      "last_source_word_index_exclusive": 78,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 6,
+      "chapter": 1,
+      "verse": 6,
+      "first_source_word_index": 78,
+      "last_source_word_index_exclusive": 84,
+      "source_word_count": 6
+    },
+    {
+      "canonical_verse_ordinal": 7,
+      "chapter": 1,
+      "verse": 7,
+      "first_source_word_index": 84,
+      "last_source_word_index_exclusive": 95,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 8,
+      "chapter": 1,
+      "verse": 8,
+      "first_source_word_index": 95,
+      "last_source_word_index_exclusive": 113,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 9,
+      "chapter": 1,
+      "verse": 9,
+      "first_source_word_index": 113,
+      "last_source_word_index_exclusive": 127,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 10,
+      "chapter": 1,
+      "verse": 10,
+      "first_source_word_index": 127,
+      "last_source_word_index_exclusive": 140,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 11,
+      "chapter": 1,
+      "verse": 11,
+      "first_source_word_index": 140,
+      "last_source_word_index_exclusive": 157,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 12,
+      "chapter": 1,
+      "verse": 12,
+      "first_source_word_index": 157,
+      "last_source_word_index_exclusive": 175,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 13,
+      "chapter": 1,
+      "verse": 13,
+      "first_source_word_index": 175,
+      "last_source_word_index_exclusive": 191,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 14,
+      "chapter": 1,
+      "verse": 14,
+      "first_source_word_index": 191,
+      "last_source_word_index_exclusive": 206,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 15,
+      "chapter": 1,
+      "verse": 15,
+      "first_source_word_index": 206,
+      "last_source_word_index_exclusive": 220,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 16,
+      "chapter": 1,
+      "verse": 16,
+      "first_source_word_index": 220,
+      "last_source_word_index_exclusive": 232,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 17,
+      "chapter": 1,
+      "verse": 17,
+      "first_source_word_index": 232,
+      "last_source_word_index_exclusive": 252,
+      "source_word_count": 20
+    },
+    {
+      "canonical_verse_ordinal": 18,
+      "chapter": 2,
+      "verse": 1,
+      "first_source_word_index": 252,
+      "last_source_word_index_exclusive": 267,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 19,
+      "chapter": 2,
+      "verse": 2,
+      "first_source_word_index": 267,
+      "last_source_word_index_exclusive": 290,
+      "source_word_count": 23
+    },
+    {
+      "canonical_verse_ordinal": 20,
+      "chapter": 2,
+      "verse": 3,
+      "first_source_word_index": 290,
+      "last_source_word_index_exclusive": 299,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 21,
+      "chapter": 2,
+      "verse": 4,
+      "first_source_word_index": 299,
+      "last_source_word_index_exclusive": 314,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 22,
+      "chapter": 2,
+      "verse": 5,
+      "first_source_word_index": 314,
+      "last_source_word_index_exclusive": 324,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 23,
+      "chapter": 2,
+      "verse": 6,
+      "first_source_word_index": 324,
+      "last_source_word_index_exclusive": 332,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 24,
+      "chapter": 2,
+      "verse": 7,
+      "first_source_word_index": 332,
+      "last_source_word_index_exclusive": 339,
+      "source_word_count": 7
+    },
+    {
+      "canonical_verse_ordinal": 25,
+      "chapter": 2,
+      "verse": 8,
+      "first_source_word_index": 339,
+      "last_source_word_index_exclusive": 352,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 26,
+      "chapter": 2,
+      "verse": 9,
+      "first_source_word_index": 352,
+      "last_source_word_index_exclusive": 364,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 27,
+      "chapter": 2,
+      "verse": 10,
+      "first_source_word_index": 364,
+      "last_source_word_index_exclusive": 373,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 28,
+      "chapter": 2,
+      "verse": 11,
+      "first_source_word_index": 373,
+      "last_source_word_index_exclusive": 391,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 29,
+      "chapter": 2,
+      "verse": 12,
+      "first_source_word_index": 391,
+      "last_source_word_index_exclusive": 402,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 30,
+      "chapter": 2,
+      "verse": 13,
+      "first_source_word_index": 402,
+      "last_source_word_index_exclusive": 419,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 31,
+      "chapter": 2,
+      "verse": 14,
+      "first_source_word_index": 419,
+      "last_source_word_index_exclusive": 433,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 32,
+      "chapter": 2,
+      "verse": 15,
+      "first_source_word_index": 433,
+      "last_source_word_index_exclusive": 441,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 33,
+      "chapter": 2,
+      "verse": 16,
+      "first_source_word_index": 441,
+      "last_source_word_index_exclusive": 452,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 34,
+      "chapter": 3,
+      "verse": 1,
+      "first_source_word_index": 452,
+      "last_source_word_index_exclusive": 469,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 35,
+      "chapter": 3,
+      "verse": 2,
+      "first_source_word_index": 469,
+      "last_source_word_index_exclusive": 487,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 36,
+      "chapter": 3,
+      "verse": 3,
+      "first_source_word_index": 487,
+      "last_source_word_index_exclusive": 503,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 37,
+      "chapter": 3,
+      "verse": 4,
+      "first_source_word_index": 503,
+      "last_source_word_index_exclusive": 520,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 38,
+      "chapter": 3,
+      "verse": 5,
+      "first_source_word_index": 520,
+      "last_source_word_index_exclusive": 537,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 39,
+      "chapter": 3,
+      "verse": 6,
+      "first_source_word_index": 537,
+      "last_source_word_index_exclusive": 549,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 40,
+      "chapter": 3,
+      "verse": 7,
+      "first_source_word_index": 549,
+      "last_source_word_index_exclusive": 559,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 41,
+      "chapter": 3,
+      "verse": 8,
+      "first_source_word_index": 559,
+      "last_source_word_index_exclusive": 578,
+      "source_word_count": 19
+    },
+    {
+      "canonical_verse_ordinal": 42,
+      "chapter": 3,
+      "verse": 9,
+      "first_source_word_index": 578,
+      "last_source_word_index_exclusive": 600,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 43,
+      "chapter": 3,
+      "verse": 10,
+      "first_source_word_index": 600,
+      "last_source_word_index_exclusive": 617,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 44,
+      "chapter": 3,
+      "verse": 11,
+      "first_source_word_index": 617,
+      "last_source_word_index_exclusive": 623,
+      "source_word_count": 6
+    },
+    {
+      "canonical_verse_ordinal": 45,
+      "chapter": 3,
+      "verse": 12,
+      "first_source_word_index": 623,
+      "last_source_word_index_exclusive": 629,
+      "source_word_count": 6
+    },
+    {
+      "canonical_verse_ordinal": 46,
+      "chapter": 3,
+      "verse": 13,
+      "first_source_word_index": 629,
+      "last_source_word_index_exclusive": 647,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 47,
+      "chapter": 3,
+      "verse": 14,
+      "first_source_word_index": 647,
+      "last_source_word_index_exclusive": 663,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 48,
+      "chapter": 3,
+      "verse": 15,
+      "first_source_word_index": 663,
+      "last_source_word_index_exclusive": 680,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 49,
+      "chapter": 3,
+      "verse": 16,
+      "first_source_word_index": 680,
+      "last_source_word_index_exclusive": 690,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 50,
+      "chapter": 3,
+      "verse": 17,
+      "first_source_word_index": 690,
+      "last_source_word_index_exclusive": 701,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 51,
+      "chapter": 4,
+      "verse": 1,
+      "first_source_word_index": 701,
+      "last_source_word_index_exclusive": 706,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 52,
+      "chapter": 4,
+      "verse": 2,
+      "first_source_word_index": 706,
+      "last_source_word_index_exclusive": 724,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 53,
+      "chapter": 4,
+      "verse": 3,
+      "first_source_word_index": 724,
+      "last_source_word_index_exclusive": 741,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 54,
+      "chapter": 4,
+      "verse": 4,
+      "first_source_word_index": 741,
+      "last_source_word_index_exclusive": 761,
+      "source_word_count": 20
+    },
+    {
+      "canonical_verse_ordinal": 55,
+      "chapter": 4,
+      "verse": 5,
+      "first_source_word_index": 761,
+      "last_source_word_index_exclusive": 771,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 56,
+      "chapter": 4,
+      "verse": 6,
+      "first_source_word_index": 771,
+      "last_source_word_index_exclusive": 787,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 57,
+      "chapter": 4,
+      "verse": 7,
+      "first_source_word_index": 787,
+      "last_source_word_index_exclusive": 814,
+      "source_word_count": 27
+    },
+    {
+      "canonical_verse_ordinal": 58,
+      "chapter": 4,
+      "verse": 8,
+      "first_source_word_index": 814,
+      "last_source_word_index_exclusive": 832,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 59,
+      "chapter": 4,
+      "verse": 9,
+      "first_source_word_index": 832,
+      "last_source_word_index_exclusive": 849,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 60,
+      "chapter": 4,
+      "verse": 10,
+      "first_source_word_index": 849,
+      "last_source_word_index_exclusive": 859,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 61,
+      "chapter": 4,
+      "verse": 11,
+      "first_source_word_index": 859,
+      "last_source_word_index_exclusive": 871,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 62,
+      "chapter": 4,
+      "verse": 12,
+      "first_source_word_index": 871,
+      "last_source_word_index_exclusive": 893,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 63,
+      "chapter": 4,
+      "verse": 13,
+      "first_source_word_index": 893,
+      "last_source_word_index_exclusive": 911,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 64,
+      "chapter": 4,
+      "verse": 14,
+      "first_source_word_index": 911,
+      "last_source_word_index_exclusive": 927,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 65,
+      "chapter": 4,
+      "verse": 15,
+      "first_source_word_index": 927,
+      "last_source_word_index_exclusive": 942,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 66,
+      "chapter": 4,
+      "verse": 16,
+      "first_source_word_index": 942,
+      "last_source_word_index_exclusive": 950,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 67,
+      "chapter": 4,
+      "verse": 17,
+      "first_source_word_index": 950,
+      "last_source_word_index_exclusive": 963,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 68,
+      "chapter": 4,
+      "verse": 18,
+      "first_source_word_index": 963,
+      "last_source_word_index_exclusive": 987,
+      "source_word_count": 24
+    },
+    {
+      "canonical_verse_ordinal": 69,
+      "chapter": 4,
+      "verse": 19,
+      "first_source_word_index": 987,
+      "last_source_word_index_exclusive": 994,
+      "source_word_count": 7
+    },
+    {
+      "canonical_verse_ordinal": 70,
+      "chapter": 4,
+      "verse": 20,
+      "first_source_word_index": 994,
+      "last_source_word_index_exclusive": 1008,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 71,
+      "chapter": 4,
+      "verse": 21,
+      "first_source_word_index": 1008,
+      "last_source_word_index_exclusive": 1024,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 72,
+      "chapter": 4,
+      "verse": 22,
+      "first_source_word_index": 1024,
+      "last_source_word_index_exclusive": 1038,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 73,
+      "chapter": 4,
+      "verse": 23,
+      "first_source_word_index": 1038,
+      "last_source_word_index_exclusive": 1052,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 74,
+      "chapter": 4,
+      "verse": 24,
+      "first_source_word_index": 1052,
+      "last_source_word_index_exclusive": 1068,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 75,
+      "chapter": 4,
+      "verse": 25,
+      "first_source_word_index": 1068,
+      "last_source_word_index_exclusive": 1085,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 76,
+      "chapter": 4,
+      "verse": 26,
+      "first_source_word_index": 1085,
+      "last_source_word_index_exclusive": 1099,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 77,
+      "chapter": 4,
+      "verse": 27,
+      "first_source_word_index": 1099,
+      "last_source_word_index_exclusive": 1114,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 78,
+      "chapter": 4,
+      "verse": 28,
+      "first_source_word_index": 1114,
+      "last_source_word_index_exclusive": 1130,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 79,
+      "chapter": 4,
+      "verse": 29,
+      "first_source_word_index": 1130,
+      "last_source_word_index_exclusive": 1141,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 80,
+      "chapter": 4,
+      "verse": 30,
+      "first_source_word_index": 1141,
+      "last_source_word_index_exclusive": 1157,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 81,
+      "chapter": 4,
+      "verse": 31,
+      "first_source_word_index": 1157,
+      "last_source_word_index_exclusive": 1178,
+      "source_word_count": 21
+    },
+    {
+      "canonical_verse_ordinal": 82,
+      "chapter": 4,
+      "verse": 32,
+      "first_source_word_index": 1178,
+      "last_source_word_index_exclusive": 1186,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 83,
+      "chapter": 4,
+      "verse": 33,
+      "first_source_word_index": 1186,
+      "last_source_word_index_exclusive": 1200,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 84,
+      "chapter": 4,
+      "verse": 34,
+      "first_source_word_index": 1200,
+      "last_source_word_index_exclusive": 1217,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 85,
+      "chapter": 4,
+      "verse": 35,
+      "first_source_word_index": 1217,
+      "last_source_word_index_exclusive": 1243,
+      "source_word_count": 26
+    },
+    {
+      "canonical_verse_ordinal": 86,
+      "chapter": 5,
+      "verse": 1,
+      "first_source_word_index": 1243,
+      "last_source_word_index_exclusive": 1260,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 87,
+      "chapter": 5,
+      "verse": 2,
+      "first_source_word_index": 1260,
+      "last_source_word_index_exclusive": 1284,
+      "source_word_count": 24
+    },
+    {
+      "canonical_verse_ordinal": 88,
+      "chapter": 5,
+      "verse": 3,
+      "first_source_word_index": 1284,
+      "last_source_word_index_exclusive": 1299,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 89,
+      "chapter": 5,
+      "verse": 4,
+      "first_source_word_index": 1299,
+      "last_source_word_index_exclusive": 1320,
+      "source_word_count": 21
+    },
+    {
+      "canonical_verse_ordinal": 90,
+      "chapter": 5,
+      "verse": 5,
+      "first_source_word_index": 1320,
+      "last_source_word_index_exclusive": 1329,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 91,
+      "chapter": 5,
+      "verse": 6,
+      "first_source_word_index": 1329,
+      "last_source_word_index_exclusive": 1349,
+      "source_word_count": 20
+    },
+    {
+      "canonical_verse_ordinal": 92,
+      "chapter": 5,
+      "verse": 7,
+      "first_source_word_index": 1349,
+      "last_source_word_index_exclusive": 1371,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 93,
+      "chapter": 5,
+      "verse": 8,
+      "first_source_word_index": 1371,
+      "last_source_word_index_exclusive": 1387,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 94,
+      "chapter": 5,
+      "verse": 9,
+      "first_source_word_index": 1387,
+      "last_source_word_index_exclusive": 1401,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 95,
+      "chapter": 5,
+      "verse": 10,
+      "first_source_word_index": 1401,
+      "last_source_word_index_exclusive": 1414,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 96,
+      "chapter": 5,
+      "verse": 11,
+      "first_source_word_index": 1414,
+      "last_source_word_index_exclusive": 1444,
+      "source_word_count": 30
+    },
+    {
+      "canonical_verse_ordinal": 97,
+      "chapter": 5,
+      "verse": 12,
+      "first_source_word_index": 1444,
+      "last_source_word_index_exclusive": 1461,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 98,
+      "chapter": 5,
+      "verse": 13,
+      "first_source_word_index": 1461,
+      "last_source_word_index_exclusive": 1475,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 99,
+      "chapter": 5,
+      "verse": 14,
+      "first_source_word_index": 1475,
+      "last_source_word_index_exclusive": 1480,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 100,
+      "chapter": 5,
+      "verse": 15,
+      "first_source_word_index": 1480,
+      "last_source_word_index_exclusive": 1502,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 101,
+      "chapter": 5,
+      "verse": 16,
+      "first_source_word_index": 1502,
+      "last_source_word_index_exclusive": 1522,
+      "source_word_count": 20
+    },
+    {
+      "canonical_verse_ordinal": 102,
+      "chapter": 5,
+      "verse": 17,
+      "first_source_word_index": 1522,
+      "last_source_word_index_exclusive": 1539,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 103,
+      "chapter": 5,
+      "verse": 18,
+      "first_source_word_index": 1539,
+      "last_source_word_index_exclusive": 1560,
+      "source_word_count": 21
+    },
+    {
+      "canonical_verse_ordinal": 104,
+      "chapter": 5,
+      "verse": 19,
+      "first_source_word_index": 1560,
+      "last_source_word_index_exclusive": 1565,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 105,
+      "chapter": 5,
+      "verse": 20,
+      "first_source_word_index": 1565,
+      "last_source_word_index_exclusive": 1570,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 106,
+      "chapter": 5,
+      "verse": 21,
+      "first_source_word_index": 1570,
+      "last_source_word_index_exclusive": 1588,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 107,
+      "chapter": 5,
+      "verse": 22,
+      "first_source_word_index": 1588,
+      "last_source_word_index_exclusive": 1604,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 108,
+      "chapter": 5,
+      "verse": 23,
+      "first_source_word_index": 1604,
+      "last_source_word_index_exclusive": 1629,
+      "source_word_count": 25
+    },
+    {
+      "canonical_verse_ordinal": 109,
+      "chapter": 5,
+      "verse": 24,
+      "first_source_word_index": 1629,
+      "last_source_word_index_exclusive": 1647,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 110,
+      "chapter": 5,
+      "verse": 25,
+      "first_source_word_index": 1647,
+      "last_source_word_index_exclusive": 1659,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 111,
+      "chapter": 5,
+      "verse": 26,
+      "first_source_word_index": 1659,
+      "last_source_word_index_exclusive": 1673,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 112,
+      "chapter": 6,
+      "verse": 1,
+      "first_source_word_index": 1673,
+      "last_source_word_index_exclusive": 1678,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 113,
+      "chapter": 6,
+      "verse": 2,
+      "first_source_word_index": 1678,
+      "last_source_word_index_exclusive": 1701,
+      "source_word_count": 23
+    },
+    {
+      "canonical_verse_ordinal": 114,
+      "chapter": 6,
+      "verse": 3,
+      "first_source_word_index": 1701,
+      "last_source_word_index_exclusive": 1723,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 115,
+      "chapter": 6,
+      "verse": 4,
+      "first_source_word_index": 1723,
+      "last_source_word_index_exclusive": 1738,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 116,
+      "chapter": 6,
+      "verse": 5,
+      "first_source_word_index": 1738,
+      "last_source_word_index_exclusive": 1758,
+      "source_word_count": 20
+    },
+    {
+      "canonical_verse_ordinal": 117,
+      "chapter": 6,
+      "verse": 6,
+      "first_source_word_index": 1758,
+      "last_source_word_index_exclusive": 1765,
+      "source_word_count": 7
+    },
+    {
+      "canonical_verse_ordinal": 118,
+      "chapter": 6,
+      "verse": 7,
+      "first_source_word_index": 1765,
+      "last_source_word_index_exclusive": 1777,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 119,
+      "chapter": 6,
+      "verse": 8,
+      "first_source_word_index": 1777,
+      "last_source_word_index_exclusive": 1795,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 120,
+      "chapter": 6,
+      "verse": 9,
+      "first_source_word_index": 1795,
+      "last_source_word_index_exclusive": 1808,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 121,
+      "chapter": 6,
+      "verse": 10,
+      "first_source_word_index": 1808,
+      "last_source_word_index_exclusive": 1820,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 122,
+      "chapter": 6,
+      "verse": 11,
+      "first_source_word_index": 1820,
+      "last_source_word_index_exclusive": 1835,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 123,
+      "chapter": 6,
+      "verse": 12,
+      "first_source_word_index": 1835,
+      "last_source_word_index_exclusive": 1840,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 124,
+      "chapter": 6,
+      "verse": 13,
+      "first_source_word_index": 1840,
+      "last_source_word_index_exclusive": 1859,
+      "source_word_count": 19
+    },
+    {
+      "canonical_verse_ordinal": 125,
+      "chapter": 6,
+      "verse": 14,
+      "first_source_word_index": 1859,
+      "last_source_word_index_exclusive": 1872,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 126,
+      "chapter": 6,
+      "verse": 15,
+      "first_source_word_index": 1872,
+      "last_source_word_index_exclusive": 1883,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 127,
+      "chapter": 6,
+      "verse": 16,
+      "first_source_word_index": 1883,
+      "last_source_word_index_exclusive": 1890,
+      "source_word_count": 7
+    },
+    {
+      "canonical_verse_ordinal": 128,
+      "chapter": 6,
+      "verse": 17,
+      "first_source_word_index": 1890,
+      "last_source_word_index_exclusive": 1895,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 129,
+      "chapter": 6,
+      "verse": 18,
+      "first_source_word_index": 1895,
+      "last_source_word_index_exclusive": 1915,
+      "source_word_count": 20
+    },
+    {
+      "canonical_verse_ordinal": 130,
+      "chapter": 6,
+      "verse": 19,
+      "first_source_word_index": 1915,
+      "last_source_word_index_exclusive": 1925,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 131,
+      "chapter": 6,
+      "verse": 20,
+      "first_source_word_index": 1925,
+      "last_source_word_index_exclusive": 1941,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 132,
+      "chapter": 6,
+      "verse": 21,
+      "first_source_word_index": 1941,
+      "last_source_word_index_exclusive": 1954,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 133,
+      "chapter": 6,
+      "verse": 22,
+      "first_source_word_index": 1954,
+      "last_source_word_index_exclusive": 1962,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 134,
+      "chapter": 6,
+      "verse": 23,
+      "first_source_word_index": 1962,
+      "last_source_word_index_exclusive": 1976,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 135,
+      "chapter": 7,
+      "verse": 1,
+      "first_source_word_index": 1976,
+      "last_source_word_index_exclusive": 1982,
+      "source_word_count": 6
+    },
+    {
+      "canonical_verse_ordinal": 136,
+      "chapter": 7,
+      "verse": 2,
+      "first_source_word_index": 1982,
+      "last_source_word_index_exclusive": 1996,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 137,
+      "chapter": 7,
+      "verse": 3,
+      "first_source_word_index": 1996,
+      "last_source_word_index_exclusive": 2008,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 138,
+      "chapter": 7,
+      "verse": 4,
+      "first_source_word_index": 2008,
+      "last_source_word_index_exclusive": 2025,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 139,
+      "chapter": 7,
+      "verse": 5,
+      "first_source_word_index": 2025,
+      "last_source_word_index_exclusive": 2033,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 140,
+      "chapter": 7,
+      "verse": 6,
+      "first_source_word_index": 2033,
+      "last_source_word_index_exclusive": 2043,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 141,
+      "chapter": 7,
+      "verse": 7,
+      "first_source_word_index": 2043,
+      "last_source_word_index_exclusive": 2054,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 142,
+      "chapter": 7,
+      "verse": 8,
+      "first_source_word_index": 2054,
+      "last_source_word_index_exclusive": 2066,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 143,
+      "chapter": 7,
+      "verse": 9,
+      "first_source_word_index": 2066,
+      "last_source_word_index_exclusive": 2081,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 144,
+      "chapter": 7,
+      "verse": 10,
+      "first_source_word_index": 2081,
+      "last_source_word_index_exclusive": 2092,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 145,
+      "chapter": 7,
+      "verse": 11,
+      "first_source_word_index": 2092,
+      "last_source_word_index_exclusive": 2099,
+      "source_word_count": 7
+    },
+    {
+      "canonical_verse_ordinal": 146,
+      "chapter": 7,
+      "verse": 12,
+      "first_source_word_index": 2099,
+      "last_source_word_index_exclusive": 2120,
+      "source_word_count": 21
+    },
+    {
+      "canonical_verse_ordinal": 147,
+      "chapter": 7,
+      "verse": 13,
+      "first_source_word_index": 2120,
+      "last_source_word_index_exclusive": 2130,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 148,
+      "chapter": 7,
+      "verse": 14,
+      "first_source_word_index": 2130,
+      "last_source_word_index_exclusive": 2144,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 149,
+      "chapter": 7,
+      "verse": 15,
+      "first_source_word_index": 2144,
+      "last_source_word_index_exclusive": 2156,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 150,
+      "chapter": 7,
+      "verse": 16,
+      "first_source_word_index": 2156,
+      "last_source_word_index_exclusive": 2171,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 151,
+      "chapter": 7,
+      "verse": 17,
+      "first_source_word_index": 2171,
+      "last_source_word_index_exclusive": 2178,
+      "source_word_count": 7
+    },
+    {
+      "canonical_verse_ordinal": 152,
+      "chapter": 7,
+      "verse": 18,
+      "first_source_word_index": 2178,
+      "last_source_word_index_exclusive": 2200,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 153,
+      "chapter": 7,
+      "verse": 19,
+      "first_source_word_index": 2200,
+      "last_source_word_index_exclusive": 2214,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 154,
+      "chapter": 7,
+      "verse": 20,
+      "first_source_word_index": 2214,
+      "last_source_word_index_exclusive": 2228,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 155,
+      "chapter": 7,
+      "verse": 21,
+      "first_source_word_index": 2228,
+      "last_source_word_index_exclusive": 2252,
+      "source_word_count": 24
+    },
+    {
+      "canonical_verse_ordinal": 156,
+      "chapter": 7,
+      "verse": 22,
+      "first_source_word_index": 2252,
+      "last_source_word_index_exclusive": 2257,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 157,
+      "chapter": 7,
+      "verse": 23,
+      "first_source_word_index": 2257,
+      "last_source_word_index_exclusive": 2269,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 158,
+      "chapter": 7,
+      "verse": 24,
+      "first_source_word_index": 2269,
+      "last_source_word_index_exclusive": 2279,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 159,
+      "chapter": 7,
+      "verse": 25,
+      "first_source_word_index": 2279,
+      "last_source_word_index_exclusive": 2294,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 160,
+      "chapter": 7,
+      "verse": 26,
+      "first_source_word_index": 2294,
+      "last_source_word_index_exclusive": 2302,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 161,
+      "chapter": 7,
+      "verse": 27,
+      "first_source_word_index": 2302,
+      "last_source_word_index_exclusive": 2312,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 162,
+      "chapter": 7,
+      "verse": 28,
+      "first_source_word_index": 2312,
+      "last_source_word_index_exclusive": 2317,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 163,
+      "chapter": 7,
+      "verse": 29,
+      "first_source_word_index": 2317,
+      "last_source_word_index_exclusive": 2333,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 164,
+      "chapter": 7,
+      "verse": 30,
+      "first_source_word_index": 2333,
+      "last_source_word_index_exclusive": 2350,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 165,
+      "chapter": 7,
+      "verse": 31,
+      "first_source_word_index": 2350,
+      "last_source_word_index_exclusive": 2359,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 166,
+      "chapter": 7,
+      "verse": 32,
+      "first_source_word_index": 2359,
+      "last_source_word_index_exclusive": 2367,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 167,
+      "chapter": 7,
+      "verse": 33,
+      "first_source_word_index": 2367,
+      "last_source_word_index_exclusive": 2380,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 168,
+      "chapter": 7,
+      "verse": 34,
+      "first_source_word_index": 2380,
+      "last_source_word_index_exclusive": 2403,
+      "source_word_count": 23
+    },
+    {
+      "canonical_verse_ordinal": 169,
+      "chapter": 7,
+      "verse": 35,
+      "first_source_word_index": 2403,
+      "last_source_word_index_exclusive": 2415,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 170,
+      "chapter": 7,
+      "verse": 36,
+      "first_source_word_index": 2415,
+      "last_source_word_index_exclusive": 2429,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 171,
+      "chapter": 7,
+      "verse": 37,
+      "first_source_word_index": 2429,
+      "last_source_word_index_exclusive": 2438,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 172,
+      "chapter": 7,
+      "verse": 38,
+      "first_source_word_index": 2438,
+      "last_source_word_index_exclusive": 2456,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 173,
+      "chapter": 8,
+      "verse": 1,
+      "first_source_word_index": 2456,
+      "last_source_word_index_exclusive": 2461,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 174,
+      "chapter": 8,
+      "verse": 2,
+      "first_source_word_index": 2461,
+      "last_source_word_index_exclusive": 2481,
+      "source_word_count": 20
+    },
+    {
+      "canonical_verse_ordinal": 175,
+      "chapter": 8,
+      "verse": 3,
+      "first_source_word_index": 2481,
+      "last_source_word_index_exclusive": 2489,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 176,
+      "chapter": 8,
+      "verse": 4,
+      "first_source_word_index": 2489,
+      "last_source_word_index_exclusive": 2501,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 177,
+      "chapter": 8,
+      "verse": 5,
+      "first_source_word_index": 2501,
+      "last_source_word_index_exclusive": 2511,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 178,
+      "chapter": 8,
+      "verse": 6,
+      "first_source_word_index": 2511,
+      "last_source_word_index_exclusive": 2520,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 179,
+      "chapter": 8,
+      "verse": 7,
+      "first_source_word_index": 2520,
+      "last_source_word_index_exclusive": 2542,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 180,
+      "chapter": 8,
+      "verse": 8,
+      "first_source_word_index": 2542,
+      "last_source_word_index_exclusive": 2553,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 181,
+      "chapter": 8,
+      "verse": 9,
+      "first_source_word_index": 2553,
+      "last_source_word_index_exclusive": 2574,
+      "source_word_count": 21
+    },
+    {
+      "canonical_verse_ordinal": 182,
+      "chapter": 8,
+      "verse": 10,
+      "first_source_word_index": 2574,
+      "last_source_word_index_exclusive": 2588,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 183,
+      "chapter": 8,
+      "verse": 11,
+      "first_source_word_index": 2588,
+      "last_source_word_index_exclusive": 2605,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 184,
+      "chapter": 8,
+      "verse": 12,
+      "first_source_word_index": 2605,
+      "last_source_word_index_exclusive": 2614,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 185,
+      "chapter": 8,
+      "verse": 13,
+      "first_source_word_index": 2614,
+      "last_source_word_index_exclusive": 2632,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 186,
+      "chapter": 8,
+      "verse": 14,
+      "first_source_word_index": 2632,
+      "last_source_word_index_exclusive": 2645,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 187,
+      "chapter": 8,
+      "verse": 15,
+      "first_source_word_index": 2645,
+      "last_source_word_index_exclusive": 2668,
+      "source_word_count": 23
+    },
+    {
+      "canonical_verse_ordinal": 188,
+      "chapter": 8,
+      "verse": 16,
+      "first_source_word_index": 2668,
+      "last_source_word_index_exclusive": 2686,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 189,
+      "chapter": 8,
+      "verse": 17,
+      "first_source_word_index": 2686,
+      "last_source_word_index_exclusive": 2703,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 190,
+      "chapter": 8,
+      "verse": 18,
+      "first_source_word_index": 2703,
+      "last_source_word_index_exclusive": 2715,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 191,
+      "chapter": 8,
+      "verse": 19,
+      "first_source_word_index": 2715,
+      "last_source_word_index_exclusive": 2723,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 192,
+      "chapter": 8,
+      "verse": 20,
+      "first_source_word_index": 2723,
+      "last_source_word_index_exclusive": 2735,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 193,
+      "chapter": 8,
+      "verse": 21,
+      "first_source_word_index": 2735,
+      "last_source_word_index_exclusive": 2759,
+      "source_word_count": 24
+    },
+    {
+      "canonical_verse_ordinal": 194,
+      "chapter": 8,
+      "verse": 22,
+      "first_source_word_index": 2759,
+      "last_source_word_index_exclusive": 2773,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 195,
+      "chapter": 8,
+      "verse": 23,
+      "first_source_word_index": 2773,
+      "last_source_word_index_exclusive": 2791,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 196,
+      "chapter": 8,
+      "verse": 24,
+      "first_source_word_index": 2791,
+      "last_source_word_index_exclusive": 2818,
+      "source_word_count": 27
+    },
+    {
+      "canonical_verse_ordinal": 197,
+      "chapter": 8,
+      "verse": 25,
+      "first_source_word_index": 2818,
+      "last_source_word_index_exclusive": 2840,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 198,
+      "chapter": 8,
+      "verse": 26,
+      "first_source_word_index": 2840,
+      "last_source_word_index_exclusive": 2861,
+      "source_word_count": 21
+    },
+    {
+      "canonical_verse_ordinal": 199,
+      "chapter": 8,
+      "verse": 27,
+      "first_source_word_index": 2861,
+      "last_source_word_index_exclusive": 2875,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 200,
+      "chapter": 8,
+      "verse": 28,
+      "first_source_word_index": 2875,
+      "last_source_word_index_exclusive": 2891,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 201,
+      "chapter": 8,
+      "verse": 29,
+      "first_source_word_index": 2891,
+      "last_source_word_index_exclusive": 2909,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 202,
+      "chapter": 8,
+      "verse": 30,
+      "first_source_word_index": 2909,
+      "last_source_word_index_exclusive": 2940,
+      "source_word_count": 31
+    },
+    {
+      "canonical_verse_ordinal": 203,
+      "chapter": 8,
+      "verse": 31,
+      "first_source_word_index": 2940,
+      "last_source_word_index_exclusive": 2966,
+      "source_word_count": 26
+    },
+    {
+      "canonical_verse_ordinal": 204,
+      "chapter": 8,
+      "verse": 32,
+      "first_source_word_index": 2966,
+      "last_source_word_index_exclusive": 2971,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 205,
+      "chapter": 8,
+      "verse": 33,
+      "first_source_word_index": 2971,
+      "last_source_word_index_exclusive": 2989,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 206,
+      "chapter": 8,
+      "verse": 34,
+      "first_source_word_index": 2989,
+      "last_source_word_index_exclusive": 2998,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 207,
+      "chapter": 8,
+      "verse": 35,
+      "first_source_word_index": 2998,
+      "last_source_word_index_exclusive": 3015,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 208,
+      "chapter": 8,
+      "verse": 36,
+      "first_source_word_index": 3015,
+      "last_source_word_index_exclusive": 3026,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 209,
+      "chapter": 9,
+      "verse": 1,
+      "first_source_word_index": 3026,
+      "last_source_word_index_exclusive": 3035,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 210,
+      "chapter": 9,
+      "verse": 2,
+      "first_source_word_index": 3035,
+      "last_source_word_index_exclusive": 3050,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 211,
+      "chapter": 9,
+      "verse": 3,
+      "first_source_word_index": 3050,
+      "last_source_word_index_exclusive": 3065,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 212,
+      "chapter": 9,
+      "verse": 4,
+      "first_source_word_index": 3065,
+      "last_source_word_index_exclusive": 3079,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 213,
+      "chapter": 9,
+      "verse": 5,
+      "first_source_word_index": 3079,
+      "last_source_word_index_exclusive": 3094,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 214,
+      "chapter": 9,
+      "verse": 6,
+      "first_source_word_index": 3094,
+      "last_source_word_index_exclusive": 3106,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 215,
+      "chapter": 9,
+      "verse": 7,
+      "first_source_word_index": 3106,
+      "last_source_word_index_exclusive": 3131,
+      "source_word_count": 25
+    },
+    {
+      "canonical_verse_ordinal": 216,
+      "chapter": 9,
+      "verse": 8,
+      "first_source_word_index": 3131,
+      "last_source_word_index_exclusive": 3141,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 217,
+      "chapter": 9,
+      "verse": 9,
+      "first_source_word_index": 3141,
+      "last_source_word_index_exclusive": 3160,
+      "source_word_count": 19
+    },
+    {
+      "canonical_verse_ordinal": 218,
+      "chapter": 9,
+      "verse": 10,
+      "first_source_word_index": 3160,
+      "last_source_word_index_exclusive": 3177,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 219,
+      "chapter": 9,
+      "verse": 11,
+      "first_source_word_index": 3177,
+      "last_source_word_index_exclusive": 3185,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 220,
+      "chapter": 9,
+      "verse": 12,
+      "first_source_word_index": 3185,
+      "last_source_word_index_exclusive": 3198,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 221,
+      "chapter": 9,
+      "verse": 13,
+      "first_source_word_index": 3198,
+      "last_source_word_index_exclusive": 3208,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 222,
+      "chapter": 9,
+      "verse": 14,
+      "first_source_word_index": 3208,
+      "last_source_word_index_exclusive": 3217,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 223,
+      "chapter": 9,
+      "verse": 15,
+      "first_source_word_index": 3217,
+      "last_source_word_index_exclusive": 3230,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 224,
+      "chapter": 9,
+      "verse": 16,
+      "first_source_word_index": 3230,
+      "last_source_word_index_exclusive": 3235,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 225,
+      "chapter": 9,
+      "verse": 17,
+      "first_source_word_index": 3235,
+      "last_source_word_index_exclusive": 3247,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 226,
+      "chapter": 9,
+      "verse": 18,
+      "first_source_word_index": 3247,
+      "last_source_word_index_exclusive": 3266,
+      "source_word_count": 19
+    },
+    {
+      "canonical_verse_ordinal": 227,
+      "chapter": 9,
+      "verse": 19,
+      "first_source_word_index": 3266,
+      "last_source_word_index_exclusive": 3277,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 228,
+      "chapter": 9,
+      "verse": 20,
+      "first_source_word_index": 3277,
+      "last_source_word_index_exclusive": 3285,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 229,
+      "chapter": 9,
+      "verse": 21,
+      "first_source_word_index": 3285,
+      "last_source_word_index_exclusive": 3298,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 230,
+      "chapter": 9,
+      "verse": 22,
+      "first_source_word_index": 3298,
+      "last_source_word_index_exclusive": 3309,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 231,
+      "chapter": 9,
+      "verse": 23,
+      "first_source_word_index": 3309,
+      "last_source_word_index_exclusive": 3325,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 232,
+      "chapter": 9,
+      "verse": 24,
+      "first_source_word_index": 3325,
+      "last_source_word_index_exclusive": 3343,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 233,
+      "chapter": 10,
+      "verse": 1,
+      "first_source_word_index": 3343,
+      "last_source_word_index_exclusive": 3365,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 234,
+      "chapter": 10,
+      "verse": 2,
+      "first_source_word_index": 3365,
+      "last_source_word_index_exclusive": 3374,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 235,
+      "chapter": 10,
+      "verse": 3,
+      "first_source_word_index": 3374,
+      "last_source_word_index_exclusive": 3392,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 236,
+      "chapter": 10,
+      "verse": 4,
+      "first_source_word_index": 3392,
+      "last_source_word_index_exclusive": 3414,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 237,
+      "chapter": 10,
+      "verse": 5,
+      "first_source_word_index": 3414,
+      "last_source_word_index_exclusive": 3423,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 238,
+      "chapter": 10,
+      "verse": 6,
+      "first_source_word_index": 3423,
+      "last_source_word_index_exclusive": 3452,
+      "source_word_count": 29
+    },
+    {
+      "canonical_verse_ordinal": 239,
+      "chapter": 10,
+      "verse": 7,
+      "first_source_word_index": 3452,
+      "last_source_word_index_exclusive": 3467,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 240,
+      "chapter": 10,
+      "verse": 8,
+      "first_source_word_index": 3467,
+      "last_source_word_index_exclusive": 3472,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 241,
+      "chapter": 10,
+      "verse": 9,
+      "first_source_word_index": 3472,
+      "last_source_word_index_exclusive": 3488,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 242,
+      "chapter": 10,
+      "verse": 10,
+      "first_source_word_index": 3488,
+      "last_source_word_index_exclusive": 3497,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 243,
+      "chapter": 10,
+      "verse": 11,
+      "first_source_word_index": 3497,
+      "last_source_word_index_exclusive": 3510,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 244,
+      "chapter": 10,
+      "verse": 12,
+      "first_source_word_index": 3510,
+      "last_source_word_index_exclusive": 3534,
+      "source_word_count": 24
+    },
+    {
+      "canonical_verse_ordinal": 245,
+      "chapter": 10,
+      "verse": 13,
+      "first_source_word_index": 3534,
+      "last_source_word_index_exclusive": 3548,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 246,
+      "chapter": 10,
+      "verse": 14,
+      "first_source_word_index": 3548,
+      "last_source_word_index_exclusive": 3570,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 247,
+      "chapter": 10,
+      "verse": 15,
+      "first_source_word_index": 3570,
+      "last_source_word_index_exclusive": 3591,
+      "source_word_count": 21
+    },
+    {
+      "canonical_verse_ordinal": 248,
+      "chapter": 10,
+      "verse": 16,
+      "first_source_word_index": 3591,
+      "last_source_word_index_exclusive": 3608,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 249,
+      "chapter": 10,
+      "verse": 17,
+      "first_source_word_index": 3608,
+      "last_source_word_index_exclusive": 3630,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 250,
+      "chapter": 10,
+      "verse": 18,
+      "first_source_word_index": 3630,
+      "last_source_word_index_exclusive": 3644,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 251,
+      "chapter": 10,
+      "verse": 19,
+      "first_source_word_index": 3644,
+      "last_source_word_index_exclusive": 3666,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 252,
+      "chapter": 10,
+      "verse": 20,
+      "first_source_word_index": 3666,
+      "last_source_word_index_exclusive": 3670,
+      "source_word_count": 4
+    },
+    {
+      "canonical_verse_ordinal": 253,
+      "chapter": 11,
+      "verse": 1,
+      "first_source_word_index": 3670,
+      "last_source_word_index_exclusive": 3678,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 254,
+      "chapter": 11,
+      "verse": 2,
+      "first_source_word_index": 3678,
+      "last_source_word_index_exclusive": 3692,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 255,
+      "chapter": 11,
+      "verse": 3,
+      "first_source_word_index": 3692,
+      "last_source_word_index_exclusive": 3703,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 256,
+      "chapter": 11,
+      "verse": 4,
+      "first_source_word_index": 3703,
+      "last_source_word_index_exclusive": 3724,
+      "source_word_count": 21
+    },
+    {
+      "canonical_verse_ordinal": 257,
+      "chapter": 11,
+      "verse": 5,
+      "first_source_word_index": 3724,
+      "last_source_word_index_exclusive": 3736,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 258,
+      "chapter": 11,
+      "verse": 6,
+      "first_source_word_index": 3736,
+      "last_source_word_index_exclusive": 3748,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 259,
+      "chapter": 11,
+      "verse": 7,
+      "first_source_word_index": 3748,
+      "last_source_word_index_exclusive": 3764,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 260,
+      "chapter": 11,
+      "verse": 8,
+      "first_source_word_index": 3764,
+      "last_source_word_index_exclusive": 3773,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 261,
+      "chapter": 11,
+      "verse": 9,
+      "first_source_word_index": 3773,
+      "last_source_word_index_exclusive": 3789,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 262,
+      "chapter": 11,
+      "verse": 10,
+      "first_source_word_index": 3789,
+      "last_source_word_index_exclusive": 3808,
+      "source_word_count": 19
+    },
+    {
+      "canonical_verse_ordinal": 263,
+      "chapter": 11,
+      "verse": 11,
+      "first_source_word_index": 3808,
+      "last_source_word_index_exclusive": 3817,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 264,
+      "chapter": 11,
+      "verse": 12,
+      "first_source_word_index": 3817,
+      "last_source_word_index_exclusive": 3827,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 265,
+      "chapter": 11,
+      "verse": 13,
+      "first_source_word_index": 3827,
+      "last_source_word_index_exclusive": 3842,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 266,
+      "chapter": 11,
+      "verse": 14,
+      "first_source_word_index": 3842,
+      "last_source_word_index_exclusive": 3847,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 267,
+      "chapter": 11,
+      "verse": 15,
+      "first_source_word_index": 3847,
+      "last_source_word_index_exclusive": 3851,
+      "source_word_count": 4
+    },
+    {
+      "canonical_verse_ordinal": 268,
+      "chapter": 11,
+      "verse": 16,
+      "first_source_word_index": 3851,
+      "last_source_word_index_exclusive": 3861,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 269,
+      "chapter": 11,
+      "verse": 17,
+      "first_source_word_index": 3861,
+      "last_source_word_index_exclusive": 3867,
+      "source_word_count": 6
+    },
+    {
+      "canonical_verse_ordinal": 270,
+      "chapter": 11,
+      "verse": 18,
+      "first_source_word_index": 3867,
+      "last_source_word_index_exclusive": 3873,
+      "source_word_count": 6
+    },
+    {
+      "canonical_verse_ordinal": 271,
+      "chapter": 11,
+      "verse": 19,
+      "first_source_word_index": 3873,
+      "last_source_word_index_exclusive": 3881,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 272,
+      "chapter": 11,
+      "verse": 20,
+      "first_source_word_index": 3881,
+      "last_source_word_index_exclusive": 3890,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 273,
+      "chapter": 11,
+      "verse": 21,
+      "first_source_word_index": 3890,
+      "last_source_word_index_exclusive": 3908,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 274,
+      "chapter": 11,
+      "verse": 22,
+      "first_source_word_index": 3908,
+      "last_source_word_index_exclusive": 3924,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 275,
+      "chapter": 11,
+      "verse": 23,
+      "first_source_word_index": 3924,
+      "last_source_word_index_exclusive": 3934,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 276,
+      "chapter": 11,
+      "verse": 24,
+      "first_source_word_index": 3934,
+      "last_source_word_index_exclusive": 3942,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 277,
+      "chapter": 11,
+      "verse": 25,
+      "first_source_word_index": 3942,
+      "last_source_word_index_exclusive": 3950,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 278,
+      "chapter": 11,
+      "verse": 26,
+      "first_source_word_index": 3950,
+      "last_source_word_index_exclusive": 3969,
+      "source_word_count": 19
+    },
+    {
+      "canonical_verse_ordinal": 279,
+      "chapter": 11,
+      "verse": 27,
+      "first_source_word_index": 3969,
+      "last_source_word_index_exclusive": 3987,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 280,
+      "chapter": 11,
+      "verse": 28,
+      "first_source_word_index": 3987,
+      "last_source_word_index_exclusive": 3998,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 281,
+      "chapter": 11,
+      "verse": 29,
+      "first_source_word_index": 3998,
+      "last_source_word_index_exclusive": 4009,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 282,
+      "chapter": 11,
+      "verse": 30,
+      "first_source_word_index": 4009,
+      "last_source_word_index_exclusive": 4014,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 283,
+      "chapter": 11,
+      "verse": 31,
+      "first_source_word_index": 4014,
+      "last_source_word_index_exclusive": 4026,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 284,
+      "chapter": 11,
+      "verse": 32,
+      "first_source_word_index": 4026,
+      "last_source_word_index_exclusive": 4054,
+      "source_word_count": 28
+    },
+    {
+      "canonical_verse_ordinal": 285,
+      "chapter": 11,
+      "verse": 33,
+      "first_source_word_index": 4054,
+      "last_source_word_index_exclusive": 4068,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 286,
+      "chapter": 11,
+      "verse": 34,
+      "first_source_word_index": 4068,
+      "last_source_word_index_exclusive": 4084,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 287,
+      "chapter": 11,
+      "verse": 35,
+      "first_source_word_index": 4084,
+      "last_source_word_index_exclusive": 4098,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 288,
+      "chapter": 11,
+      "verse": 36,
+      "first_source_word_index": 4098,
+      "last_source_word_index_exclusive": 4108,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 289,
+      "chapter": 11,
+      "verse": 37,
+      "first_source_word_index": 4108,
+      "last_source_word_index_exclusive": 4119,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 290,
+      "chapter": 11,
+      "verse": 38,
+      "first_source_word_index": 4119,
+      "last_source_word_index_exclusive": 4130,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 291,
+      "chapter": 11,
+      "verse": 39,
+      "first_source_word_index": 4130,
+      "last_source_word_index_exclusive": 4143,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 292,
+      "chapter": 11,
+      "verse": 40,
+      "first_source_word_index": 4143,
+      "last_source_word_index_exclusive": 4158,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 293,
+      "chapter": 11,
+      "verse": 41,
+      "first_source_word_index": 4158,
+      "last_source_word_index_exclusive": 4167,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 294,
+      "chapter": 11,
+      "verse": 42,
+      "first_source_word_index": 4167,
+      "last_source_word_index_exclusive": 4189,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 295,
+      "chapter": 11,
+      "verse": 43,
+      "first_source_word_index": 4189,
+      "last_source_word_index_exclusive": 4201,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 296,
+      "chapter": 11,
+      "verse": 44,
+      "first_source_word_index": 4201,
+      "last_source_word_index_exclusive": 4220,
+      "source_word_count": 19
+    },
+    {
+      "canonical_verse_ordinal": 297,
+      "chapter": 11,
+      "verse": 45,
+      "first_source_word_index": 4220,
+      "last_source_word_index_exclusive": 4235,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 298,
+      "chapter": 11,
+      "verse": 46,
+      "first_source_word_index": 4235,
+      "last_source_word_index_exclusive": 4249,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 299,
+      "chapter": 11,
+      "verse": 47,
+      "first_source_word_index": 4249,
+      "last_source_word_index_exclusive": 4262,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 300,
+      "chapter": 12,
+      "verse": 1,
+      "first_source_word_index": 4262,
+      "last_source_word_index_exclusive": 4267,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 301,
+      "chapter": 12,
+      "verse": 2,
+      "first_source_word_index": 4267,
+      "last_source_word_index_exclusive": 4284,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 302,
+      "chapter": 12,
+      "verse": 3,
+      "first_source_word_index": 4284,
+      "last_source_word_index_exclusive": 4289,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 303,
+      "chapter": 12,
+      "verse": 4,
+      "first_source_word_index": 4289,
+      "last_source_word_index_exclusive": 4308,
+      "source_word_count": 19
+    },
+    {
+      "canonical_verse_ordinal": 304,
+      "chapter": 12,
+      "verse": 5,
+      "first_source_word_index": 4308,
+      "last_source_word_index_exclusive": 4322,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 305,
+      "chapter": 12,
+      "verse": 6,
+      "first_source_word_index": 4322,
+      "last_source_word_index_exclusive": 4344,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 306,
+      "chapter": 12,
+      "verse": 7,
+      "first_source_word_index": 4344,
+      "last_source_word_index_exclusive": 4358,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 307,
+      "chapter": 12,
+      "verse": 8,
+      "first_source_word_index": 4358,
+      "last_source_word_index_exclusive": 4379,
+      "source_word_count": 21
+    },
+    {
+      "canonical_verse_ordinal": 308,
+      "chapter": 13,
+      "verse": 1,
+      "first_source_word_index": 4379,
+      "last_source_word_index_exclusive": 4386,
+      "source_word_count": 7
+    },
+    {
+      "canonical_verse_ordinal": 309,
+      "chapter": 13,
+      "verse": 2,
+      "first_source_word_index": 4386,
+      "last_source_word_index_exclusive": 4410,
+      "source_word_count": 24
+    },
+    {
+      "canonical_verse_ordinal": 310,
+      "chapter": 13,
+      "verse": 3,
+      "first_source_word_index": 4410,
+      "last_source_word_index_exclusive": 4432,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 311,
+      "chapter": 13,
+      "verse": 4,
+      "first_source_word_index": 4432,
+      "last_source_word_index_exclusive": 4453,
+      "source_word_count": 21
+    },
+    {
+      "canonical_verse_ordinal": 312,
+      "chapter": 13,
+      "verse": 5,
+      "first_source_word_index": 4453,
+      "last_source_word_index_exclusive": 4470,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 313,
+      "chapter": 13,
+      "verse": 6,
+      "first_source_word_index": 4470,
+      "last_source_word_index_exclusive": 4490,
+      "source_word_count": 20
+    },
+    {
+      "canonical_verse_ordinal": 314,
+      "chapter": 13,
+      "verse": 7,
+      "first_source_word_index": 4490,
+      "last_source_word_index_exclusive": 4504,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 315,
+      "chapter": 13,
+      "verse": 8,
+      "first_source_word_index": 4504,
+      "last_source_word_index_exclusive": 4514,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 316,
+      "chapter": 13,
+      "verse": 9,
+      "first_source_word_index": 4514,
+      "last_source_word_index_exclusive": 4522,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 317,
+      "chapter": 13,
+      "verse": 10,
+      "first_source_word_index": 4522,
+      "last_source_word_index_exclusive": 4536,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 318,
+      "chapter": 13,
+      "verse": 11,
+      "first_source_word_index": 4536,
+      "last_source_word_index_exclusive": 4548,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 319,
+      "chapter": 13,
+      "verse": 12,
+      "first_source_word_index": 4548,
+      "last_source_word_index_exclusive": 4566,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 320,
+      "chapter": 13,
+      "verse": 13,
+      "first_source_word_index": 4566,
+      "last_source_word_index_exclusive": 4582,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 321,
+      "chapter": 13,
+      "verse": 14,
+      "first_source_word_index": 4582,
+      "last_source_word_index_exclusive": 4588,
+      "source_word_count": 6
+    },
+    {
+      "canonical_verse_ordinal": 322,
+      "chapter": 13,
+      "verse": 15,
+      "first_source_word_index": 4588,
+      "last_source_word_index_exclusive": 4600,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 323,
+      "chapter": 13,
+      "verse": 16,
+      "first_source_word_index": 4600,
+      "last_source_word_index_exclusive": 4610,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 324,
+      "chapter": 13,
+      "verse": 17,
+      "first_source_word_index": 4610,
+      "last_source_word_index_exclusive": 4622,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 325,
+      "chapter": 13,
+      "verse": 18,
+      "first_source_word_index": 4622,
+      "last_source_word_index_exclusive": 4629,
+      "source_word_count": 7
+    },
+    {
+      "canonical_verse_ordinal": 326,
+      "chapter": 13,
+      "verse": 19,
+      "first_source_word_index": 4629,
+      "last_source_word_index_exclusive": 4641,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 327,
+      "chapter": 13,
+      "verse": 20,
+      "first_source_word_index": 4641,
+      "last_source_word_index_exclusive": 4658,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 328,
+      "chapter": 13,
+      "verse": 21,
+      "first_source_word_index": 4658,
+      "last_source_word_index_exclusive": 4676,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 329,
+      "chapter": 13,
+      "verse": 22,
+      "first_source_word_index": 4676,
+      "last_source_word_index_exclusive": 4685,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 330,
+      "chapter": 13,
+      "verse": 23,
+      "first_source_word_index": 4685,
+      "last_source_word_index_exclusive": 4696,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 331,
+      "chapter": 13,
+      "verse": 24,
+      "first_source_word_index": 4696,
+      "last_source_word_index_exclusive": 4711,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 332,
+      "chapter": 13,
+      "verse": 25,
+      "first_source_word_index": 4711,
+      "last_source_word_index_exclusive": 4733,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 333,
+      "chapter": 13,
+      "verse": 26,
+      "first_source_word_index": 4733,
+      "last_source_word_index_exclusive": 4751,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 334,
+      "chapter": 13,
+      "verse": 27,
+      "first_source_word_index": 4751,
+      "last_source_word_index_exclusive": 4765,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 335,
+      "chapter": 13,
+      "verse": 28,
+      "first_source_word_index": 4765,
+      "last_source_word_index_exclusive": 4783,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 336,
+      "chapter": 13,
+      "verse": 29,
+      "first_source_word_index": 4783,
+      "last_source_word_index_exclusive": 4793,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 337,
+      "chapter": 13,
+      "verse": 30,
+      "first_source_word_index": 4793,
+      "last_source_word_index_exclusive": 4816,
+      "source_word_count": 23
+    },
+    {
+      "canonical_verse_ordinal": 338,
+      "chapter": 13,
+      "verse": 31,
+      "first_source_word_index": 4816,
+      "last_source_word_index_exclusive": 4839,
+      "source_word_count": 23
+    },
+    {
+      "canonical_verse_ordinal": 339,
+      "chapter": 13,
+      "verse": 32,
+      "first_source_word_index": 4839,
+      "last_source_word_index_exclusive": 4860,
+      "source_word_count": 21
+    },
+    {
+      "canonical_verse_ordinal": 340,
+      "chapter": 13,
+      "verse": 33,
+      "first_source_word_index": 4860,
+      "last_source_word_index_exclusive": 4872,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 341,
+      "chapter": 13,
+      "verse": 34,
+      "first_source_word_index": 4872,
+      "last_source_word_index_exclusive": 4894,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 342,
+      "chapter": 13,
+      "verse": 35,
+      "first_source_word_index": 4894,
+      "last_source_word_index_exclusive": 4901,
+      "source_word_count": 7
+    },
+    {
+      "canonical_verse_ordinal": 343,
+      "chapter": 13,
+      "verse": 36,
+      "first_source_word_index": 4901,
+      "last_source_word_index_exclusive": 4914,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 344,
+      "chapter": 13,
+      "verse": 37,
+      "first_source_word_index": 4914,
+      "last_source_word_index_exclusive": 4928,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 345,
+      "chapter": 13,
+      "verse": 38,
+      "first_source_word_index": 4928,
+      "last_source_word_index_exclusive": 4938,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 346,
+      "chapter": 13,
+      "verse": 39,
+      "first_source_word_index": 4938,
+      "last_source_word_index_exclusive": 4952,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 347,
+      "chapter": 13,
+      "verse": 40,
+      "first_source_word_index": 4952,
+      "last_source_word_index_exclusive": 4960,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 348,
+      "chapter": 13,
+      "verse": 41,
+      "first_source_word_index": 4960,
+      "last_source_word_index_exclusive": 4969,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 349,
+      "chapter": 13,
+      "verse": 42,
+      "first_source_word_index": 4969,
+      "last_source_word_index_exclusive": 4983,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 350,
+      "chapter": 13,
+      "verse": 43,
+      "first_source_word_index": 4983,
+      "last_source_word_index_exclusive": 4998,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 351,
+      "chapter": 13,
+      "verse": 44,
+      "first_source_word_index": 4998,
+      "last_source_word_index_exclusive": 5008,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 352,
+      "chapter": 13,
+      "verse": 45,
+      "first_source_word_index": 5008,
+      "last_source_word_index_exclusive": 5024,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 353,
+      "chapter": 13,
+      "verse": 46,
+      "first_source_word_index": 5024,
+      "last_source_word_index_exclusive": 5037,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 354,
+      "chapter": 13,
+      "verse": 47,
+      "first_source_word_index": 5037,
+      "last_source_word_index_exclusive": 5048,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 355,
+      "chapter": 13,
+      "verse": 48,
+      "first_source_word_index": 5048,
+      "last_source_word_index_exclusive": 5060,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 356,
+      "chapter": 13,
+      "verse": 49,
+      "first_source_word_index": 5060,
+      "last_source_word_index_exclusive": 5082,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 357,
+      "chapter": 13,
+      "verse": 50,
+      "first_source_word_index": 5082,
+      "last_source_word_index_exclusive": 5091,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 358,
+      "chapter": 13,
+      "verse": 51,
+      "first_source_word_index": 5091,
+      "last_source_word_index_exclusive": 5116,
+      "source_word_count": 25
+    },
+    {
+      "canonical_verse_ordinal": 359,
+      "chapter": 13,
+      "verse": 52,
+      "first_source_word_index": 5116,
+      "last_source_word_index_exclusive": 5143,
+      "source_word_count": 27
+    },
+    {
+      "canonical_verse_ordinal": 360,
+      "chapter": 13,
+      "verse": 53,
+      "first_source_word_index": 5143,
+      "last_source_word_index_exclusive": 5159,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 361,
+      "chapter": 13,
+      "verse": 54,
+      "first_source_word_index": 5159,
+      "last_source_word_index_exclusive": 5170,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 362,
+      "chapter": 13,
+      "verse": 55,
+      "first_source_word_index": 5170,
+      "last_source_word_index_exclusive": 5194,
+      "source_word_count": 24
+    },
+    {
+      "canonical_verse_ordinal": 363,
+      "chapter": 13,
+      "verse": 56,
+      "first_source_word_index": 5194,
+      "last_source_word_index_exclusive": 5216,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 364,
+      "chapter": 13,
+      "verse": 57,
+      "first_source_word_index": 5216,
+      "last_source_word_index_exclusive": 5236,
+      "source_word_count": 20
+    },
+    {
+      "canonical_verse_ordinal": 365,
+      "chapter": 13,
+      "verse": 58,
+      "first_source_word_index": 5236,
+      "last_source_word_index_exclusive": 5253,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 366,
+      "chapter": 13,
+      "verse": 59,
+      "first_source_word_index": 5253,
+      "last_source_word_index_exclusive": 5272,
+      "source_word_count": 19
+    },
+    {
+      "canonical_verse_ordinal": 367,
+      "chapter": 14,
+      "verse": 1,
+      "first_source_word_index": 5272,
+      "last_source_word_index_exclusive": 5277,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 368,
+      "chapter": 14,
+      "verse": 2,
+      "first_source_word_index": 5277,
+      "last_source_word_index_exclusive": 5286,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 369,
+      "chapter": 14,
+      "verse": 3,
+      "first_source_word_index": 5286,
+      "last_source_word_index_exclusive": 5299,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 370,
+      "chapter": 14,
+      "verse": 4,
+      "first_source_word_index": 5299,
+      "last_source_word_index_exclusive": 5312,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 371,
+      "chapter": 14,
+      "verse": 5,
+      "first_source_word_index": 5312,
+      "last_source_word_index_exclusive": 5324,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 372,
+      "chapter": 14,
+      "verse": 6,
+      "first_source_word_index": 5324,
+      "last_source_word_index_exclusive": 5348,
+      "source_word_count": 24
+    },
+    {
+      "canonical_verse_ordinal": 373,
+      "chapter": 14,
+      "verse": 7,
+      "first_source_word_index": 5348,
+      "last_source_word_index_exclusive": 5363,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 374,
+      "chapter": 14,
+      "verse": 8,
+      "first_source_word_index": 5363,
+      "last_source_word_index_exclusive": 5383,
+      "source_word_count": 20
+    },
+    {
+      "canonical_verse_ordinal": 375,
+      "chapter": 14,
+      "verse": 9,
+      "first_source_word_index": 5383,
+      "last_source_word_index_exclusive": 5409,
+      "source_word_count": 26
+    },
+    {
+      "canonical_verse_ordinal": 376,
+      "chapter": 14,
+      "verse": 10,
+      "first_source_word_index": 5409,
+      "last_source_word_index_exclusive": 5429,
+      "source_word_count": 20
+    },
+    {
+      "canonical_verse_ordinal": 377,
+      "chapter": 14,
+      "verse": 11,
+      "first_source_word_index": 5429,
+      "last_source_word_index_exclusive": 5441,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 378,
+      "chapter": 14,
+      "verse": 12,
+      "first_source_word_index": 5441,
+      "last_source_word_index_exclusive": 5457,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 379,
+      "chapter": 14,
+      "verse": 13,
+      "first_source_word_index": 5457,
+      "last_source_word_index_exclusive": 5477,
+      "source_word_count": 20
+    },
+    {
+      "canonical_verse_ordinal": 380,
+      "chapter": 14,
+      "verse": 14,
+      "first_source_word_index": 5477,
+      "last_source_word_index_exclusive": 5496,
+      "source_word_count": 19
+    },
+    {
+      "canonical_verse_ordinal": 381,
+      "chapter": 14,
+      "verse": 15,
+      "first_source_word_index": 5496,
+      "last_source_word_index_exclusive": 5505,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 382,
+      "chapter": 14,
+      "verse": 16,
+      "first_source_word_index": 5505,
+      "last_source_word_index_exclusive": 5524,
+      "source_word_count": 19
+    },
+    {
+      "canonical_verse_ordinal": 383,
+      "chapter": 14,
+      "verse": 17,
+      "first_source_word_index": 5524,
+      "last_source_word_index_exclusive": 5547,
+      "source_word_count": 23
+    },
+    {
+      "canonical_verse_ordinal": 384,
+      "chapter": 14,
+      "verse": 18,
+      "first_source_word_index": 5547,
+      "last_source_word_index_exclusive": 5562,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 385,
+      "chapter": 14,
+      "verse": 19,
+      "first_source_word_index": 5562,
+      "last_source_word_index_exclusive": 5574,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 386,
+      "chapter": 14,
+      "verse": 20,
+      "first_source_word_index": 5574,
+      "last_source_word_index_exclusive": 5585,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 387,
+      "chapter": 14,
+      "verse": 21,
+      "first_source_word_index": 5585,
+      "last_source_word_index_exclusive": 5606,
+      "source_word_count": 21
+    },
+    {
+      "canonical_verse_ordinal": 388,
+      "chapter": 14,
+      "verse": 22,
+      "first_source_word_index": 5606,
+      "last_source_word_index_exclusive": 5620,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 389,
+      "chapter": 14,
+      "verse": 23,
+      "first_source_word_index": 5620,
+      "last_source_word_index_exclusive": 5633,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 390,
+      "chapter": 14,
+      "verse": 24,
+      "first_source_word_index": 5633,
+      "last_source_word_index_exclusive": 5647,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 391,
+      "chapter": 14,
+      "verse": 25,
+      "first_source_word_index": 5647,
+      "last_source_word_index_exclusive": 5669,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 392,
+      "chapter": 14,
+      "verse": 26,
+      "first_source_word_index": 5669,
+      "last_source_word_index_exclusive": 5677,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 393,
+      "chapter": 14,
+      "verse": 27,
+      "first_source_word_index": 5677,
+      "last_source_word_index_exclusive": 5691,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 394,
+      "chapter": 14,
+      "verse": 28,
+      "first_source_word_index": 5691,
+      "last_source_word_index_exclusive": 5715,
+      "source_word_count": 24
+    },
+    {
+      "canonical_verse_ordinal": 395,
+      "chapter": 14,
+      "verse": 29,
+      "first_source_word_index": 5715,
+      "last_source_word_index_exclusive": 5730,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 396,
+      "chapter": 14,
+      "verse": 30,
+      "first_source_word_index": 5730,
+      "last_source_word_index_exclusive": 5742,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 397,
+      "chapter": 14,
+      "verse": 31,
+      "first_source_word_index": 5742,
+      "last_source_word_index_exclusive": 5760,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 398,
+      "chapter": 14,
+      "verse": 32,
+      "first_source_word_index": 5760,
+      "last_source_word_index_exclusive": 5771,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 399,
+      "chapter": 14,
+      "verse": 33,
+      "first_source_word_index": 5771,
+      "last_source_word_index_exclusive": 5778,
+      "source_word_count": 7
+    },
+    {
+      "canonical_verse_ordinal": 400,
+      "chapter": 14,
+      "verse": 34,
+      "first_source_word_index": 5778,
+      "last_source_word_index_exclusive": 5794,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 401,
+      "chapter": 14,
+      "verse": 35,
+      "first_source_word_index": 5794,
+      "last_source_word_index_exclusive": 5805,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 402,
+      "chapter": 14,
+      "verse": 36,
+      "first_source_word_index": 5805,
+      "last_source_word_index_exclusive": 5828,
+      "source_word_count": 23
+    },
+    {
+      "canonical_verse_ordinal": 403,
+      "chapter": 14,
+      "verse": 37,
+      "first_source_word_index": 5828,
+      "last_source_word_index_exclusive": 5843,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 404,
+      "chapter": 14,
+      "verse": 38,
+      "first_source_word_index": 5843,
+      "last_source_word_index_exclusive": 5855,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 405,
+      "chapter": 14,
+      "verse": 39,
+      "first_source_word_index": 5855,
+      "last_source_word_index_exclusive": 5865,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 406,
+      "chapter": 14,
+      "verse": 40,
+      "first_source_word_index": 5865,
+      "last_source_word_index_exclusive": 5881,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 407,
+      "chapter": 14,
+      "verse": 41,
+      "first_source_word_index": 5881,
+      "last_source_word_index_exclusive": 5897,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 408,
+      "chapter": 14,
+      "verse": 42,
+      "first_source_word_index": 5897,
+      "last_source_word_index_exclusive": 5910,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 409,
+      "chapter": 14,
+      "verse": 43,
+      "first_source_word_index": 5910,
+      "last_source_word_index_exclusive": 5925,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 410,
+      "chapter": 14,
+      "verse": 44,
+      "first_source_word_index": 5925,
+      "last_source_word_index_exclusive": 5938,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 411,
+      "chapter": 14,
+      "verse": 45,
+      "first_source_word_index": 5938,
+      "last_source_word_index_exclusive": 5956,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 412,
+      "chapter": 14,
+      "verse": 46,
+      "first_source_word_index": 5956,
+      "last_source_word_index_exclusive": 5966,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 413,
+      "chapter": 14,
+      "verse": 47,
+      "first_source_word_index": 5966,
+      "last_source_word_index_exclusive": 5976,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 414,
+      "chapter": 14,
+      "verse": 48,
+      "first_source_word_index": 5976,
+      "last_source_word_index_exclusive": 5997,
+      "source_word_count": 21
+    },
+    {
+      "canonical_verse_ordinal": 415,
+      "chapter": 14,
+      "verse": 49,
+      "first_source_word_index": 5997,
+      "last_source_word_index_exclusive": 6008,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 416,
+      "chapter": 14,
+      "verse": 50,
+      "first_source_word_index": 6008,
+      "last_source_word_index_exclusive": 6018,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 417,
+      "chapter": 14,
+      "verse": 51,
+      "first_source_word_index": 6018,
+      "last_source_word_index_exclusive": 6042,
+      "source_word_count": 24
+    },
+    {
+      "canonical_verse_ordinal": 418,
+      "chapter": 14,
+      "verse": 52,
+      "first_source_word_index": 6042,
+      "last_source_word_index_exclusive": 6056,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 419,
+      "chapter": 14,
+      "verse": 53,
+      "first_source_word_index": 6056,
+      "last_source_word_index_exclusive": 6070,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 420,
+      "chapter": 14,
+      "verse": 54,
+      "first_source_word_index": 6070,
+      "last_source_word_index_exclusive": 6076,
+      "source_word_count": 6
+    },
+    {
+      "canonical_verse_ordinal": 421,
+      "chapter": 14,
+      "verse": 55,
+      "first_source_word_index": 6076,
+      "last_source_word_index_exclusive": 6079,
+      "source_word_count": 3
+    },
+    {
+      "canonical_verse_ordinal": 422,
+      "chapter": 14,
+      "verse": 56,
+      "first_source_word_index": 6079,
+      "last_source_word_index_exclusive": 6082,
+      "source_word_count": 3
+    },
+    {
+      "canonical_verse_ordinal": 423,
+      "chapter": 14,
+      "verse": 57,
+      "first_source_word_index": 6082,
+      "last_source_word_index_exclusive": 6090,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 424,
+      "chapter": 15,
+      "verse": 1,
+      "first_source_word_index": 6090,
+      "last_source_word_index_exclusive": 6097,
+      "source_word_count": 7
+    },
+    {
+      "canonical_verse_ordinal": 425,
+      "chapter": 15,
+      "verse": 2,
+      "first_source_word_index": 6097,
+      "last_source_word_index_exclusive": 6112,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 426,
+      "chapter": 15,
+      "verse": 3,
+      "first_source_word_index": 6112,
+      "last_source_word_index_exclusive": 6126,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 427,
+      "chapter": 15,
+      "verse": 4,
+      "first_source_word_index": 6126,
+      "last_source_word_index_exclusive": 6139,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 428,
+      "chapter": 15,
+      "verse": 5,
+      "first_source_word_index": 6139,
+      "last_source_word_index_exclusive": 6150,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 429,
+      "chapter": 15,
+      "verse": 6,
+      "first_source_word_index": 6150,
+      "last_source_word_index_exclusive": 6164,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 430,
+      "chapter": 15,
+      "verse": 7,
+      "first_source_word_index": 6164,
+      "last_source_word_index_exclusive": 6174,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 431,
+      "chapter": 15,
+      "verse": 8,
+      "first_source_word_index": 6174,
+      "last_source_word_index_exclusive": 6185,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 432,
+      "chapter": 15,
+      "verse": 9,
+      "first_source_word_index": 6185,
+      "last_source_word_index_exclusive": 6192,
+      "source_word_count": 7
+    },
+    {
+      "canonical_verse_ordinal": 433,
+      "chapter": 15,
+      "verse": 10,
+      "first_source_word_index": 6192,
+      "last_source_word_index_exclusive": 6210,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 434,
+      "chapter": 15,
+      "verse": 11,
+      "first_source_word_index": 6210,
+      "last_source_word_index_exclusive": 6226,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 435,
+      "chapter": 15,
+      "verse": 12,
+      "first_source_word_index": 6226,
+      "last_source_word_index_exclusive": 6238,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 436,
+      "chapter": 15,
+      "verse": 13,
+      "first_source_word_index": 6238,
+      "last_source_word_index_exclusive": 6254,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 437,
+      "chapter": 15,
+      "verse": 14,
+      "first_source_word_index": 6254,
+      "last_source_word_index_exclusive": 6274,
+      "source_word_count": 20
+    },
+    {
+      "canonical_verse_ordinal": 438,
+      "chapter": 15,
+      "verse": 15,
+      "first_source_word_index": 6274,
+      "last_source_word_index_exclusive": 6287,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 439,
+      "chapter": 15,
+      "verse": 16,
+      "first_source_word_index": 6287,
+      "last_source_word_index_exclusive": 6301,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 440,
+      "chapter": 15,
+      "verse": 17,
+      "first_source_word_index": 6301,
+      "last_source_word_index_exclusive": 6315,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 441,
+      "chapter": 15,
+      "verse": 18,
+      "first_source_word_index": 6315,
+      "last_source_word_index_exclusive": 6327,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 442,
+      "chapter": 15,
+      "verse": 19,
+      "first_source_word_index": 6327,
+      "last_source_word_index_exclusive": 6345,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 443,
+      "chapter": 15,
+      "verse": 20,
+      "first_source_word_index": 6345,
+      "last_source_word_index_exclusive": 6356,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 444,
+      "chapter": 15,
+      "verse": 21,
+      "first_source_word_index": 6356,
+      "last_source_word_index_exclusive": 6366,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 445,
+      "chapter": 15,
+      "verse": 22,
+      "first_source_word_index": 6366,
+      "last_source_word_index_exclusive": 6380,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 446,
+      "chapter": 15,
+      "verse": 23,
+      "first_source_word_index": 6380,
+      "last_source_word_index_exclusive": 6396,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 447,
+      "chapter": 15,
+      "verse": 24,
+      "first_source_word_index": 6396,
+      "last_source_word_index_exclusive": 6413,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 448,
+      "chapter": 15,
+      "verse": 25,
+      "first_source_word_index": 6413,
+      "last_source_word_index_exclusive": 6437,
+      "source_word_count": 24
+    },
+    {
+      "canonical_verse_ordinal": 449,
+      "chapter": 15,
+      "verse": 26,
+      "first_source_word_index": 6437,
+      "last_source_word_index_exclusive": 6458,
+      "source_word_count": 21
+    },
+    {
+      "canonical_verse_ordinal": 450,
+      "chapter": 15,
+      "verse": 27,
+      "first_source_word_index": 6458,
+      "last_source_word_index_exclusive": 6469,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 451,
+      "chapter": 15,
+      "verse": 28,
+      "first_source_word_index": 6469,
+      "last_source_word_index_exclusive": 6478,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 452,
+      "chapter": 15,
+      "verse": 29,
+      "first_source_word_index": 6478,
+      "last_source_word_index_exclusive": 6496,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 453,
+      "chapter": 15,
+      "verse": 30,
+      "first_source_word_index": 6496,
+      "last_source_word_index_exclusive": 6511,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 454,
+      "chapter": 15,
+      "verse": 31,
+      "first_source_word_index": 6511,
+      "last_source_word_index_exclusive": 6524,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 455,
+      "chapter": 15,
+      "verse": 32,
+      "first_source_word_index": 6524,
+      "last_source_word_index_exclusive": 6534,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 456,
+      "chapter": 15,
+      "verse": 33,
+      "first_source_word_index": 6534,
+      "last_source_word_index_exclusive": 6546,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 457,
+      "chapter": 16,
+      "verse": 1,
+      "first_source_word_index": 6546,
+      "last_source_word_index_exclusive": 6559,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 458,
+      "chapter": 16,
+      "verse": 2,
+      "first_source_word_index": 6559,
+      "last_source_word_index_exclusive": 6588,
+      "source_word_count": 29
+    },
+    {
+      "canonical_verse_ordinal": 459,
+      "chapter": 16,
+      "verse": 3,
+      "first_source_word_index": 6588,
+      "last_source_word_index_exclusive": 6599,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 460,
+      "chapter": 16,
+      "verse": 4,
+      "first_source_word_index": 6599,
+      "last_source_word_index_exclusive": 6622,
+      "source_word_count": 23
+    },
+    {
+      "canonical_verse_ordinal": 461,
+      "chapter": 16,
+      "verse": 5,
+      "first_source_word_index": 6622,
+      "last_source_word_index_exclusive": 6634,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 462,
+      "chapter": 16,
+      "verse": 6,
+      "first_source_word_index": 6634,
+      "last_source_word_index_exclusive": 6645,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 463,
+      "chapter": 16,
+      "verse": 7,
+      "first_source_word_index": 6645,
+      "last_source_word_index_exclusive": 6656,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 464,
+      "chapter": 16,
+      "verse": 8,
+      "first_source_word_index": 6656,
+      "last_source_word_index_exclusive": 6668,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 465,
+      "chapter": 16,
+      "verse": 9,
+      "first_source_word_index": 6668,
+      "last_source_word_index_exclusive": 6679,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 466,
+      "chapter": 16,
+      "verse": 10,
+      "first_source_word_index": 6679,
+      "last_source_word_index_exclusive": 6695,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 467,
+      "chapter": 16,
+      "verse": 11,
+      "first_source_word_index": 6695,
+      "last_source_word_index_exclusive": 6712,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 468,
+      "chapter": 16,
+      "verse": 12,
+      "first_source_word_index": 6712,
+      "last_source_word_index_exclusive": 6729,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 469,
+      "chapter": 16,
+      "verse": 13,
+      "first_source_word_index": 6729,
+      "last_source_word_index_exclusive": 6746,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 470,
+      "chapter": 16,
+      "verse": 14,
+      "first_source_word_index": 6746,
+      "last_source_word_index_exclusive": 6763,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 471,
+      "chapter": 16,
+      "verse": 15,
+      "first_source_word_index": 6763,
+      "last_source_word_index_exclusive": 6788,
+      "source_word_count": 25
+    },
+    {
+      "canonical_verse_ordinal": 472,
+      "chapter": 16,
+      "verse": 16,
+      "first_source_word_index": 6788,
+      "last_source_word_index_exclusive": 6805,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 473,
+      "chapter": 16,
+      "verse": 17,
+      "first_source_word_index": 6805,
+      "last_source_word_index_exclusive": 6824,
+      "source_word_count": 19
+    },
+    {
+      "canonical_verse_ordinal": 474,
+      "chapter": 16,
+      "verse": 18,
+      "first_source_word_index": 6824,
+      "last_source_word_index_exclusive": 6842,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 475,
+      "chapter": 16,
+      "verse": 19,
+      "first_source_word_index": 6842,
+      "last_source_word_index_exclusive": 6854,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 476,
+      "chapter": 16,
+      "verse": 20,
+      "first_source_word_index": 6854,
+      "last_source_word_index_exclusive": 6867,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 477,
+      "chapter": 16,
+      "verse": 21,
+      "first_source_word_index": 6867,
+      "last_source_word_index_exclusive": 6897,
+      "source_word_count": 30
+    },
+    {
+      "canonical_verse_ordinal": 478,
+      "chapter": 16,
+      "verse": 22,
+      "first_source_word_index": 6897,
+      "last_source_word_index_exclusive": 6910,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 479,
+      "chapter": 16,
+      "verse": 23,
+      "first_source_word_index": 6910,
+      "last_source_word_index_exclusive": 6926,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 480,
+      "chapter": 16,
+      "verse": 24,
+      "first_source_word_index": 6926,
+      "last_source_word_index_exclusive": 6946,
+      "source_word_count": 20
+    },
+    {
+      "canonical_verse_ordinal": 481,
+      "chapter": 16,
+      "verse": 25,
+      "first_source_word_index": 6946,
+      "last_source_word_index_exclusive": 6951,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 482,
+      "chapter": 16,
+      "verse": 26,
+      "first_source_word_index": 6951,
+      "last_source_word_index_exclusive": 6966,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 483,
+      "chapter": 16,
+      "verse": 27,
+      "first_source_word_index": 6966,
+      "last_source_word_index_exclusive": 6990,
+      "source_word_count": 24
+    },
+    {
+      "canonical_verse_ordinal": 484,
+      "chapter": 16,
+      "verse": 28,
+      "first_source_word_index": 6990,
+      "last_source_word_index_exclusive": 7003,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 485,
+      "chapter": 16,
+      "verse": 29,
+      "first_source_word_index": 7003,
+      "last_source_word_index_exclusive": 7022,
+      "source_word_count": 19
+    },
+    {
+      "canonical_verse_ordinal": 486,
+      "chapter": 16,
+      "verse": 30,
+      "first_source_word_index": 7022,
+      "last_source_word_index_exclusive": 7034,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 487,
+      "chapter": 16,
+      "verse": 31,
+      "first_source_word_index": 7034,
+      "last_source_word_index_exclusive": 7043,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 488,
+      "chapter": 16,
+      "verse": 32,
+      "first_source_word_index": 7043,
+      "last_source_word_index_exclusive": 7061,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 489,
+      "chapter": 16,
+      "verse": 33,
+      "first_source_word_index": 7061,
+      "last_source_word_index_exclusive": 7078,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 490,
+      "chapter": 16,
+      "verse": 34,
+      "first_source_word_index": 7078,
+      "last_source_word_index_exclusive": 7097,
+      "source_word_count": 19
+    },
+    {
+      "canonical_verse_ordinal": 491,
+      "chapter": 17,
+      "verse": 1,
+      "first_source_word_index": 7097,
+      "last_source_word_index_exclusive": 7102,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 492,
+      "chapter": 17,
+      "verse": 2,
+      "first_source_word_index": 7102,
+      "last_source_word_index_exclusive": 7119,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 493,
+      "chapter": 17,
+      "verse": 3,
+      "first_source_word_index": 7119,
+      "last_source_word_index_exclusive": 7136,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 494,
+      "chapter": 17,
+      "verse": 4,
+      "first_source_word_index": 7136,
+      "last_source_word_index_exclusive": 7159,
+      "source_word_count": 23
+    },
+    {
+      "canonical_verse_ordinal": 495,
+      "chapter": 17,
+      "verse": 5,
+      "first_source_word_index": 7159,
+      "last_source_word_index_exclusive": 7185,
+      "source_word_count": 26
+    },
+    {
+      "canonical_verse_ordinal": 496,
+      "chapter": 17,
+      "verse": 6,
+      "first_source_word_index": 7185,
+      "last_source_word_index_exclusive": 7200,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 497,
+      "chapter": 17,
+      "verse": 7,
+      "first_source_word_index": 7200,
+      "last_source_word_index_exclusive": 7216,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 498,
+      "chapter": 17,
+      "verse": 8,
+      "first_source_word_index": 7216,
+      "last_source_word_index_exclusive": 7232,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 499,
+      "chapter": 17,
+      "verse": 9,
+      "first_source_word_index": 7232,
+      "last_source_word_index_exclusive": 7245,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 500,
+      "chapter": 17,
+      "verse": 10,
+      "first_source_word_index": 7245,
+      "last_source_word_index_exclusive": 7267,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 501,
+      "chapter": 17,
+      "verse": 11,
+      "first_source_word_index": 7267,
+      "last_source_word_index_exclusive": 7285,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 502,
+      "chapter": 17,
+      "verse": 12,
+      "first_source_word_index": 7285,
+      "last_source_word_index_exclusive": 7302,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 503,
+      "chapter": 17,
+      "verse": 13,
+      "first_source_word_index": 7302,
+      "last_source_word_index_exclusive": 7323,
+      "source_word_count": 21
+    },
+    {
+      "canonical_verse_ordinal": 504,
+      "chapter": 17,
+      "verse": 14,
+      "first_source_word_index": 7323,
+      "last_source_word_index_exclusive": 7347,
+      "source_word_count": 24
+    },
+    {
+      "canonical_verse_ordinal": 505,
+      "chapter": 17,
+      "verse": 15,
+      "first_source_word_index": 7347,
+      "last_source_word_index_exclusive": 7363,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 506,
+      "chapter": 17,
+      "verse": 16,
+      "first_source_word_index": 7363,
+      "last_source_word_index_exclusive": 7371,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 507,
+      "chapter": 18,
+      "verse": 1,
+      "first_source_word_index": 7371,
+      "last_source_word_index_exclusive": 7376,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 508,
+      "chapter": 18,
+      "verse": 2,
+      "first_source_word_index": 7376,
+      "last_source_word_index_exclusive": 7385,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 509,
+      "chapter": 18,
+      "verse": 3,
+      "first_source_word_index": 7385,
+      "last_source_word_index_exclusive": 7406,
+      "source_word_count": 21
+    },
+    {
+      "canonical_verse_ordinal": 510,
+      "chapter": 18,
+      "verse": 4,
+      "first_source_word_index": 7406,
+      "last_source_word_index_exclusive": 7417,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 511,
+      "chapter": 18,
+      "verse": 5,
+      "first_source_word_index": 7417,
+      "last_source_word_index_exclusive": 7430,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 512,
+      "chapter": 18,
+      "verse": 6,
+      "first_source_word_index": 7430,
+      "last_source_word_index_exclusive": 7442,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 513,
+      "chapter": 18,
+      "verse": 7,
+      "first_source_word_index": 7442,
+      "last_source_word_index_exclusive": 7453,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 514,
+      "chapter": 18,
+      "verse": 8,
+      "first_source_word_index": 7453,
+      "last_source_word_index_exclusive": 7461,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 515,
+      "chapter": 18,
+      "verse": 9,
+      "first_source_word_index": 7461,
+      "last_source_word_index_exclusive": 7476,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 516,
+      "chapter": 18,
+      "verse": 10,
+      "first_source_word_index": 7476,
+      "last_source_word_index_exclusive": 7488,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 517,
+      "chapter": 18,
+      "verse": 11,
+      "first_source_word_index": 7488,
+      "last_source_word_index_exclusive": 7499,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 518,
+      "chapter": 18,
+      "verse": 12,
+      "first_source_word_index": 7499,
+      "last_source_word_index_exclusive": 7507,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 519,
+      "chapter": 18,
+      "verse": 13,
+      "first_source_word_index": 7507,
+      "last_source_word_index_exclusive": 7516,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 520,
+      "chapter": 18,
+      "verse": 14,
+      "first_source_word_index": 7516,
+      "last_source_word_index_exclusive": 7527,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 521,
+      "chapter": 18,
+      "verse": 15,
+      "first_source_word_index": 7527,
+      "last_source_word_index_exclusive": 7537,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 522,
+      "chapter": 18,
+      "verse": 16,
+      "first_source_word_index": 7537,
+      "last_source_word_index_exclusive": 7545,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 523,
+      "chapter": 18,
+      "verse": 17,
+      "first_source_word_index": 7545,
+      "last_source_word_index_exclusive": 7564,
+      "source_word_count": 19
+    },
+    {
+      "canonical_verse_ordinal": 524,
+      "chapter": 18,
+      "verse": 18,
+      "first_source_word_index": 7564,
+      "last_source_word_index_exclusive": 7574,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 525,
+      "chapter": 18,
+      "verse": 19,
+      "first_source_word_index": 7574,
+      "last_source_word_index_exclusive": 7582,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 526,
+      "chapter": 18,
+      "verse": 20,
+      "first_source_word_index": 7582,
+      "last_source_word_index_exclusive": 7591,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 527,
+      "chapter": 18,
+      "verse": 21,
+      "first_source_word_index": 7591,
+      "last_source_word_index_exclusive": 7603,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 528,
+      "chapter": 18,
+      "verse": 22,
+      "first_source_word_index": 7603,
+      "last_source_word_index_exclusive": 7611,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 529,
+      "chapter": 18,
+      "verse": 23,
+      "first_source_word_index": 7611,
+      "last_source_word_index_exclusive": 7626,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 530,
+      "chapter": 18,
+      "verse": 24,
+      "first_source_word_index": 7626,
+      "last_source_word_index_exclusive": 7639,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 531,
+      "chapter": 18,
+      "verse": 25,
+      "first_source_word_index": 7639,
+      "last_source_word_index_exclusive": 7648,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 532,
+      "chapter": 18,
+      "verse": 26,
+      "first_source_word_index": 7648,
+      "last_source_word_index_exclusive": 7663,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 533,
+      "chapter": 18,
+      "verse": 27,
+      "first_source_word_index": 7663,
+      "last_source_word_index_exclusive": 7675,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 534,
+      "chapter": 18,
+      "verse": 28,
+      "first_source_word_index": 7675,
+      "last_source_word_index_exclusive": 7687,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 535,
+      "chapter": 18,
+      "verse": 29,
+      "first_source_word_index": 7687,
+      "last_source_word_index_exclusive": 7699,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 536,
+      "chapter": 18,
+      "verse": 30,
+      "first_source_word_index": 7699,
+      "last_source_word_index_exclusive": 7715,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 537,
+      "chapter": 19,
+      "verse": 1,
+      "first_source_word_index": 7715,
+      "last_source_word_index_exclusive": 7720,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 538,
+      "chapter": 19,
+      "verse": 2,
+      "first_source_word_index": 7720,
+      "last_source_word_index_exclusive": 7735,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 539,
+      "chapter": 19,
+      "verse": 3,
+      "first_source_word_index": 7735,
+      "last_source_word_index_exclusive": 7745,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 540,
+      "chapter": 19,
+      "verse": 4,
+      "first_source_word_index": 7745,
+      "last_source_word_index_exclusive": 7757,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 541,
+      "chapter": 19,
+      "verse": 5,
+      "first_source_word_index": 7757,
+      "last_source_word_index_exclusive": 7764,
+      "source_word_count": 7
+    },
+    {
+      "canonical_verse_ordinal": 542,
+      "chapter": 19,
+      "verse": 6,
+      "first_source_word_index": 7764,
+      "last_source_word_index_exclusive": 7774,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 543,
+      "chapter": 19,
+      "verse": 7,
+      "first_source_word_index": 7774,
+      "last_source_word_index_exclusive": 7783,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 544,
+      "chapter": 19,
+      "verse": 8,
+      "first_source_word_index": 7783,
+      "last_source_word_index_exclusive": 7795,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 545,
+      "chapter": 19,
+      "verse": 9,
+      "first_source_word_index": 7795,
+      "last_source_word_index_exclusive": 7808,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 546,
+      "chapter": 19,
+      "verse": 10,
+      "first_source_word_index": 7808,
+      "last_source_word_index_exclusive": 7822,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 547,
+      "chapter": 19,
+      "verse": 11,
+      "first_source_word_index": 7822,
+      "last_source_word_index_exclusive": 7830,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 548,
+      "chapter": 19,
+      "verse": 12,
+      "first_source_word_index": 7830,
+      "last_source_word_index_exclusive": 7840,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 549,
+      "chapter": 19,
+      "verse": 13,
+      "first_source_word_index": 7840,
+      "last_source_word_index_exclusive": 7853,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 550,
+      "chapter": 19,
+      "verse": 14,
+      "first_source_word_index": 7853,
+      "last_source_word_index_exclusive": 7865,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 551,
+      "chapter": 19,
+      "verse": 15,
+      "first_source_word_index": 7865,
+      "last_source_word_index_exclusive": 7880,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 552,
+      "chapter": 19,
+      "verse": 16,
+      "first_source_word_index": 7880,
+      "last_source_word_index_exclusive": 7891,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 553,
+      "chapter": 19,
+      "verse": 17,
+      "first_source_word_index": 7891,
+      "last_source_word_index_exclusive": 7904,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 554,
+      "chapter": 19,
+      "verse": 18,
+      "first_source_word_index": 7904,
+      "last_source_word_index_exclusive": 7916,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 555,
+      "chapter": 19,
+      "verse": 19,
+      "first_source_word_index": 7916,
+      "last_source_word_index_exclusive": 7933,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 556,
+      "chapter": 19,
+      "verse": 20,
+      "first_source_word_index": 7933,
+      "last_source_word_index_exclusive": 7959,
+      "source_word_count": 26
+    },
+    {
+      "canonical_verse_ordinal": 557,
+      "chapter": 19,
+      "verse": 21,
+      "first_source_word_index": 7959,
+      "last_source_word_index_exclusive": 7969,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 558,
+      "chapter": 19,
+      "verse": 22,
+      "first_source_word_index": 7969,
+      "last_source_word_index_exclusive": 7985,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 559,
+      "chapter": 19,
+      "verse": 23,
+      "first_source_word_index": 7985,
+      "last_source_word_index_exclusive": 8004,
+      "source_word_count": 19
+    },
+    {
+      "canonical_verse_ordinal": 560,
+      "chapter": 19,
+      "verse": 24,
+      "first_source_word_index": 8004,
+      "last_source_word_index_exclusive": 8012,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 561,
+      "chapter": 19,
+      "verse": 25,
+      "first_source_word_index": 8012,
+      "last_source_word_index_exclusive": 8023,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 562,
+      "chapter": 19,
+      "verse": 26,
+      "first_source_word_index": 8023,
+      "last_source_word_index_exclusive": 8031,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 563,
+      "chapter": 19,
+      "verse": 27,
+      "first_source_word_index": 8031,
+      "last_source_word_index_exclusive": 8040,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 564,
+      "chapter": 19,
+      "verse": 28,
+      "first_source_word_index": 8040,
+      "last_source_word_index_exclusive": 8052,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 565,
+      "chapter": 19,
+      "verse": 29,
+      "first_source_word_index": 8052,
+      "last_source_word_index_exclusive": 8063,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 566,
+      "chapter": 19,
+      "verse": 30,
+      "first_source_word_index": 8063,
+      "last_source_word_index_exclusive": 8070,
+      "source_word_count": 7
+    },
+    {
+      "canonical_verse_ordinal": 567,
+      "chapter": 19,
+      "verse": 31,
+      "first_source_word_index": 8070,
+      "last_source_word_index_exclusive": 8083,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 568,
+      "chapter": 19,
+      "verse": 32,
+      "first_source_word_index": 8083,
+      "last_source_word_index_exclusive": 8093,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 569,
+      "chapter": 19,
+      "verse": 33,
+      "first_source_word_index": 8093,
+      "last_source_word_index_exclusive": 8101,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 570,
+      "chapter": 19,
+      "verse": 34,
+      "first_source_word_index": 8101,
+      "last_source_word_index_exclusive": 8119,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 571,
+      "chapter": 19,
+      "verse": 35,
+      "first_source_word_index": 8119,
+      "last_source_word_index_exclusive": 8126,
+      "source_word_count": 7
+    },
+    {
+      "canonical_verse_ordinal": 572,
+      "chapter": 19,
+      "verse": 36,
+      "first_source_word_index": 8126,
+      "last_source_word_index_exclusive": 8144,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 573,
+      "chapter": 19,
+      "verse": 37,
+      "first_source_word_index": 8144,
+      "last_source_word_index_exclusive": 8155,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 574,
+      "chapter": 20,
+      "verse": 1,
+      "first_source_word_index": 8155,
+      "last_source_word_index_exclusive": 8160,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 575,
+      "chapter": 20,
+      "verse": 2,
+      "first_source_word_index": 8160,
+      "last_source_word_index_exclusive": 8182,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 576,
+      "chapter": 20,
+      "verse": 3,
+      "first_source_word_index": 8182,
+      "last_source_word_index_exclusive": 8204,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 577,
+      "chapter": 20,
+      "verse": 4,
+      "first_source_word_index": 8204,
+      "last_source_word_index_exclusive": 8220,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 578,
+      "chapter": 20,
+      "verse": 5,
+      "first_source_word_index": 8220,
+      "last_source_word_index_exclusive": 8238,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 579,
+      "chapter": 20,
+      "verse": 6,
+      "first_source_word_index": 8238,
+      "last_source_word_index_exclusive": 8256,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 580,
+      "chapter": 20,
+      "verse": 7,
+      "first_source_word_index": 8256,
+      "last_source_word_index_exclusive": 8263,
+      "source_word_count": 7
+    },
+    {
+      "canonical_verse_ordinal": 581,
+      "chapter": 20,
+      "verse": 8,
+      "first_source_word_index": 8263,
+      "last_source_word_index_exclusive": 8271,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 582,
+      "chapter": 20,
+      "verse": 9,
+      "first_source_word_index": 8271,
+      "last_source_word_index_exclusive": 8287,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 583,
+      "chapter": 20,
+      "verse": 10,
+      "first_source_word_index": 8287,
+      "last_source_word_index_exclusive": 8302,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 584,
+      "chapter": 20,
+      "verse": 11,
+      "first_source_word_index": 8302,
+      "last_source_word_index_exclusive": 8316,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 585,
+      "chapter": 20,
+      "verse": 12,
+      "first_source_word_index": 8316,
+      "last_source_word_index_exclusive": 8328,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 586,
+      "chapter": 20,
+      "verse": 13,
+      "first_source_word_index": 8328,
+      "last_source_word_index_exclusive": 8342,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 587,
+      "chapter": 20,
+      "verse": 14,
+      "first_source_word_index": 8342,
+      "last_source_word_index_exclusive": 8359,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 588,
+      "chapter": 20,
+      "verse": 15,
+      "first_source_word_index": 8359,
+      "last_source_word_index_exclusive": 8369,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 589,
+      "chapter": 20,
+      "verse": 16,
+      "first_source_word_index": 8369,
+      "last_source_word_index_exclusive": 8386,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 590,
+      "chapter": 20,
+      "verse": 17,
+      "first_source_word_index": 8386,
+      "last_source_word_index_exclusive": 8414,
+      "source_word_count": 28
+    },
+    {
+      "canonical_verse_ordinal": 591,
+      "chapter": 20,
+      "verse": 18,
+      "first_source_word_index": 8414,
+      "last_source_word_index_exclusive": 8435,
+      "source_word_count": 21
+    },
+    {
+      "canonical_verse_ordinal": 592,
+      "chapter": 20,
+      "verse": 19,
+      "first_source_word_index": 8435,
+      "last_source_word_index_exclusive": 8448,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 593,
+      "chapter": 20,
+      "verse": 20,
+      "first_source_word_index": 8448,
+      "last_source_word_index_exclusive": 8460,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 594,
+      "chapter": 20,
+      "verse": 21,
+      "first_source_word_index": 8460,
+      "last_source_word_index_exclusive": 8473,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 595,
+      "chapter": 20,
+      "verse": 22,
+      "first_source_word_index": 8473,
+      "last_source_word_index_exclusive": 8493,
+      "source_word_count": 20
+    },
+    {
+      "canonical_verse_ordinal": 596,
+      "chapter": 20,
+      "verse": 23,
+      "first_source_word_index": 8493,
+      "last_source_word_index_exclusive": 8508,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 597,
+      "chapter": 20,
+      "verse": 24,
+      "first_source_word_index": 8508,
+      "last_source_word_index_exclusive": 8531,
+      "source_word_count": 23
+    },
+    {
+      "canonical_verse_ordinal": 598,
+      "chapter": 20,
+      "verse": 25,
+      "first_source_word_index": 8531,
+      "last_source_word_index_exclusive": 8554,
+      "source_word_count": 23
+    },
+    {
+      "canonical_verse_ordinal": 599,
+      "chapter": 20,
+      "verse": 26,
+      "first_source_word_index": 8554,
+      "last_source_word_index_exclusive": 8567,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 600,
+      "chapter": 20,
+      "verse": 27,
+      "first_source_word_index": 8567,
+      "last_source_word_index_exclusive": 8583,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 601,
+      "chapter": 21,
+      "verse": 1,
+      "first_source_word_index": 8583,
+      "last_source_word_index_exclusive": 8598,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 602,
+      "chapter": 21,
+      "verse": 2,
+      "first_source_word_index": 8598,
+      "last_source_word_index_exclusive": 8608,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 603,
+      "chapter": 21,
+      "verse": 3,
+      "first_source_word_index": 8608,
+      "last_source_word_index_exclusive": 8618,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 604,
+      "chapter": 21,
+      "verse": 4,
+      "first_source_word_index": 8618,
+      "last_source_word_index_exclusive": 8623,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 605,
+      "chapter": 21,
+      "verse": 5,
+      "first_source_word_index": 8623,
+      "last_source_word_index_exclusive": 8634,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 606,
+      "chapter": 21,
+      "verse": 6,
+      "first_source_word_index": 8634,
+      "last_source_word_index_exclusive": 8651,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 607,
+      "chapter": 21,
+      "verse": 7,
+      "first_source_word_index": 8651,
+      "last_source_word_index_exclusive": 8665,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 608,
+      "chapter": 21,
+      "verse": 8,
+      "first_source_word_index": 8665,
+      "last_source_word_index_exclusive": 8680,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 609,
+      "chapter": 21,
+      "verse": 9,
+      "first_source_word_index": 8680,
+      "last_source_word_index_exclusive": 8692,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 610,
+      "chapter": 21,
+      "verse": 10,
+      "first_source_word_index": 8692,
+      "last_source_word_index_exclusive": 8714,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 611,
+      "chapter": 21,
+      "verse": 11,
+      "first_source_word_index": 8714,
+      "last_source_word_index_exclusive": 8724,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 612,
+      "chapter": 21,
+      "verse": 12,
+      "first_source_word_index": 8724,
+      "last_source_word_index_exclusive": 8741,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 613,
+      "chapter": 21,
+      "verse": 13,
+      "first_source_word_index": 8741,
+      "last_source_word_index_exclusive": 8745,
+      "source_word_count": 4
+    },
+    {
+      "canonical_verse_ordinal": 614,
+      "chapter": 21,
+      "verse": 14,
+      "first_source_word_index": 8745,
+      "last_source_word_index_exclusive": 8759,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 615,
+      "chapter": 21,
+      "verse": 15,
+      "first_source_word_index": 8759,
+      "last_source_word_index_exclusive": 8767,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 616,
+      "chapter": 21,
+      "verse": 16,
+      "first_source_word_index": 8767,
+      "last_source_word_index_exclusive": 8772,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 617,
+      "chapter": 21,
+      "verse": 17,
+      "first_source_word_index": 8772,
+      "last_source_word_index_exclusive": 8788,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 618,
+      "chapter": 21,
+      "verse": 18,
+      "first_source_word_index": 8788,
+      "last_source_word_index_exclusive": 8804,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 619,
+      "chapter": 21,
+      "verse": 19,
+      "first_source_word_index": 8804,
+      "last_source_word_index_exclusive": 8814,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 620,
+      "chapter": 21,
+      "verse": 20,
+      "first_source_word_index": 8814,
+      "last_source_word_index_exclusive": 8828,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 621,
+      "chapter": 21,
+      "verse": 21,
+      "first_source_word_index": 8828,
+      "last_source_word_index_exclusive": 8850,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 622,
+      "chapter": 21,
+      "verse": 22,
+      "first_source_word_index": 8850,
+      "last_source_word_index_exclusive": 8857,
+      "source_word_count": 7
+    },
+    {
+      "canonical_verse_ordinal": 623,
+      "chapter": 21,
+      "verse": 23,
+      "first_source_word_index": 8857,
+      "last_source_word_index_exclusive": 8877,
+      "source_word_count": 20
+    },
+    {
+      "canonical_verse_ordinal": 624,
+      "chapter": 21,
+      "verse": 24,
+      "first_source_word_index": 8877,
+      "last_source_word_index_exclusive": 8887,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 625,
+      "chapter": 22,
+      "verse": 1,
+      "first_source_word_index": 8887,
+      "last_source_word_index_exclusive": 8892,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 626,
+      "chapter": 22,
+      "verse": 2,
+      "first_source_word_index": 8892,
+      "last_source_word_index_exclusive": 8912,
+      "source_word_count": 20
+    },
+    {
+      "canonical_verse_ordinal": 627,
+      "chapter": 22,
+      "verse": 3,
+      "first_source_word_index": 8912,
+      "last_source_word_index_exclusive": 8936,
+      "source_word_count": 24
+    },
+    {
+      "canonical_verse_ordinal": 628,
+      "chapter": 22,
+      "verse": 4,
+      "first_source_word_index": 8936,
+      "last_source_word_index_exclusive": 8961,
+      "source_word_count": 25
+    },
+    {
+      "canonical_verse_ordinal": 629,
+      "chapter": 22,
+      "verse": 5,
+      "first_source_word_index": 8961,
+      "last_source_word_index_exclusive": 8977,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 630,
+      "chapter": 22,
+      "verse": 6,
+      "first_source_word_index": 8977,
+      "last_source_word_index_exclusive": 8993,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 631,
+      "chapter": 22,
+      "verse": 7,
+      "first_source_word_index": 8993,
+      "last_source_word_index_exclusive": 9003,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 632,
+      "chapter": 22,
+      "verse": 8,
+      "first_source_word_index": 9003,
+      "last_source_word_index_exclusive": 9011,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 633,
+      "chapter": 22,
+      "verse": 9,
+      "first_source_word_index": 9011,
+      "last_source_word_index_exclusive": 9025,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 634,
+      "chapter": 22,
+      "verse": 10,
+      "first_source_word_index": 9025,
+      "last_source_word_index_exclusive": 9036,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 635,
+      "chapter": 22,
+      "verse": 11,
+      "first_source_word_index": 9036,
+      "last_source_word_index_exclusive": 9050,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 636,
+      "chapter": 22,
+      "verse": 12,
+      "first_source_word_index": 9050,
+      "last_source_word_index_exclusive": 9061,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 637,
+      "chapter": 22,
+      "verse": 13,
+      "first_source_word_index": 9061,
+      "last_source_word_index_exclusive": 9083,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 638,
+      "chapter": 22,
+      "verse": 14,
+      "first_source_word_index": 9083,
+      "last_source_word_index_exclusive": 9095,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 639,
+      "chapter": 22,
+      "verse": 15,
+      "first_source_word_index": 9095,
+      "last_source_word_index_exclusive": 9105,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 640,
+      "chapter": 22,
+      "verse": 16,
+      "first_source_word_index": 9105,
+      "last_source_word_index_exclusive": 9116,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 641,
+      "chapter": 22,
+      "verse": 17,
+      "first_source_word_index": 9116,
+      "last_source_word_index_exclusive": 9121,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 642,
+      "chapter": 22,
+      "verse": 18,
+      "first_source_word_index": 9121,
+      "last_source_word_index_exclusive": 9150,
+      "source_word_count": 29
+    },
+    {
+      "canonical_verse_ordinal": 643,
+      "chapter": 22,
+      "verse": 19,
+      "first_source_word_index": 9150,
+      "last_source_word_index_exclusive": 9156,
+      "source_word_count": 6
+    },
+    {
+      "canonical_verse_ordinal": 644,
+      "chapter": 22,
+      "verse": 20,
+      "first_source_word_index": 9156,
+      "last_source_word_index_exclusive": 9167,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 645,
+      "chapter": 22,
+      "verse": 21,
+      "first_source_word_index": 9167,
+      "last_source_word_index_exclusive": 9188,
+      "source_word_count": 21
+    },
+    {
+      "canonical_verse_ordinal": 646,
+      "chapter": 22,
+      "verse": 22,
+      "first_source_word_index": 9188,
+      "last_source_word_index_exclusive": 9210,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 647,
+      "chapter": 22,
+      "verse": 23,
+      "first_source_word_index": 9210,
+      "last_source_word_index_exclusive": 9220,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 648,
+      "chapter": 22,
+      "verse": 24,
+      "first_source_word_index": 9220,
+      "last_source_word_index_exclusive": 9230,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 649,
+      "chapter": 22,
+      "verse": 25,
+      "first_source_word_index": 9230,
+      "last_source_word_index_exclusive": 9248,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 650,
+      "chapter": 22,
+      "verse": 26,
+      "first_source_word_index": 9248,
+      "last_source_word_index_exclusive": 9253,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 651,
+      "chapter": 22,
+      "verse": 27,
+      "first_source_word_index": 9253,
+      "last_source_word_index_exclusive": 9272,
+      "source_word_count": 19
+    },
+    {
+      "canonical_verse_ordinal": 652,
+      "chapter": 22,
+      "verse": 28,
+      "first_source_word_index": 9272,
+      "last_source_word_index_exclusive": 9282,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 653,
+      "chapter": 22,
+      "verse": 29,
+      "first_source_word_index": 9282,
+      "last_source_word_index_exclusive": 9289,
+      "source_word_count": 7
+    },
+    {
+      "canonical_verse_ordinal": 654,
+      "chapter": 22,
+      "verse": 30,
+      "first_source_word_index": 9289,
+      "last_source_word_index_exclusive": 9299,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 655,
+      "chapter": 22,
+      "verse": 31,
+      "first_source_word_index": 9299,
+      "last_source_word_index_exclusive": 9305,
+      "source_word_count": 6
+    },
+    {
+      "canonical_verse_ordinal": 656,
+      "chapter": 22,
+      "verse": 32,
+      "first_source_word_index": 9305,
+      "last_source_word_index_exclusive": 9317,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 657,
+      "chapter": 22,
+      "verse": 33,
+      "first_source_word_index": 9317,
+      "last_source_word_index_exclusive": 9326,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 658,
+      "chapter": 23,
+      "verse": 1,
+      "first_source_word_index": 9326,
+      "last_source_word_index_exclusive": 9331,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 659,
+      "chapter": 23,
+      "verse": 2,
+      "first_source_word_index": 9331,
+      "last_source_word_index_exclusive": 9347,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 660,
+      "chapter": 23,
+      "verse": 3,
+      "first_source_word_index": 9347,
+      "last_source_word_index_exclusive": 9366,
+      "source_word_count": 19
+    },
+    {
+      "canonical_verse_ordinal": 661,
+      "chapter": 23,
+      "verse": 4,
+      "first_source_word_index": 9366,
+      "last_source_word_index_exclusive": 9375,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 662,
+      "chapter": 23,
+      "verse": 5,
+      "first_source_word_index": 9375,
+      "last_source_word_index_exclusive": 9384,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 663,
+      "chapter": 23,
+      "verse": 6,
+      "first_source_word_index": 9384,
+      "last_source_word_index_exclusive": 9396,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 664,
+      "chapter": 23,
+      "verse": 7,
+      "first_source_word_index": 9396,
+      "last_source_word_index_exclusive": 9407,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 665,
+      "chapter": 23,
+      "verse": 8,
+      "first_source_word_index": 9407,
+      "last_source_word_index_exclusive": 9421,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 666,
+      "chapter": 23,
+      "verse": 9,
+      "first_source_word_index": 9421,
+      "last_source_word_index_exclusive": 9426,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 667,
+      "chapter": 23,
+      "verse": 10,
+      "first_source_word_index": 9426,
+      "last_source_word_index_exclusive": 9450,
+      "source_word_count": 24
+    },
+    {
+      "canonical_verse_ordinal": 668,
+      "chapter": 23,
+      "verse": 11,
+      "first_source_word_index": 9450,
+      "last_source_word_index_exclusive": 9460,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 669,
+      "chapter": 23,
+      "verse": 12,
+      "first_source_word_index": 9460,
+      "last_source_word_index_exclusive": 9471,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 670,
+      "chapter": 23,
+      "verse": 13,
+      "first_source_word_index": 9471,
+      "last_source_word_index_exclusive": 9485,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 671,
+      "chapter": 23,
+      "verse": 14,
+      "first_source_word_index": 9485,
+      "last_source_word_index_exclusive": 9504,
+      "source_word_count": 19
+    },
+    {
+      "canonical_verse_ordinal": 672,
+      "chapter": 23,
+      "verse": 15,
+      "first_source_word_index": 9504,
+      "last_source_word_index_exclusive": 9517,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 673,
+      "chapter": 23,
+      "verse": 16,
+      "first_source_word_index": 9517,
+      "last_source_word_index_exclusive": 9528,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 674,
+      "chapter": 23,
+      "verse": 17,
+      "first_source_word_index": 9528,
+      "last_source_word_index_exclusive": 9541,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 675,
+      "chapter": 23,
+      "verse": 18,
+      "first_source_word_index": 9541,
+      "last_source_word_index_exclusive": 9564,
+      "source_word_count": 23
+    },
+    {
+      "canonical_verse_ordinal": 676,
+      "chapter": 23,
+      "verse": 19,
+      "first_source_word_index": 9564,
+      "last_source_word_index_exclusive": 9575,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 677,
+      "chapter": 23,
+      "verse": 20,
+      "first_source_word_index": 9575,
+      "last_source_word_index_exclusive": 9591,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 678,
+      "chapter": 23,
+      "verse": 21,
+      "first_source_word_index": 9591,
+      "last_source_word_index_exclusive": 9609,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 679,
+      "chapter": 23,
+      "verse": 22,
+      "first_source_word_index": 9609,
+      "last_source_word_index_exclusive": 9629,
+      "source_word_count": 20
+    },
+    {
+      "canonical_verse_ordinal": 680,
+      "chapter": 23,
+      "verse": 23,
+      "first_source_word_index": 9629,
+      "last_source_word_index_exclusive": 9634,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 681,
+      "chapter": 23,
+      "verse": 24,
+      "first_source_word_index": 9634,
+      "last_source_word_index_exclusive": 9650,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 682,
+      "chapter": 23,
+      "verse": 25,
+      "first_source_word_index": 9650,
+      "last_source_word_index_exclusive": 9658,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 683,
+      "chapter": 23,
+      "verse": 26,
+      "first_source_word_index": 9658,
+      "last_source_word_index_exclusive": 9663,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 684,
+      "chapter": 23,
+      "verse": 27,
+      "first_source_word_index": 9663,
+      "last_source_word_index_exclusive": 9681,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 685,
+      "chapter": 23,
+      "verse": 28,
+      "first_source_word_index": 9681,
+      "last_source_word_index_exclusive": 9697,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 686,
+      "chapter": 23,
+      "verse": 29,
+      "first_source_word_index": 9697,
+      "last_source_word_index_exclusive": 9708,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 687,
+      "chapter": 23,
+      "verse": 30,
+      "first_source_word_index": 9708,
+      "last_source_word_index_exclusive": 9723,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 688,
+      "chapter": 23,
+      "verse": 31,
+      "first_source_word_index": 9723,
+      "last_source_word_index_exclusive": 9732,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 689,
+      "chapter": 23,
+      "verse": 32,
+      "first_source_word_index": 9732,
+      "last_source_word_index_exclusive": 9747,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 690,
+      "chapter": 23,
+      "verse": 33,
+      "first_source_word_index": 9747,
+      "last_source_word_index_exclusive": 9752,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 691,
+      "chapter": 23,
+      "verse": 34,
+      "first_source_word_index": 9752,
+      "last_source_word_index_exclusive": 9768,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 692,
+      "chapter": 23,
+      "verse": 35,
+      "first_source_word_index": 9768,
+      "last_source_word_index_exclusive": 9777,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 693,
+      "chapter": 23,
+      "verse": 36,
+      "first_source_word_index": 9777,
+      "last_source_word_index_exclusive": 9798,
+      "source_word_count": 21
+    },
+    {
+      "canonical_verse_ordinal": 694,
+      "chapter": 23,
+      "verse": 37,
+      "first_source_word_index": 9798,
+      "last_source_word_index_exclusive": 9816,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 695,
+      "chapter": 23,
+      "verse": 38,
+      "first_source_word_index": 9816,
+      "last_source_word_index_exclusive": 9830,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 696,
+      "chapter": 23,
+      "verse": 39,
+      "first_source_word_index": 9830,
+      "last_source_word_index_exclusive": 9852,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 697,
+      "chapter": 23,
+      "verse": 40,
+      "first_source_word_index": 9852,
+      "last_source_word_index_exclusive": 9872,
+      "source_word_count": 20
+    },
+    {
+      "canonical_verse_ordinal": 698,
+      "chapter": 23,
+      "verse": 41,
+      "first_source_word_index": 9872,
+      "last_source_word_index_exclusive": 9886,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 699,
+      "chapter": 23,
+      "verse": 42,
+      "first_source_word_index": 9886,
+      "last_source_word_index_exclusive": 9895,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 700,
+      "chapter": 23,
+      "verse": 43,
+      "first_source_word_index": 9895,
+      "last_source_word_index_exclusive": 9911,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 701,
+      "chapter": 23,
+      "verse": 44,
+      "first_source_word_index": 9911,
+      "last_source_word_index_exclusive": 9919,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 702,
+      "chapter": 24,
+      "verse": 1,
+      "first_source_word_index": 9919,
+      "last_source_word_index_exclusive": 9924,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 703,
+      "chapter": 24,
+      "verse": 2,
+      "first_source_word_index": 9924,
+      "last_source_word_index_exclusive": 9938,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 704,
+      "chapter": 24,
+      "verse": 3,
+      "first_source_word_index": 9938,
+      "last_source_word_index_exclusive": 9955,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 705,
+      "chapter": 24,
+      "verse": 4,
+      "first_source_word_index": 9955,
+      "last_source_word_index_exclusive": 9964,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 706,
+      "chapter": 24,
+      "verse": 5,
+      "first_source_word_index": 9964,
+      "last_source_word_index_exclusive": 9976,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 707,
+      "chapter": 24,
+      "verse": 6,
+      "first_source_word_index": 9976,
+      "last_source_word_index_exclusive": 9987,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 708,
+      "chapter": 24,
+      "verse": 7,
+      "first_source_word_index": 9987,
+      "last_source_word_index_exclusive": 9997,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 709,
+      "chapter": 24,
+      "verse": 8,
+      "first_source_word_index": 9997,
+      "last_source_word_index_exclusive": 10010,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 710,
+      "chapter": 24,
+      "verse": 9,
+      "first_source_word_index": 10010,
+      "last_source_word_index_exclusive": 10025,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 711,
+      "chapter": 24,
+      "verse": 10,
+      "first_source_word_index": 10025,
+      "last_source_word_index_exclusive": 10042,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 712,
+      "chapter": 24,
+      "verse": 11,
+      "first_source_word_index": 10042,
+      "last_source_word_index_exclusive": 10060,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 713,
+      "chapter": 24,
+      "verse": 12,
+      "first_source_word_index": 10060,
+      "last_source_word_index_exclusive": 10067,
+      "source_word_count": 7
+    },
+    {
+      "canonical_verse_ordinal": 714,
+      "chapter": 24,
+      "verse": 13,
+      "first_source_word_index": 10067,
+      "last_source_word_index_exclusive": 10072,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 715,
+      "chapter": 24,
+      "verse": 14,
+      "first_source_word_index": 10072,
+      "last_source_word_index_exclusive": 10089,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 716,
+      "chapter": 24,
+      "verse": 15,
+      "first_source_word_index": 10089,
+      "last_source_word_index_exclusive": 10101,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 717,
+      "chapter": 24,
+      "verse": 16,
+      "first_source_word_index": 10101,
+      "last_source_word_index_exclusive": 10116,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 718,
+      "chapter": 24,
+      "verse": 17,
+      "first_source_word_index": 10116,
+      "last_source_word_index_exclusive": 10124,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 719,
+      "chapter": 24,
+      "verse": 18,
+      "first_source_word_index": 10124,
+      "last_source_word_index_exclusive": 10131,
+      "source_word_count": 7
+    },
+    {
+      "canonical_verse_ordinal": 720,
+      "chapter": 24,
+      "verse": 19,
+      "first_source_word_index": 10131,
+      "last_source_word_index_exclusive": 10141,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 721,
+      "chapter": 24,
+      "verse": 20,
+      "first_source_word_index": 10141,
+      "last_source_word_index_exclusive": 10157,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 722,
+      "chapter": 24,
+      "verse": 21,
+      "first_source_word_index": 10157,
+      "last_source_word_index_exclusive": 10163,
+      "source_word_count": 6
+    },
+    {
+      "canonical_verse_ordinal": 723,
+      "chapter": 24,
+      "verse": 22,
+      "first_source_word_index": 10163,
+      "last_source_word_index_exclusive": 10174,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 724,
+      "chapter": 24,
+      "verse": 23,
+      "first_source_word_index": 10174,
+      "last_source_word_index_exclusive": 10196,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 725,
+      "chapter": 25,
+      "verse": 1,
+      "first_source_word_index": 10196,
+      "last_source_word_index_exclusive": 10203,
+      "source_word_count": 7
+    },
+    {
+      "canonical_verse_ordinal": 726,
+      "chapter": 25,
+      "verse": 2,
+      "first_source_word_index": 10203,
+      "last_source_word_index_exclusive": 10221,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 727,
+      "chapter": 25,
+      "verse": 3,
+      "first_source_word_index": 10221,
+      "last_source_word_index_exclusive": 10232,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 728,
+      "chapter": 25,
+      "verse": 4,
+      "first_source_word_index": 10232,
+      "last_source_word_index_exclusive": 10246,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 729,
+      "chapter": 25,
+      "verse": 5,
+      "first_source_word_index": 10246,
+      "last_source_word_index_exclusive": 10260,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 730,
+      "chapter": 25,
+      "verse": 6,
+      "first_source_word_index": 10260,
+      "last_source_word_index_exclusive": 10272,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 731,
+      "chapter": 25,
+      "verse": 7,
+      "first_source_word_index": 10272,
+      "last_source_word_index_exclusive": 10280,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 732,
+      "chapter": 25,
+      "verse": 8,
+      "first_source_word_index": 10280,
+      "last_source_word_index_exclusive": 10298,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 733,
+      "chapter": 25,
+      "verse": 9,
+      "first_source_word_index": 10298,
+      "last_source_word_index_exclusive": 10311,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 734,
+      "chapter": 25,
+      "verse": 10,
+      "first_source_word_index": 10311,
+      "last_source_word_index_exclusive": 10333,
+      "source_word_count": 22
+    },
+    {
+      "canonical_verse_ordinal": 735,
+      "chapter": 25,
+      "verse": 11,
+      "first_source_word_index": 10333,
+      "last_source_word_index_exclusive": 10350,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 736,
+      "chapter": 25,
+      "verse": 12,
+      "first_source_word_index": 10350,
+      "last_source_word_index_exclusive": 10361,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 737,
+      "chapter": 25,
+      "verse": 13,
+      "first_source_word_index": 10361,
+      "last_source_word_index_exclusive": 10368,
+      "source_word_count": 7
+    },
+    {
+      "canonical_verse_ordinal": 738,
+      "chapter": 25,
+      "verse": 14,
+      "first_source_word_index": 10368,
+      "last_source_word_index_exclusive": 10381,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 739,
+      "chapter": 25,
+      "verse": 15,
+      "first_source_word_index": 10381,
+      "last_source_word_index_exclusive": 10393,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 740,
+      "chapter": 25,
+      "verse": 16,
+      "first_source_word_index": 10393,
+      "last_source_word_index_exclusive": 10409,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 741,
+      "chapter": 25,
+      "verse": 17,
+      "first_source_word_index": 10409,
+      "last_source_word_index_exclusive": 10420,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 742,
+      "chapter": 25,
+      "verse": 18,
+      "first_source_word_index": 10420,
+      "last_source_word_index_exclusive": 10432,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 743,
+      "chapter": 25,
+      "verse": 19,
+      "first_source_word_index": 10432,
+      "last_source_word_index_exclusive": 10440,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 744,
+      "chapter": 25,
+      "verse": 20,
+      "first_source_word_index": 10440,
+      "last_source_word_index_exclusive": 10453,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 745,
+      "chapter": 25,
+      "verse": 21,
+      "first_source_word_index": 10453,
+      "last_source_word_index_exclusive": 10464,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 746,
+      "chapter": 25,
+      "verse": 22,
+      "first_source_word_index": 10464,
+      "last_source_word_index_exclusive": 10480,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 747,
+      "chapter": 25,
+      "verse": 23,
+      "first_source_word_index": 10480,
+      "last_source_word_index_exclusive": 10492,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 748,
+      "chapter": 25,
+      "verse": 24,
+      "first_source_word_index": 10492,
+      "last_source_word_index_exclusive": 10498,
+      "source_word_count": 6
+    },
+    {
+      "canonical_verse_ordinal": 749,
+      "chapter": 25,
+      "verse": 25,
+      "first_source_word_index": 10498,
+      "last_source_word_index_exclusive": 10511,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 750,
+      "chapter": 25,
+      "verse": 26,
+      "first_source_word_index": 10511,
+      "last_source_word_index_exclusive": 10522,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 751,
+      "chapter": 25,
+      "verse": 27,
+      "first_source_word_index": 10522,
+      "last_source_word_index_exclusive": 10535,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 752,
+      "chapter": 25,
+      "verse": 28,
+      "first_source_word_index": 10535,
+      "last_source_word_index_exclusive": 10554,
+      "source_word_count": 19
+    },
+    {
+      "canonical_verse_ordinal": 753,
+      "chapter": 25,
+      "verse": 29,
+      "first_source_word_index": 10554,
+      "last_source_word_index_exclusive": 10570,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 754,
+      "chapter": 25,
+      "verse": 30,
+      "first_source_word_index": 10570,
+      "last_source_word_index_exclusive": 10591,
+      "source_word_count": 21
+    },
+    {
+      "canonical_verse_ordinal": 755,
+      "chapter": 25,
+      "verse": 31,
+      "first_source_word_index": 10591,
+      "last_source_word_index_exclusive": 10607,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 756,
+      "chapter": 25,
+      "verse": 32,
+      "first_source_word_index": 10607,
+      "last_source_word_index_exclusive": 10616,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 757,
+      "chapter": 25,
+      "verse": 33,
+      "first_source_word_index": 10616,
+      "last_source_word_index_exclusive": 10635,
+      "source_word_count": 19
+    },
+    {
+      "canonical_verse_ordinal": 758,
+      "chapter": 25,
+      "verse": 34,
+      "first_source_word_index": 10635,
+      "last_source_word_index_exclusive": 10645,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 759,
+      "chapter": 25,
+      "verse": 35,
+      "first_source_word_index": 10645,
+      "last_source_word_index_exclusive": 10657,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 760,
+      "chapter": 25,
+      "verse": 36,
+      "first_source_word_index": 10657,
+      "last_source_word_index_exclusive": 10667,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 761,
+      "chapter": 25,
+      "verse": 37,
+      "first_source_word_index": 10667,
+      "last_source_word_index_exclusive": 10677,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 762,
+      "chapter": 25,
+      "verse": 38,
+      "first_source_word_index": 10677,
+      "last_source_word_index_exclusive": 10693,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 763,
+      "chapter": 25,
+      "verse": 39,
+      "first_source_word_index": 10693,
+      "last_source_word_index_exclusive": 10704,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 764,
+      "chapter": 25,
+      "verse": 40,
+      "first_source_word_index": 10704,
+      "last_source_word_index_exclusive": 10713,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 765,
+      "chapter": 25,
+      "verse": 41,
+      "first_source_word_index": 10713,
+      "last_source_word_index_exclusive": 10725,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 766,
+      "chapter": 25,
+      "verse": 42,
+      "first_source_word_index": 10725,
+      "last_source_word_index_exclusive": 10737,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 767,
+      "chapter": 25,
+      "verse": 43,
+      "first_source_word_index": 10737,
+      "last_source_word_index_exclusive": 10743,
+      "source_word_count": 6
+    },
+    {
+      "canonical_verse_ordinal": 768,
+      "chapter": 25,
+      "verse": 44,
+      "first_source_word_index": 10743,
+      "last_source_word_index_exclusive": 10756,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 769,
+      "chapter": 25,
+      "verse": 45,
+      "first_source_word_index": 10756,
+      "last_source_word_index_exclusive": 10772,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 770,
+      "chapter": 25,
+      "verse": 46,
+      "first_source_word_index": 10772,
+      "last_source_word_index_exclusive": 10790,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 771,
+      "chapter": 25,
+      "verse": 47,
+      "first_source_word_index": 10790,
+      "last_source_word_index_exclusive": 10807,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 772,
+      "chapter": 25,
+      "verse": 48,
+      "first_source_word_index": 10807,
+      "last_source_word_index_exclusive": 10815,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 773,
+      "chapter": 25,
+      "verse": 49,
+      "first_source_word_index": 10815,
+      "last_source_word_index_exclusive": 10830,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 774,
+      "chapter": 25,
+      "verse": 50,
+      "first_source_word_index": 10830,
+      "last_source_word_index_exclusive": 10848,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 775,
+      "chapter": 25,
+      "verse": 51,
+      "first_source_word_index": 10848,
+      "last_source_word_index_exclusive": 10857,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 776,
+      "chapter": 25,
+      "verse": 52,
+      "first_source_word_index": 10857,
+      "last_source_word_index_exclusive": 10871,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 777,
+      "chapter": 25,
+      "verse": 53,
+      "first_source_word_index": 10871,
+      "last_source_word_index_exclusive": 10880,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 778,
+      "chapter": 25,
+      "verse": 54,
+      "first_source_word_index": 10880,
+      "last_source_word_index_exclusive": 10890,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 779,
+      "chapter": 25,
+      "verse": 55,
+      "first_source_word_index": 10890,
+      "last_source_word_index_exclusive": 10905,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 780,
+      "chapter": 26,
+      "verse": 1,
+      "first_source_word_index": 10905,
+      "last_source_word_index_exclusive": 10925,
+      "source_word_count": 20
+    },
+    {
+      "canonical_verse_ordinal": 781,
+      "chapter": 26,
+      "verse": 2,
+      "first_source_word_index": 10925,
+      "last_source_word_index_exclusive": 10932,
+      "source_word_count": 7
+    },
+    {
+      "canonical_verse_ordinal": 782,
+      "chapter": 26,
+      "verse": 3,
+      "first_source_word_index": 10932,
+      "last_source_word_index_exclusive": 10940,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 783,
+      "chapter": 26,
+      "verse": 4,
+      "first_source_word_index": 10940,
+      "last_source_word_index_exclusive": 10950,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 784,
+      "chapter": 26,
+      "verse": 5,
+      "first_source_word_index": 10950,
+      "last_source_word_index_exclusive": 10965,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 785,
+      "chapter": 26,
+      "verse": 6,
+      "first_source_word_index": 10965,
+      "last_source_word_index_exclusive": 10980,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 786,
+      "chapter": 26,
+      "verse": 7,
+      "first_source_word_index": 10980,
+      "last_source_word_index_exclusive": 10986,
+      "source_word_count": 6
+    },
+    {
+      "canonical_verse_ordinal": 787,
+      "chapter": 26,
+      "verse": 8,
+      "first_source_word_index": 10986,
+      "last_source_word_index_exclusive": 10998,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 788,
+      "chapter": 26,
+      "verse": 9,
+      "first_source_word_index": 10998,
+      "last_source_word_index_exclusive": 11008,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 789,
+      "chapter": 26,
+      "verse": 10,
+      "first_source_word_index": 11008,
+      "last_source_word_index_exclusive": 11015,
+      "source_word_count": 7
+    },
+    {
+      "canonical_verse_ordinal": 790,
+      "chapter": 26,
+      "verse": 11,
+      "first_source_word_index": 11015,
+      "last_source_word_index_exclusive": 11022,
+      "source_word_count": 7
+    },
+    {
+      "canonical_verse_ordinal": 791,
+      "chapter": 26,
+      "verse": 12,
+      "first_source_word_index": 11022,
+      "last_source_word_index_exclusive": 11031,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 792,
+      "chapter": 26,
+      "verse": 13,
+      "first_source_word_index": 11031,
+      "last_source_word_index_exclusive": 11048,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 793,
+      "chapter": 26,
+      "verse": 14,
+      "first_source_word_index": 11048,
+      "last_source_word_index_exclusive": 11058,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 794,
+      "chapter": 26,
+      "verse": 15,
+      "first_source_word_index": 11058,
+      "last_source_word_index_exclusive": 11074,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 795,
+      "chapter": 26,
+      "verse": 16,
+      "first_source_word_index": 11074,
+      "last_source_word_index_exclusive": 11095,
+      "source_word_count": 21
+    },
+    {
+      "canonical_verse_ordinal": 796,
+      "chapter": 26,
+      "verse": 17,
+      "first_source_word_index": 11095,
+      "last_source_word_index_exclusive": 11108,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 797,
+      "chapter": 26,
+      "verse": 18,
+      "first_source_word_index": 11108,
+      "last_source_word_index_exclusive": 11120,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 798,
+      "chapter": 26,
+      "verse": 19,
+      "first_source_word_index": 11120,
+      "last_source_word_index_exclusive": 11131,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 799,
+      "chapter": 26,
+      "verse": 20,
+      "first_source_word_index": 11131,
+      "last_source_word_index_exclusive": 11144,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 800,
+      "chapter": 26,
+      "verse": 21,
+      "first_source_word_index": 11144,
+      "last_source_word_index_exclusive": 11157,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 801,
+      "chapter": 26,
+      "verse": 22,
+      "first_source_word_index": 11157,
+      "last_source_word_index_exclusive": 11171,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 802,
+      "chapter": 26,
+      "verse": 23,
+      "first_source_word_index": 11171,
+      "last_source_word_index_exclusive": 11179,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 803,
+      "chapter": 26,
+      "verse": 24,
+      "first_source_word_index": 11179,
+      "last_source_word_index_exclusive": 11191,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 804,
+      "chapter": 26,
+      "verse": 25,
+      "first_source_word_index": 11191,
+      "last_source_word_index_exclusive": 11206,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 805,
+      "chapter": 26,
+      "verse": 26,
+      "first_source_word_index": 11206,
+      "last_source_word_index_exclusive": 11222,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 806,
+      "chapter": 26,
+      "verse": 27,
+      "first_source_word_index": 11222,
+      "last_source_word_index_exclusive": 11230,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 807,
+      "chapter": 26,
+      "verse": 28,
+      "first_source_word_index": 11230,
+      "last_source_word_index_exclusive": 11241,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 808,
+      "chapter": 26,
+      "verse": 29,
+      "first_source_word_index": 11241,
+      "last_source_word_index_exclusive": 11247,
+      "source_word_count": 6
+    },
+    {
+      "canonical_verse_ordinal": 809,
+      "chapter": 26,
+      "verse": 30,
+      "first_source_word_index": 11247,
+      "last_source_word_index_exclusive": 11262,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 810,
+      "chapter": 26,
+      "verse": 31,
+      "first_source_word_index": 11262,
+      "last_source_word_index_exclusive": 11273,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 811,
+      "chapter": 26,
+      "verse": 32,
+      "first_source_word_index": 11273,
+      "last_source_word_index_exclusive": 11282,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 812,
+      "chapter": 26,
+      "verse": 33,
+      "first_source_word_index": 11282,
+      "last_source_word_index_exclusive": 11294,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 813,
+      "chapter": 26,
+      "verse": 34,
+      "first_source_word_index": 11294,
+      "last_source_word_index_exclusive": 11311,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 814,
+      "chapter": 26,
+      "verse": 35,
+      "first_source_word_index": 11311,
+      "last_source_word_index_exclusive": 11322,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 815,
+      "chapter": 26,
+      "verse": 36,
+      "first_source_word_index": 11322,
+      "last_source_word_index_exclusive": 11340,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 816,
+      "chapter": 26,
+      "verse": 37,
+      "first_source_word_index": 11340,
+      "last_source_word_index_exclusive": 11353,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 817,
+      "chapter": 26,
+      "verse": 38,
+      "first_source_word_index": 11353,
+      "last_source_word_index_exclusive": 11359,
+      "source_word_count": 6
+    },
+    {
+      "canonical_verse_ordinal": 818,
+      "chapter": 26,
+      "verse": 39,
+      "first_source_word_index": 11359,
+      "last_source_word_index_exclusive": 11370,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 819,
+      "chapter": 26,
+      "verse": 40,
+      "first_source_word_index": 11370,
+      "last_source_word_index_exclusive": 11385,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 820,
+      "chapter": 26,
+      "verse": 41,
+      "first_source_word_index": 11385,
+      "last_source_word_index_exclusive": 11403,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 821,
+      "chapter": 26,
+      "verse": 42,
+      "first_source_word_index": 11403,
+      "last_source_word_index_exclusive": 11418,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 822,
+      "chapter": 26,
+      "verse": 43,
+      "first_source_word_index": 11418,
+      "last_source_word_index_exclusive": 11438,
+      "source_word_count": 20
+    },
+    {
+      "canonical_verse_ordinal": 823,
+      "chapter": 26,
+      "verse": 44,
+      "first_source_word_index": 11438,
+      "last_source_word_index_exclusive": 11456,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 824,
+      "chapter": 26,
+      "verse": 45,
+      "first_source_word_index": 11456,
+      "last_source_word_index_exclusive": 11472,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 825,
+      "chapter": 26,
+      "verse": 46,
+      "first_source_word_index": 11472,
+      "last_source_word_index_exclusive": 11487,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 826,
+      "chapter": 27,
+      "verse": 1,
+      "first_source_word_index": 11487,
+      "last_source_word_index_exclusive": 11492,
+      "source_word_count": 5
+    },
+    {
+      "canonical_verse_ordinal": 827,
+      "chapter": 27,
+      "verse": 2,
+      "first_source_word_index": 11492,
+      "last_source_word_index_exclusive": 11505,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 828,
+      "chapter": 27,
+      "verse": 3,
+      "first_source_word_index": 11505,
+      "last_source_word_index_exclusive": 11522,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 829,
+      "chapter": 27,
+      "verse": 4,
+      "first_source_word_index": 11522,
+      "last_source_word_index_exclusive": 11529,
+      "source_word_count": 7
+    },
+    {
+      "canonical_verse_ordinal": 830,
+      "chapter": 27,
+      "verse": 5,
+      "first_source_word_index": 11529,
+      "last_source_word_index_exclusive": 11545,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 831,
+      "chapter": 27,
+      "verse": 6,
+      "first_source_word_index": 11545,
+      "last_source_word_index_exclusive": 11563,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 832,
+      "chapter": 27,
+      "verse": 7,
+      "first_source_word_index": 11563,
+      "last_source_word_index_exclusive": 11578,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 833,
+      "chapter": 27,
+      "verse": 8,
+      "first_source_word_index": 11578,
+      "last_source_word_index_exclusive": 11596,
+      "source_word_count": 18
+    },
+    {
+      "canonical_verse_ordinal": 834,
+      "chapter": 27,
+      "verse": 9,
+      "first_source_word_index": 11596,
+      "last_source_word_index_exclusive": 11610,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 835,
+      "chapter": 27,
+      "verse": 10,
+      "first_source_word_index": 11610,
+      "last_source_word_index_exclusive": 11630,
+      "source_word_count": 20
+    },
+    {
+      "canonical_verse_ordinal": 836,
+      "chapter": 27,
+      "verse": 11,
+      "first_source_word_index": 11630,
+      "last_source_word_index_exclusive": 11645,
+      "source_word_count": 15
+    },
+    {
+      "canonical_verse_ordinal": 837,
+      "chapter": 27,
+      "verse": 12,
+      "first_source_word_index": 11645,
+      "last_source_word_index_exclusive": 11656,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 838,
+      "chapter": 27,
+      "verse": 13,
+      "first_source_word_index": 11656,
+      "last_source_word_index_exclusive": 11663,
+      "source_word_count": 7
+    },
+    {
+      "canonical_verse_ordinal": 839,
+      "chapter": 27,
+      "verse": 14,
+      "first_source_word_index": 11663,
+      "last_source_word_index_exclusive": 11682,
+      "source_word_count": 19
+    },
+    {
+      "canonical_verse_ordinal": 840,
+      "chapter": 27,
+      "verse": 15,
+      "first_source_word_index": 11682,
+      "last_source_word_index_exclusive": 11694,
+      "source_word_count": 12
+    },
+    {
+      "canonical_verse_ordinal": 841,
+      "chapter": 27,
+      "verse": 16,
+      "first_source_word_index": 11694,
+      "last_source_word_index_exclusive": 11710,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 842,
+      "chapter": 27,
+      "verse": 17,
+      "first_source_word_index": 11710,
+      "last_source_word_index_exclusive": 11717,
+      "source_word_count": 7
+    },
+    {
+      "canonical_verse_ordinal": 843,
+      "chapter": 27,
+      "verse": 18,
+      "first_source_word_index": 11717,
+      "last_source_word_index_exclusive": 11736,
+      "source_word_count": 19
+    },
+    {
+      "canonical_verse_ordinal": 844,
+      "chapter": 27,
+      "verse": 19,
+      "first_source_word_index": 11736,
+      "last_source_word_index_exclusive": 11750,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 845,
+      "chapter": 27,
+      "verse": 20,
+      "first_source_word_index": 11750,
+      "last_source_word_index_exclusive": 11764,
+      "source_word_count": 14
+    },
+    {
+      "canonical_verse_ordinal": 846,
+      "chapter": 27,
+      "verse": 21,
+      "first_source_word_index": 11764,
+      "last_source_word_index_exclusive": 11775,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 847,
+      "chapter": 27,
+      "verse": 22,
+      "first_source_word_index": 11775,
+      "last_source_word_index_exclusive": 11785,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 848,
+      "chapter": 27,
+      "verse": 23,
+      "first_source_word_index": 11785,
+      "last_source_word_index_exclusive": 11801,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 849,
+      "chapter": 27,
+      "verse": 24,
+      "first_source_word_index": 11801,
+      "last_source_word_index_exclusive": 11812,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 850,
+      "chapter": 27,
+      "verse": 25,
+      "first_source_word_index": 11812,
+      "last_source_word_index_exclusive": 11821,
+      "source_word_count": 9
+    },
+    {
+      "canonical_verse_ordinal": 851,
+      "chapter": 27,
+      "verse": 26,
+      "first_source_word_index": 11821,
+      "last_source_word_index_exclusive": 11837,
+      "source_word_count": 16
+    },
+    {
+      "canonical_verse_ordinal": 852,
+      "chapter": 27,
+      "verse": 27,
+      "first_source_word_index": 11837,
+      "last_source_word_index_exclusive": 11850,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 853,
+      "chapter": 27,
+      "verse": 28,
+      "first_source_word_index": 11850,
+      "last_source_word_index_exclusive": 11874,
+      "source_word_count": 24
+    },
+    {
+      "canonical_verse_ordinal": 854,
+      "chapter": 27,
+      "verse": 29,
+      "first_source_word_index": 11874,
+      "last_source_word_index_exclusive": 11884,
+      "source_word_count": 10
+    },
+    {
+      "canonical_verse_ordinal": 855,
+      "chapter": 27,
+      "verse": 30,
+      "first_source_word_index": 11884,
+      "last_source_word_index_exclusive": 11895,
+      "source_word_count": 11
+    },
+    {
+      "canonical_verse_ordinal": 856,
+      "chapter": 27,
+      "verse": 31,
+      "first_source_word_index": 11895,
+      "last_source_word_index_exclusive": 11903,
+      "source_word_count": 8
+    },
+    {
+      "canonical_verse_ordinal": 857,
+      "chapter": 27,
+      "verse": 32,
+      "first_source_word_index": 11903,
+      "last_source_word_index_exclusive": 11916,
+      "source_word_count": 13
+    },
+    {
+      "canonical_verse_ordinal": 858,
+      "chapter": 27,
+      "verse": 33,
+      "first_source_word_index": 11916,
+      "last_source_word_index_exclusive": 11933,
+      "source_word_count": 17
+    },
+    {
+      "canonical_verse_ordinal": 859,
+      "chapter": 27,
+      "verse": 34,
+      "first_source_word_index": 11933,
+      "last_source_word_index_exclusive": 11945,
+      "source_word_count": 12
+    }
+  ]
+}

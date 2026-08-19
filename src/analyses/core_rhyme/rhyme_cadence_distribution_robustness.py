@@ -33,9 +33,10 @@ from shared.rhyme import (  # type: ignore
 )
 
 ANALYSIS_NAME = "rhyme_cadence_distribution_robustness"
-ANALYSIS_VERSION = "1.0.0"
+ANALYSIS_VERSION = "1.0.1"
 REQUIRED_BURST_VERSION = "5.0.2"
 SHARED_RHYME_PROTOCOL_VERSION = "4"
+CANONICAL_VERSE_MAP_SCHEMA_VERSION = "1.0"
 BOOKS = burst.BOOKS
 BOOK_INDEX = burst.BOOK_INDEX
 LEVELS = ("minor", "major", "verse")
@@ -98,6 +99,100 @@ def finite_median(values: Iterable[float]) -> float:
 
 def derive_seed(base_seed: int, book: str) -> int:
     return base_seed + BOOK_INDEX[book] * 1_000_003 + 401
+
+
+def load_canonical_verse_map(
+    source: Path,
+    tokens: Sequence[burst.Token],
+    source_word_count: int,
+) -> tuple[list[dict[str, int]], dict[int, int], dict[str, object]]:
+    """Load and validate canonical chapter/verse spans adjacent to ``source``.
+
+    The taam hierarchy retains its existing ``sof_pasuq``-defined verse units.
+    This independent map is used only for canonical chapter/verse coverage and
+    labels, because a few Masoretic double-accentuation passages do not have a
+    one-to-one relation between API segments and ``sof_pasuq`` units.
+    """
+    path = source.with_name(source.name + ".verse_map.json")
+    if not path.is_file():
+        raise FileNotFoundError(
+            f"Missing canonical verse map: {path}. "
+            "Coverage cannot be labelled as canonical chapter/verse coverage "
+            "without this verified sidecar."
+        )
+    payload = json.loads(path.read_text(encoding="utf-8-sig"))
+    if payload.get("schema_version") != CANONICAL_VERSE_MAP_SCHEMA_VERSION:
+        raise ValueError(
+            f"Unsupported canonical verse-map schema in {path}: "
+            f"{payload.get('schema_version')!r}"
+        )
+    expected_source_hash = payload.get("processed_file_sha256")
+    actual_source_hash = sha256_file(source)
+    if expected_source_hash != actual_source_hash:
+        raise ValueError(
+            f"Canonical verse map does not match {source}: "
+            f"expected {expected_source_hash}, got {actual_source_hash}"
+        )
+    if int(payload.get("source_word_count", -1)) != source_word_count:
+        raise ValueError(
+            f"Canonical verse-map source-word count mismatch for {source}: "
+            f"map={payload.get('source_word_count')}, parsed={source_word_count}"
+        )
+
+    raw_spans = payload.get("spans")
+    if not isinstance(raw_spans, list) or not raw_spans:
+        raise ValueError(f"Canonical verse map contains no spans: {path}")
+    spans: list[dict[str, int]] = []
+    word_to_ordinal: dict[int, int] = {}
+    expected_first = 0
+    for raw in raw_spans:
+        if not isinstance(raw, dict):
+            raise ValueError(f"Invalid span in {path}: {raw!r}")
+        span = {
+            key: int(raw[key])
+            for key in (
+                "canonical_verse_ordinal", "chapter", "verse",
+                "first_source_word_index", "last_source_word_index_exclusive",
+                "source_word_count",
+            )
+        }
+        first = span["first_source_word_index"]
+        last = span["last_source_word_index_exclusive"]
+        if first != expected_first or last <= first or last - first != span["source_word_count"]:
+            raise ValueError(f"Non-contiguous or invalid canonical span in {path}: {span}")
+        ordinal = span["canonical_verse_ordinal"]
+        if ordinal != len(spans) + 1 or span["chapter"] < 1 or span["verse"] < 1:
+            raise ValueError(f"Invalid canonical identifiers in {path}: {span}")
+        for source_word_index in range(first, last):
+            word_to_ordinal[source_word_index] = ordinal
+        expected_first = last
+        spans.append(span)
+    if expected_first != source_word_count:
+        raise ValueError(
+            f"Canonical spans end at source word {expected_first}, expected {source_word_count}"
+        )
+    unmapped = [token.source_word_index for token in tokens if token.source_word_index not in word_to_ordinal]
+    if unmapped:
+        raise ValueError(f"Analyzable tokens missing from canonical verse map: {unmapped[:5]}")
+
+    audit = {
+        "map_file": str(path),
+        "map_sha256": sha256_file(path),
+        "schema_version": payload.get("schema_version"),
+        "canonical_reference_system": payload.get("canonical_reference_system"),
+        "canonical_verse_count": len(spans),
+        "source_word_count": source_word_count,
+        "processed_file_sha256_verified": True,
+        "reconstruction_verified_token_for_token": payload.get(
+            "reconstruction_verified_token_for_token"
+        ),
+        "api_payload_canonical_json_sha256": payload.get(
+            "api_payload_canonical_json_sha256"
+        ),
+        "hebrew_version_title": payload.get("hebrew_version_title"),
+        "hebrew_version_source": payload.get("hebrew_version_source"),
+    }
+    return spans, word_to_ordinal, audit
 
 
 def make_blocks(size: int, block_size: int, minimum_fraction: float) -> list[dict[str, object]]:
@@ -227,6 +322,11 @@ def analyze_book(book: str, config: RunConfig) -> dict[str, object]:
     input_audit = burst.validate_input(source)
     rhyme_config = ProtocolConfig.from_profile(config.equivalence_profile)
     tokens, parse_audit = burst.parse_book(source, rhyme_config)
+    canonical_spans, word_to_canonical_ordinal, canonical_map_audit = (
+        load_canonical_verse_map(
+            source, tokens, int(parse_audit["source_word_tokens"])
+        )
+    )
     if len(tokens) <= config.window:
         raise ValueError(f"{book}: only {len(tokens)} analyzable tokens; window={config.window}")
 
@@ -328,19 +428,38 @@ def analyze_book(book: str, config: RunConfig) -> dict[str, object]:
     token_indices_by_verse: dict[int, list[int]] = {}
     local_indices_by_verse: dict[int, list[int]] = {}
     for token_index, token in enumerate(tokens):
-        token_indices_by_verse.setdefault(token.verse_id, []).append(token_index)
+        canonical_ordinal = word_to_canonical_ordinal[token.source_word_index]
+        token_indices_by_verse.setdefault(canonical_ordinal, []).append(token_index)
     for local_index, token_index in enumerate(positions):
-        local_indices_by_verse.setdefault(tokens[token_index].verse_id, []).append(local_index)
-    for verse_id in sorted(local_indices_by_verse):
-        local = local_indices_by_verse[verse_id]
-        complete = min(token_indices_by_verse[verse_id]) >= config.window
+        canonical_ordinal = word_to_canonical_ordinal[tokens[token_index].source_word_index]
+        local_indices_by_verse.setdefault(canonical_ordinal, []).append(local_index)
+    span_by_ordinal = {
+        span["canonical_verse_ordinal"]: span for span in canonical_spans
+    }
+    for canonical_ordinal in sorted(token_indices_by_verse):
+        span = span_by_ordinal[canonical_ordinal]
+        local = local_indices_by_verse.get(canonical_ordinal, [])
+        complete = min(token_indices_by_verse[canonical_ordinal]) >= config.window
         verse_run_ends = [
             row for row in observed_records
-            if tokens[int(row["absolute_end"])].verse_id == verse_id
+            if word_to_canonical_ordinal[
+                tokens[int(row["absolute_end"])].source_word_index
+            ] == canonical_ordinal
         ]
+        sof_pasuq_unit_ids = sorted({
+            tokens[token_index].verse_id
+            for token_index in token_indices_by_verse[canonical_ordinal]
+        })
         verse_rows.append({
             "book": book,
-            "verse_id": verse_id,
+            "canonical_verse_ordinal": canonical_ordinal,
+            "chapter": span["chapter"],
+            "verse": span["verse"],
+            "canonical_reference": f"{book.title()} {span['chapter']}:{span['verse']}",
+            "first_source_word_index": span["first_source_word_index"],
+            "last_source_word_index_exclusive": span["last_source_word_index_exclusive"],
+            "sof_pasuq_unit_ids": "|".join(str(value) for value in sof_pasuq_unit_ids),
+            "sof_pasuq_unit_count": len(sof_pasuq_unit_ids),
             "fully_represented_after_left_window": int(complete),
             "eligible_positions": len(local),
             "analyzed_arrivals": sum(values[index] for index in local),
@@ -364,6 +483,7 @@ def analyze_book(book: str, config: RunConfig) -> dict[str, object]:
     complete_verses = [row for row in verse_rows if row["fully_represented_after_left_window"]]
     coverage = {
         "book": book,
+        "coverage_unit": "canonical_chapter_verse",
         "tokens": len(tokens),
         "eligible_stream_positions": len(values),
         "analyzed_total_arrivals": sum(values),
@@ -376,13 +496,19 @@ def analyze_book(book: str, config: RunConfig) -> dict[str, object]:
             bool(row["included_in_fixed_block_inference"]) and int(row["active_positions"]) > 0
             for row in block_rows
         ),
-        "complete_represented_verses": len(complete_verses),
-        "complete_verses_with_activity": sum(int(row["has_rhyme_activity"]) for row in complete_verses),
-        "complete_verse_activity_coverage": safe_rate(
+        "canonical_verses_total": len(canonical_spans),
+        "canonical_verses_with_analyzable_tokens": len(token_indices_by_verse),
+        "complete_represented_canonical_verses": len(complete_verses),
+        "complete_canonical_verses_with_activity": sum(
+            int(row["has_rhyme_activity"]) for row in complete_verses
+        ),
+        "complete_canonical_verse_activity_coverage": safe_rate(
             sum(int(row["has_rhyme_activity"]) for row in complete_verses), len(complete_verses)
         ),
-        "complete_verses_with_burst_end": sum(int(row["has_burst_end"]) for row in complete_verses),
-        "complete_verse_burst_end_coverage": safe_rate(
+        "complete_canonical_verses_with_burst_end": sum(
+            int(row["has_burst_end"]) for row in complete_verses
+        ),
+        "complete_canonical_verse_burst_end_coverage": safe_rate(
             sum(int(row["has_burst_end"]) for row in complete_verses), len(complete_verses)
         ),
     }
@@ -464,6 +590,7 @@ def analyze_book(book: str, config: RunConfig) -> dict[str, object]:
         },
         "seed": seed,
         "parse_audit": parse_audit,
+        "canonical_verse_map_audit": canonical_map_audit,
         "all_pair_audit": all_pair_audit,
         "nonexact_pair_audit": nonexact_pair_audit,
         "edge_audit": edge_audit,
@@ -489,6 +616,7 @@ def analyze_book(book: str, config: RunConfig) -> dict[str, object]:
     return {
         "book": book,
         "input": input_audit,
+        "canonical_verse_map_audit": canonical_map_audit,
         "seed": seed,
         "coverage": coverage,
         "lexical": lexical,
@@ -787,7 +915,10 @@ def main(argv: Sequence[str] | None = None) -> int:
         base_seed=args.seed,
     )
 
-    print("=== RHYME-CADENCE DISTRIBUTION AND ROBUSTNESS v1 ===")
+    print(
+        f"=== RHYME-CADENCE DISTRIBUTION AND ROBUSTNESS "
+        f"v{ANALYSIS_VERSION} ==="
+    )
     print(f"run_label={args.run_label}")
     print(f"source={args.source_dir}")
     print(f"out={args.out_dir}")
@@ -815,7 +946,8 @@ def main(argv: Sequence[str] | None = None) -> int:
         print(
             f"\n{result['book']:<12} positions={coverage['eligible_stream_positions']:6d} "
             f"active={coverage['active_rate']:.4f} "
-            f"verse_coverage={coverage['complete_verse_activity_coverage']:.4f} "
+            f"canonical_verse_coverage="
+            f"{coverage['complete_canonical_verse_activity_coverage']:.4f} "
             f"exact_arrival_share={lexical['exact_word_arrival_share']:.4f}"
         )
         for level in LEVELS:
@@ -885,6 +1017,9 @@ def main(argv: Sequence[str] | None = None) -> int:
             "shared_rhyme_protocol_version": SHARED_RHYME_PROTOCOL_VERSION,
         },
         "inputs": [result["input"] for result in results],
+        "canonical_verse_maps": [
+            result["canonical_verse_map_audit"] for result in results
+        ],
         "book_seeds": {result["book"]: result["seed"] for result in results},
         "output_sha256": {
             str(path.relative_to(args.out_dir)): sha256_file(path)

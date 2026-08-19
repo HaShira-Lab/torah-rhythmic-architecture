@@ -1,6 +1,6 @@
-book,tokens,eligible_stream_positions,analyzed_total_arrivals,active_positions,active_rate,boundary_test_burst_ends,fixed_blocks_total,fixed_blocks_included,included_blocks_with_activity,complete_represented_verses,complete_verses_with_activity,complete_verse_activity_coverage,complete_verses_with_burst_end,complete_verse_burst_end_coverage
-genesis,18128,18108,11414,7056,0.38966202783300197,4093,19,18,18,1527,1505,0.9855926653569089,1488,0.9744597249508841
-exodus,14626,14606,10043,6016,0.41188552649596055,3341,15,15,15,1201,1183,0.9850124895920067,1169,0.9733555370524563
-leviticus,10336,10316,7328,4350,0.42167506785575803,2373,11,10,10,855,839,0.9812865497076023,835,0.9766081871345029
-numbers,14463,14443,10289,6194,0.42885827044242886,3363,15,14,14,1282,1263,0.985179407176287,1248,0.9734789391575663
-deuteronomy,12690,12670,9150,5215,0.4116022099447514,2881,13,13,13,953,937,0.9832109129066107,928,0.9737670514165793
+book,coverage_unit,tokens,eligible_stream_positions,analyzed_total_arrivals,active_positions,active_rate,boundary_test_burst_ends,fixed_blocks_total,fixed_blocks_included,included_blocks_with_activity,canonical_verses_total,canonical_verses_with_analyzable_tokens,complete_represented_canonical_verses,complete_canonical_verses_with_activity,complete_canonical_verse_activity_coverage,complete_canonical_verses_with_burst_end,complete_canonical_verse_burst_end_coverage
+genesis,canonical_chapter_verse,18128,18108,11414,7056,0.38966202783300197,4093,19,18,18,1533,1533,1530,1508,0.9856209150326798,1491,0.9745098039215686
+exodus,canonical_chapter_verse,14626,14606,10043,6016,0.41188552649596055,3341,15,15,15,1210,1210,1206,1186,0.9834162520729685,1173,0.972636815920398
+leviticus,canonical_chapter_verse,10336,10316,7328,4350,0.42167506785575803,2373,11,10,10,859,859,857,841,0.9813302217036173,837,0.9766627771295215
+numbers,canonical_chapter_verse,14463,14443,10289,6194,0.42885827044242886,3363,15,14,14,1288,1288,1286,1267,0.9852255054432348,1252,0.973561430793157
+deuteronomy,canonical_chapter_verse,12690,12670,9150,5215,0.4116022099447514,2881,13,13,13,956,956,955,938,0.9821989528795811,929,0.9727748691099476

@@ -1,6 +1,6 @@
 {
   "analysis": "rhyme_cadence_distribution_robustness",
-  "analysis_version": "1.0.0",
+  "analysis_version": "1.0.1",
   "book": "exodus",
   "input": {
     "source_file": "data\\data_processed\\torah\\exodus_taamim_annotated.txt",
@@ -40,6 +40,19 @@
     "major_blocks_in_analyzable_stream": 2350,
     "minor_blocks_in_analyzable_stream": 4509
   },
+  "canonical_verse_map_audit": {
+    "map_file": "data\\data_processed\\torah\\exodus_taamim_annotated.txt.verse_map.json",
+    "map_sha256": "e605c4016e25dd7134a7b0104c132e26b80ad26779e9d993419e07d27961f969",
+    "schema_version": "1.0",
+    "canonical_reference_system": "Sefaria chapter/verse array indices",
+    "canonical_verse_count": 1210,
+    "source_word_count": 16701,
+    "processed_file_sha256_verified": true,
+    "reconstruction_verified_token_for_token": true,
+    "api_payload_canonical_json_sha256": "111261c9e3c013aabf77a78949f52e262b585a6f02044c781e7e464ff98971b8",
+    "hebrew_version_title": "Tanach with Ta'amei Hamikra",
+    "hebrew_version_source": "http://www.tanach.us/Tanach.xml"
+  },
   "all_pair_audit": {
     "eligible_pairs": 292120,
     "exact_word_rhyme_pairs_included": 2887,
@@ -68,6 +81,7 @@
   },
   "coverage": {
     "book": "exodus",
+    "coverage_unit": "canonical_chapter_verse",
     "tokens": 14626,
     "eligible_stream_positions": 14606,
     "analyzed_total_arrivals": 9841,
@@ -77,11 +91,13 @@
     "fixed_blocks_total": 15,
     "fixed_blocks_included": 15,
     "included_blocks_with_activity": 15,
-    "complete_represented_verses": 1201,
-    "complete_verses_with_activity": 1182,
-    "complete_verse_activity_coverage": 0.984179850124896,
-    "complete_verses_with_burst_end": 1171,
-    "complete_verse_burst_end_coverage": 0.9750208159866778
+    "canonical_verses_total": 1210,
+    "canonical_verses_with_analyzable_tokens": 1210,
+    "complete_represented_canonical_verses": 1206,
+    "complete_canonical_verses_with_activity": 1186,
+    "complete_canonical_verse_activity_coverage": 0.9834162520729685,
+    "complete_canonical_verses_with_burst_end": 1175,
+    "complete_canonical_verse_burst_end_coverage": 0.9742951907131011
   },
   "lexical_decomposition": {
     "book": "exodus",

@@ -1,6 +1,6 @@
 {
   "analysis": "rhyme_cadence_distribution_robustness",
-  "analysis_version": "1.0.0",
+  "analysis_version": "1.0.1",
   "book": "numbers",
   "input": {
     "source_file": "data\\data_processed\\torah\\numbers_taamim_annotated.txt",
@@ -42,6 +42,19 @@
     "major_blocks_in_analyzable_stream": 2435,
     "minor_blocks_in_analyzable_stream": 4495
   },
+  "canonical_verse_map_audit": {
+    "map_file": "data\\data_processed\\torah\\numbers_taamim_annotated.txt.verse_map.json",
+    "map_sha256": "60a44673b233138e9b0520a1ba826822882beb6685debd93873e211db32b0037",
+    "schema_version": "1.0",
+    "canonical_reference_system": "Sefaria chapter/verse array indices",
+    "canonical_verse_count": 1288,
+    "source_word_count": 16404,
+    "processed_file_sha256_verified": true,
+    "reconstruction_verified_token_for_token": true,
+    "api_payload_canonical_json_sha256": "cde4319b6879227d23bb1f9ee56922793bcfe9160bddecb8e85aec512dfeee2f",
+    "hebrew_version_title": "Tanach with Ta'amei Hamikra",
+    "hebrew_version_source": "http://www.tanach.us/Tanach.xml"
+  },
   "all_pair_audit": {
     "eligible_pairs": 288860,
     "full_pairs": 9620,
@@ -70,6 +83,7 @@
   },
   "coverage": {
     "book": "numbers",
+    "coverage_unit": "canonical_chapter_verse",
     "tokens": 14463,
     "eligible_stream_positions": 14443,
     "analyzed_total_arrivals": 11121,
@@ -79,11 +93,13 @@
     "fixed_blocks_total": 15,
     "fixed_blocks_included": 14,
     "included_blocks_with_activity": 14,
-    "complete_represented_verses": 1282,
-    "complete_verses_with_activity": 1265,
-    "complete_verse_activity_coverage": 0.9867394695787831,
-    "complete_verses_with_burst_end": 1250,
-    "complete_verse_burst_end_coverage": 0.9750390015600624
+    "canonical_verses_total": 1288,
+    "canonical_verses_with_analyzable_tokens": 1288,
+    "complete_represented_canonical_verses": 1286,
+    "complete_canonical_verses_with_activity": 1269,
+    "complete_canonical_verse_activity_coverage": 0.9867807153965785,
+    "complete_canonical_verses_with_burst_end": 1254,
+    "complete_canonical_verse_burst_end_coverage": 0.9751166407465007
   },
   "lexical_decomposition": {
     "book": "numbers",

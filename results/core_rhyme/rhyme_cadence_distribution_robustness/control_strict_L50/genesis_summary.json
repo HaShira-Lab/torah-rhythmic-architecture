@@ -1,6 +1,6 @@
 {
   "analysis": "rhyme_cadence_distribution_robustness",
-  "analysis_version": "1.0.0",
+  "analysis_version": "1.0.1",
   "book": "genesis",
   "input": {
     "source_file": "data\\data_processed\\torah\\genesis_taamim_annotated.txt",
@@ -42,6 +42,19 @@
     "major_blocks_in_analyzable_stream": 2996,
     "minor_blocks_in_analyzable_stream": 5747
   },
+  "canonical_verse_map_audit": {
+    "map_file": "data\\data_processed\\torah\\genesis_taamim_annotated.txt.verse_map.json",
+    "map_sha256": "8846bddaa1a325cb9285326c32356f695fe2a3515edd7eb5b88c8289993c543f",
+    "schema_version": "1.0",
+    "canonical_reference_system": "Sefaria chapter/verse array indices",
+    "canonical_verse_count": 1533,
+    "source_word_count": 20596,
+    "processed_file_sha256_verified": true,
+    "reconstruction_verified_token_for_token": true,
+    "api_payload_canonical_json_sha256": "4a1a0debc0e6cf4ef544e7a68505ffab8993934d85c09c24c6a244515d97edb7",
+    "hebrew_version_title": "Tanach with Ta'amei Hamikra",
+    "hebrew_version_source": "http://www.tanach.us/Tanach.xml"
+  },
   "all_pair_audit": {
     "eligible_pairs": 903900,
     "bridge_pairs": 2794,
@@ -70,6 +83,7 @@
   },
   "coverage": {
     "book": "genesis",
+    "coverage_unit": "canonical_chapter_verse",
     "tokens": 18128,
     "eligible_stream_positions": 18078,
     "analyzed_total_arrivals": 24053,
@@ -79,11 +93,13 @@
     "fixed_blocks_total": 19,
     "fixed_blocks_included": 18,
     "included_blocks_with_activity": 18,
-    "complete_represented_verses": 1524,
-    "complete_verses_with_activity": 1523,
-    "complete_verse_activity_coverage": 0.9993438320209974,
-    "complete_verses_with_burst_end": 1490,
-    "complete_verse_burst_end_coverage": 0.9776902887139107
+    "canonical_verses_total": 1533,
+    "canonical_verses_with_analyzable_tokens": 1533,
+    "complete_represented_canonical_verses": 1527,
+    "complete_canonical_verses_with_activity": 1526,
+    "complete_canonical_verse_activity_coverage": 0.9993451211525868,
+    "complete_canonical_verses_with_burst_end": 1493,
+    "complete_canonical_verse_burst_end_coverage": 0.9777341191879503
   },
   "lexical_decomposition": {
     "book": "genesis",

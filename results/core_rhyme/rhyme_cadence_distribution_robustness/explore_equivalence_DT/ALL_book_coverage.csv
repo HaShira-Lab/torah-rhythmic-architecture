@@ -1,6 +1,6 @@
-book,tokens,eligible_stream_positions,analyzed_total_arrivals,active_positions,active_rate,boundary_test_burst_ends,fixed_blocks_total,fixed_blocks_included,included_blocks_with_activity,complete_represented_verses,complete_verses_with_activity,complete_verse_activity_coverage,complete_verses_with_burst_end,complete_verse_burst_end_coverage
-genesis,18128,18108,11438,7105,0.39236801413739786,4107,19,18,18,1527,1502,0.9836280288146693,1485,0.9724950884086444
-exodus,14626,14606,10377,6103,0.4178419827468164,3342,15,15,15,1201,1182,0.984179850124896,1170,0.974188176519567
-leviticus,10336,10316,7620,4466,0.4329197363319116,2389,11,10,10,855,840,0.9824561403508771,835,0.9766081871345029
-numbers,14463,14443,10938,6362,0.4404902028664405,3381,15,14,14,1282,1265,0.9867394695787831,1250,0.9750390015600624
-deuteronomy,12690,12670,8957,5187,0.4093922651933702,2876,13,13,13,953,938,0.9842602308499475,930,0.9758656873032528
+book,coverage_unit,tokens,eligible_stream_positions,analyzed_total_arrivals,active_positions,active_rate,boundary_test_burst_ends,fixed_blocks_total,fixed_blocks_included,included_blocks_with_activity,canonical_verses_total,canonical_verses_with_analyzable_tokens,complete_represented_canonical_verses,complete_canonical_verses_with_activity,complete_canonical_verse_activity_coverage,complete_canonical_verses_with_burst_end,complete_canonical_verse_burst_end_coverage
+genesis,canonical_chapter_verse,18128,18108,11438,7105,0.39236801413739786,4107,19,18,18,1533,1533,1530,1505,0.9836601307189542,1488,0.9725490196078431
+exodus,canonical_chapter_verse,14626,14606,10377,6103,0.4178419827468164,3342,15,15,15,1210,1210,1206,1186,0.9834162520729685,1174,0.9734660033167496
+leviticus,canonical_chapter_verse,10336,10316,7620,4466,0.4329197363319116,2389,11,10,10,859,859,857,842,0.9824970828471412,837,0.9766627771295215
+numbers,canonical_chapter_verse,14463,14443,10938,6362,0.4404902028664405,3381,15,14,14,1288,1288,1286,1269,0.9867807153965785,1254,0.9751166407465007
+deuteronomy,canonical_chapter_verse,12690,12670,8957,5187,0.4093922651933702,2876,13,13,13,956,956,955,940,0.9842931937172775,931,0.974869109947644

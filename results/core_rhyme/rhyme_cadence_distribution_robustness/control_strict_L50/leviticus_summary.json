@@ -1,6 +1,6 @@
 {
   "analysis": "rhyme_cadence_distribution_robustness",
-  "analysis_version": "1.0.0",
+  "analysis_version": "1.0.1",
   "book": "leviticus",
   "input": {
     "source_file": "data\\data_processed\\torah\\leviticus_taamim_annotated.txt",
@@ -42,6 +42,19 @@
     "major_blocks_in_analyzable_stream": 1670,
     "minor_blocks_in_analyzable_stream": 3078
   },
+  "canonical_verse_map_audit": {
+    "map_file": "data\\data_processed\\torah\\leviticus_taamim_annotated.txt.verse_map.json",
+    "map_sha256": "49bfea9d10b81cd9262ce75f3f93644b711ce2c4dad6c935bc3a720b96bb485c",
+    "schema_version": "1.0",
+    "canonical_reference_system": "Sefaria chapter/verse array indices",
+    "canonical_verse_count": 859,
+    "source_word_count": 11945,
+    "processed_file_sha256_verified": true,
+    "reconstruction_verified_token_for_token": true,
+    "api_payload_canonical_json_sha256": "c46b270dbe6d7da3fa9e93ea55448bd6607541dd498826578602d583f06f5d75",
+    "hebrew_version_title": "Tanach with Ta'amei Hamikra",
+    "hebrew_version_source": "http://www.tanach.us/Tanach.xml"
+  },
   "all_pair_audit": {
     "eligible_pairs": 514300,
     "full_pairs": 15075,
@@ -70,6 +83,7 @@
   },
   "coverage": {
     "book": "leviticus",
+    "coverage_unit": "canonical_chapter_verse",
     "tokens": 10336,
     "eligible_stream_positions": 10286,
     "analyzed_total_arrivals": 16842,
@@ -79,11 +93,13 @@
     "fixed_blocks_total": 11,
     "fixed_blocks_included": 10,
     "included_blocks_with_activity": 10,
-    "complete_represented_verses": 852,
-    "complete_verses_with_activity": 848,
-    "complete_verse_activity_coverage": 0.9953051643192489,
-    "complete_verses_with_burst_end": 814,
-    "complete_verse_burst_end_coverage": 0.9553990610328639
+    "canonical_verses_total": 859,
+    "canonical_verses_with_analyzable_tokens": 859,
+    "complete_represented_canonical_verses": 854,
+    "complete_canonical_verses_with_activity": 850,
+    "complete_canonical_verse_activity_coverage": 0.9953161592505855,
+    "complete_canonical_verses_with_burst_end": 816,
+    "complete_canonical_verse_burst_end_coverage": 0.955503512880562
   },
   "lexical_decomposition": {
     "book": "leviticus",

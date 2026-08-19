@@ -1,6 +1,6 @@
-book,tokens,eligible_stream_positions,analyzed_total_arrivals,active_positions,active_rate,boundary_test_burst_ends,fixed_blocks_total,fixed_blocks_included,included_blocks_with_activity,complete_represented_verses,complete_verses_with_activity,complete_verse_activity_coverage,complete_verses_with_burst_end,complete_verse_burst_end_coverage
-genesis,18128,18108,6372,4088,0.22575657168102495,3091,19,18,18,1527,1387,0.908316961362148,1379,0.9030779305828421
-exodus,14626,14606,5858,3567,0.24421470628508832,2584,15,15,15,1201,1085,0.9034138218151541,1079,0.8984179850124896
-leviticus,10336,10316,4193,2511,0.24340829778984102,1856,11,10,10,855,789,0.9228070175438596,787,0.92046783625731
-numbers,14463,14443,5877,3704,0.25645641487225646,2732,15,14,14,1282,1180,0.9204368174726989,1171,0.9134165366614665
-deuteronomy,12690,12670,5946,3322,0.26219415943172847,2311,13,13,13,953,882,0.925498426023085,875,0.9181532004197271
+book,coverage_unit,tokens,eligible_stream_positions,analyzed_total_arrivals,active_positions,active_rate,boundary_test_burst_ends,fixed_blocks_total,fixed_blocks_included,included_blocks_with_activity,canonical_verses_total,canonical_verses_with_analyzable_tokens,complete_represented_canonical_verses,complete_canonical_verses_with_activity,complete_canonical_verse_activity_coverage,complete_canonical_verses_with_burst_end,complete_canonical_verse_burst_end_coverage
+genesis,canonical_chapter_verse,18128,18108,6372,4088,0.22575657168102495,3091,19,18,18,1533,1533,1530,1389,0.907843137254902,1381,0.9026143790849673
+exodus,canonical_chapter_verse,14626,14606,5858,3567,0.24421470628508832,2584,15,15,15,1210,1210,1206,1090,0.9038142620232172,1084,0.8988391376451078
+leviticus,canonical_chapter_verse,10336,10316,4193,2511,0.24340829778984102,1856,11,10,10,859,859,857,791,0.9229871645274212,789,0.9206534422403734
+numbers,canonical_chapter_verse,14463,14443,5877,3704,0.25645641487225646,2732,15,14,14,1288,1288,1286,1184,0.9206842923794712,1175,0.9136858475894246
+deuteronomy,canonical_chapter_verse,12690,12670,5946,3322,0.26219415943172847,2311,13,13,13,956,956,955,883,0.9246073298429319,876,0.9172774869109948

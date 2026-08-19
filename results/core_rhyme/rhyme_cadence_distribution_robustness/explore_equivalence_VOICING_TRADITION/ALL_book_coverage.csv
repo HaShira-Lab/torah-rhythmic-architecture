@@ -1,6 +1,6 @@
-book,tokens,eligible_stream_positions,analyzed_total_arrivals,active_positions,active_rate,boundary_test_burst_ends,fixed_blocks_total,fixed_blocks_included,included_blocks_with_activity,complete_represented_verses,complete_verses_with_activity,complete_verse_activity_coverage,complete_verses_with_burst_end,complete_verse_burst_end_coverage
-genesis,18128,18108,11945,7338,0.40523525513585157,4179,19,18,18,1527,1507,0.9869024230517355,1489,0.9751146037982973
-exodus,14626,14606,10655,6260,0.4285909900041079,3378,15,15,15,1201,1185,0.9866777685262281,1170,0.974188176519567
-leviticus,10336,10316,7730,4540,0.4400930593253199,2395,11,10,10,855,840,0.9824561403508771,835,0.9766081871345029
-numbers,14463,14443,11121,6463,0.4474832098594475,3396,15,14,14,1282,1265,0.9867394695787831,1250,0.9750390015600624
-deuteronomy,12690,12670,9388,5349,0.42217837411207576,2923,13,13,13,953,941,0.9874081846799581,932,0.9779643231899265
+book,coverage_unit,tokens,eligible_stream_positions,analyzed_total_arrivals,active_positions,active_rate,boundary_test_burst_ends,fixed_blocks_total,fixed_blocks_included,included_blocks_with_activity,canonical_verses_total,canonical_verses_with_analyzable_tokens,complete_represented_canonical_verses,complete_canonical_verses_with_activity,complete_canonical_verse_activity_coverage,complete_canonical_verses_with_burst_end,complete_canonical_verse_burst_end_coverage
+genesis,canonical_chapter_verse,18128,18108,11945,7338,0.40523525513585157,4179,19,18,18,1533,1533,1530,1510,0.9869281045751634,1492,0.9751633986928104
+exodus,canonical_chapter_verse,14626,14606,10655,6260,0.4285909900041079,3378,15,15,15,1210,1210,1206,1188,0.9850746268656716,1174,0.9734660033167496
+leviticus,canonical_chapter_verse,10336,10316,7730,4540,0.4400930593253199,2395,11,10,10,859,859,857,842,0.9824970828471412,837,0.9766627771295215
+numbers,canonical_chapter_verse,14463,14443,11121,6463,0.4474832098594475,3396,15,14,14,1288,1288,1286,1269,0.9867807153965785,1254,0.9751166407465007
+deuteronomy,canonical_chapter_verse,12690,12670,9388,5349,0.42217837411207576,2923,13,13,13,956,956,955,942,0.9863874345549738,933,0.9769633507853404

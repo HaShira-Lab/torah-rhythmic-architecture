@@ -1,6 +1,6 @@
-book,tokens,eligible_stream_positions,analyzed_total_arrivals,active_positions,active_rate,boundary_test_burst_ends,fixed_blocks_total,fixed_blocks_included,included_blocks_with_activity,complete_represented_verses,complete_verses_with_activity,complete_verse_activity_coverage,complete_verses_with_burst_end,complete_verse_burst_end_coverage
-genesis,18128,18108,1097,903,0.049867461895294896,834,19,18,18,1527,623,0.4079895219384414,619,0.40537000654878846
-exodus,14626,14606,1081,872,0.05970149253731343,807,15,15,15,1201,538,0.4479600333055787,535,0.4454621149042465
-leviticus,10336,10316,624,518,0.050213260953858085,487,11,10,10,855,338,0.3953216374269006,338,0.3953216374269006
-numbers,14463,14443,1206,986,0.06826836529806826,906,15,14,14,1282,627,0.4890795631825273,626,0.48829953198127923
-deuteronomy,12690,12670,706,591,0.04664561957379637,549,13,13,13,953,382,0.40083945435466944,382,0.40083945435466944
+book,coverage_unit,tokens,eligible_stream_positions,analyzed_total_arrivals,active_positions,active_rate,boundary_test_burst_ends,fixed_blocks_total,fixed_blocks_included,included_blocks_with_activity,canonical_verses_total,canonical_verses_with_analyzable_tokens,complete_represented_canonical_verses,complete_canonical_verses_with_activity,complete_canonical_verse_activity_coverage,complete_canonical_verses_with_burst_end,complete_canonical_verse_burst_end_coverage
+genesis,canonical_chapter_verse,18128,18108,1097,903,0.049867461895294896,834,19,18,18,1533,1533,1530,623,0.4071895424836601,619,0.4045751633986928
+exodus,canonical_chapter_verse,14626,14606,1081,872,0.05970149253731343,807,15,15,15,1210,1210,1206,539,0.4469320066334992,536,0.4444444444444444
+leviticus,canonical_chapter_verse,10336,10316,624,518,0.050213260953858085,487,11,10,10,859,859,857,339,0.39556592765460913,339,0.39556592765460913
+numbers,canonical_chapter_verse,14463,14443,1206,986,0.06826836529806826,906,15,14,14,1288,1288,1286,630,0.48989113530326595,629,0.4891135303265941
+deuteronomy,canonical_chapter_verse,12690,12670,706,591,0.04664561957379637,549,13,13,13,956,956,955,382,0.4,382,0.4

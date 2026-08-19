@@ -1,6 +1,6 @@
 {
   "analysis": "rhyme_cadence_distribution_robustness",
-  "analysis_version": "1.0.0",
+  "analysis_version": "1.0.1",
   "run_label": "control_strict_block500",
   "command_line": [
     "C:\\Users\\eli\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
@@ -77,7 +77,7 @@
   },
   "code_and_protocol": {
     "analysis_file": "C:\\HaShira-Lab\\torah-rhythmic-architecture\\src\\analyses\\core_rhyme\\rhyme_cadence_distribution_robustness.py",
-    "analysis_sha256": "ddefdaae811914e8fec345f30e17f130ec1692662a6358800315a5b7817b398e",
+    "analysis_sha256": "e8c03bba43c973a52dcea35c937bb5e1eac59f5890a38c8f414afd787ccf0166",
     "rhyme_burst_architecture_file": "C:\\HaShira-Lab\\torah-rhythmic-architecture\\src\\analyses\\core_rhyme\\rhyme_burst_architecture.py",
     "rhyme_burst_architecture_version": "5.0.2",
     "rhyme_burst_architecture_sha256": "7346b973cdc2617c606636978c0cd5ac91a9071ecb41937ed92dab7e1b53d784",
@@ -127,6 +127,73 @@
       "verified_against_output_sha256": true
     }
   ],
+  "canonical_verse_maps": [
+    {
+      "map_file": "data\\data_processed\\torah\\genesis_taamim_annotated.txt.verse_map.json",
+      "map_sha256": "8846bddaa1a325cb9285326c32356f695fe2a3515edd7eb5b88c8289993c543f",
+      "schema_version": "1.0",
+      "canonical_reference_system": "Sefaria chapter/verse array indices",
+      "canonical_verse_count": 1533,
+      "source_word_count": 20596,
+      "processed_file_sha256_verified": true,
+      "reconstruction_verified_token_for_token": true,
+      "api_payload_canonical_json_sha256": "4a1a0debc0e6cf4ef544e7a68505ffab8993934d85c09c24c6a244515d97edb7",
+      "hebrew_version_title": "Tanach with Ta'amei Hamikra",
+      "hebrew_version_source": "http://www.tanach.us/Tanach.xml"
+    },
+    {
+      "map_file": "data\\data_processed\\torah\\exodus_taamim_annotated.txt.verse_map.json",
+      "map_sha256": "e605c4016e25dd7134a7b0104c132e26b80ad26779e9d993419e07d27961f969",
+      "schema_version": "1.0",
+      "canonical_reference_system": "Sefaria chapter/verse array indices",
+      "canonical_verse_count": 1210,
+      "source_word_count": 16701,
+      "processed_file_sha256_verified": true,
+      "reconstruction_verified_token_for_token": true,
+      "api_payload_canonical_json_sha256": "111261c9e3c013aabf77a78949f52e262b585a6f02044c781e7e464ff98971b8",
+      "hebrew_version_title": "Tanach with Ta'amei Hamikra",
+      "hebrew_version_source": "http://www.tanach.us/Tanach.xml"
+    },
+    {
+      "map_file": "data\\data_processed\\torah\\leviticus_taamim_annotated.txt.verse_map.json",
+      "map_sha256": "49bfea9d10b81cd9262ce75f3f93644b711ce2c4dad6c935bc3a720b96bb485c",
+      "schema_version": "1.0",
+      "canonical_reference_system": "Sefaria chapter/verse array indices",
+      "canonical_verse_count": 859,
+      "source_word_count": 11945,
+      "processed_file_sha256_verified": true,
+      "reconstruction_verified_token_for_token": true,
+      "api_payload_canonical_json_sha256": "c46b270dbe6d7da3fa9e93ea55448bd6607541dd498826578602d583f06f5d75",
+      "hebrew_version_title": "Tanach with Ta'amei Hamikra",
+      "hebrew_version_source": "http://www.tanach.us/Tanach.xml"
+    },
+    {
+      "map_file": "data\\data_processed\\torah\\numbers_taamim_annotated.txt.verse_map.json",
+      "map_sha256": "60a44673b233138e9b0520a1ba826822882beb6685debd93873e211db32b0037",
+      "schema_version": "1.0",
+      "canonical_reference_system": "Sefaria chapter/verse array indices",
+      "canonical_verse_count": 1288,
+      "source_word_count": 16404,
+      "processed_file_sha256_verified": true,
+      "reconstruction_verified_token_for_token": true,
+      "api_payload_canonical_json_sha256": "cde4319b6879227d23bb1f9ee56922793bcfe9160bddecb8e85aec512dfeee2f",
+      "hebrew_version_title": "Tanach with Ta'amei Hamikra",
+      "hebrew_version_source": "http://www.tanach.us/Tanach.xml"
+    },
+    {
+      "map_file": "data\\data_processed\\torah\\deuteronomy_taamim_annotated.txt.verse_map.json",
+      "map_sha256": "41ec0a552e2ced1bf729618c70838f4cab7e8c94020b2ab106735bf752c26022",
+      "schema_version": "1.0",
+      "canonical_reference_system": "Sefaria chapter/verse array indices",
+      "canonical_verse_count": 956,
+      "source_word_count": 14269,
+      "processed_file_sha256_verified": true,
+      "reconstruction_verified_token_for_token": true,
+      "api_payload_canonical_json_sha256": "ec70046e0b12591291e71ae977a082bee433de4ee5f97a50ce542a4a00be7148",
+      "hebrew_version_title": "Tanach with Ta'amei Hamikra",
+      "hebrew_version_source": "http://www.tanach.us/Tanach.xml"
+    }
+  ],
   "book_seeds": {
     "genesis": 20261129,
     "exodus": 21261132,
@@ -137,33 +204,33 @@
   "output_sha256": {
     "ALL_block_alignment_statistics.csv": "e08e60698e75a5c92138f41df2e3ab34ae0ff74d18ebeaf42ce7abf396c01369",
     "ALL_block_distribution_statistics.csv": "866de2748bd15fef0e9b40fd51206e8d9e87e115772dc2c4332a736784ab5bbf",
-    "ALL_book_coverage.csv": "1956fa23517044e0e2232d6917d56f014ac427b328a9514c55db79ec52b8ea44",
+    "ALL_book_coverage.csv": "54f06f9d0ae4ec5ced33aaa1a49affb4a38cb726677f68b4fa707e2707562e31",
     "ALL_book_direction_audit.csv": "b7ae6d460624c4b489399844c5cf397c161441a4df00665303b17860005919b9",
     "ALL_fixed_blocks.csv": "62e4a05bfd5bbf0b4f19ee6b45ae928c7f22f245da1a4c3806eeaff11be3d473",
     "ALL_leave_one_book_out_statistics.csv": "657adf5f70bd3e72203c8fa9390d75c2e07ffbc43396eb26c83d74dee7a6b425",
     "ALL_lexical_decomposition.csv": "31fa3da31e703acf54a881a8f2d0a3a61d961f994affc460ba77baae54ce7c3f",
     "ALL_rhyme_dense_block_trim_statistics.csv": "3799a36fc40a716b7d7ffbc771218cf17d2e68fb3783a8fd8b40322d1e346b7a",
-    "ALL_summary.json": "82afad598e5d5ddf7d05fa29016522cbcd0236c7b078ac3b872167135f8c8306",
-    "ALL_verse_coverage.csv": "621e045f00e246aa022b35e15937366a81cabecfc77e4841e742bbcd954243ec",
+    "ALL_summary.json": "525aa2f75301146f6b7902d2e4938a571f024ff64316ba52e6dcf03e077c5e17",
+    "ALL_verse_coverage.csv": "82927d9a7e173c787d0954d96e24fdcfd59d9bf478f4e58dcd9da96e1b31dbe9",
     "deuteronomy_block_alignment_statistics.csv": "43c0fc40c0858138ed2d3c9ead95bc6bf0d9f7acdb789c83cd0662ef6e7fd0af",
     "deuteronomy_fixed_blocks.csv": "695ca33480b66ab1b5e239a432ac68063e8408f47be29dc13c1a00857be79983",
-    "deuteronomy_summary.json": "b57d429e3d2c37e8d357212cc461227128dac3e64a1eb0e5571714ae95f5a6f7",
-    "deuteronomy_verse_coverage.csv": "73a889002f02f40196b85eb56965c464c20f3d0cc8abfb4aabb904f8b0b773df",
+    "deuteronomy_summary.json": "b251d21abe977f8fd301849b5261fadfcf9e8eaf9b0107e0cc2113b4b9d1d6ab",
+    "deuteronomy_verse_coverage.csv": "888810328108218241453d68928588528ecfbd0624ce3eae91396c4a73d1af2c",
     "exodus_block_alignment_statistics.csv": "f13491e0bfa05d0d82b2351dbf6538941beb43f46179bbd6ba5204540f8cd24e",
     "exodus_fixed_blocks.csv": "3b62aeccb8b5d1dd6a028f537e778ea481efa32a7b562af8a5386b5a4a48139f",
-    "exodus_summary.json": "9cd0e4417ef5e3b3eba3d50b147880779d8c02ba6858b0f44b3007708438a367",
-    "exodus_verse_coverage.csv": "1b3659fc7373a6be92ccaa02ab3a3212a4ee8ccab39760450a378655042effe4",
+    "exodus_summary.json": "3724c12b416b77189f8268fcb626411ff64c51091d5b5dcb89baa01b9a8d6d9e",
+    "exodus_verse_coverage.csv": "accd09da9c4a688afa179ff87d4eaaf7ace9eace2f2def8df7b7fb367ec727dc",
     "genesis_block_alignment_statistics.csv": "9f0bdc9b1af0a7a43111a5a2c09b06ee6213ff2a49d0b951dc8e9619089f946a",
     "genesis_fixed_blocks.csv": "4ac823a49a66e606687d18a4676422dad77784596b340dbd1d540ab399c78d67",
-    "genesis_summary.json": "af6acb4a69cb739d69767a388767b8bd53b5f6509c1b8a2518bb6904f62e92e3",
-    "genesis_verse_coverage.csv": "1bcd6027d8a656f1f331f298377960cae61657f66d0def419b6d11d491007cd8",
+    "genesis_summary.json": "0a5a96e7f37e0ab44084394bf7ba0340e563f8763de742ca87a2ba1c367938de",
+    "genesis_verse_coverage.csv": "e09d0a0c89ed03033d181a0c08506451dffe132c8de126f663b09550b68761dc",
     "leviticus_block_alignment_statistics.csv": "8b032b6b910b50529d3aab051c172a8fa623ea00900255179f8dd6030beaa16e",
     "leviticus_fixed_blocks.csv": "b9d5cdbeac2de7a4941c691fe1535a34cf8f88bab0a14898ffe8719f989c8030",
-    "leviticus_summary.json": "131368c31c2d43da803c56bade794768c9267a00d134b9906ef830d7e884d204",
-    "leviticus_verse_coverage.csv": "33bfcae196a3116c666668b78d6e22c084d73ee3e27f5c96c0f742e072930564",
+    "leviticus_summary.json": "9d29d3438ec254d996bb19cf45343c83ed03c4818776b05484761b227f88b36b",
+    "leviticus_verse_coverage.csv": "11b7557719627df68db45f5ec79325262d364b00b8dcb556d8e1b97cc5e80f7a",
     "numbers_block_alignment_statistics.csv": "7d4d032d744c21f8481002986c6cb6ac8f05ef36f9f2ccc97b0096d87862c340",
     "numbers_fixed_blocks.csv": "6acbffb845838027a1248a516ea2624871a4d21610b86576f6dfe6039217e420",
-    "numbers_summary.json": "10c54b9906d471a853751564f7aa9f98e9f293af3045bd1ce3133836e609ee1b",
-    "numbers_verse_coverage.csv": "91c35a60fc50f15015171fa1775a55ae587fd4f9fad9090de3593c7e7f2b5f4c"
+    "numbers_summary.json": "ede98f811ee1ce4a89efa8b87a9dd3c145cf7e695224b7c4ae7f34dcec15548b",
+    "numbers_verse_coverage.csv": "59dba034b0d44a49a1028f863e7d7ebfd1d7ebccf7fd3cc16fca10331fd42280"
   }
 }

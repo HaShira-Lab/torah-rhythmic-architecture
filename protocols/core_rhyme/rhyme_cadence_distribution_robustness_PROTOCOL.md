@@ -1,4 +1,4 @@
-# Rhyme–Cadence Distribution and Robustness — Protocol v1
+# Rhyme–Cadence Distribution and Robustness — Protocol v1.0.1
 
 ## Purpose
 
@@ -35,9 +35,24 @@ src/shared/rhyme/rhyme_protocol.py                   protocol 4
 
 Execution stops if the burst-analysis version is not exactly `5.0.2`.
 
-Input is the five `*_taamim_annotated.txt` files and their mandatory adjacent
-`.meta.json` files. Every source SHA256 is verified against `output_sha256`
-before analysis.
+Input is the five `*_taamim_annotated.txt` files, their mandatory adjacent
+`.meta.json` files, and five mandatory adjacent
+`*.txt.verse_map.json` sidecars. Every source SHA256 is verified against
+`output_sha256` before analysis. Each canonical verse map is separately hashed
+and is accepted only when its recorded processed-file SHA256 matches the
+analyzed file, its source-word spans are complete and contiguous, and every
+analyzable token maps to exactly one canonical chapter/verse segment.
+
+The sidecars were reconstructed from nested Sefaria API responses for the
+Hebrew version `Tanach with Ta'amei Hamikra`. The included generator can either
+request those nested responses directly from Sefaria using the same version and
+request parameters as the source downloader, or consume explicitly frozen
+`sefaria_{book}.json` responses through `--api-dir`. Every canonical verse is
+processed separately with the frozen preprocessor. Map generation stops unless
+concatenating those processed verse streams reproduces the frozen processed
+book token for token. The canonicalized API-payload hash, requested and
+returned version information, source URL or frozen-response path, processed
+file hash, and validation result are retained in each map.
 
 ## Frozen rhyme and hierarchy definitions
 
@@ -51,8 +66,12 @@ No rhyme or taam rule is reimplemented here.
 - MAIN uses `STRICT` segmental identity.
 - MAIN uses the preceding `20` analyzable stressed word tokens.
 - MAIN activity threshold is one arrival.
-- Minor, major, and verse boundaries are the nested boundaries defined by the
-  frozen burst analysis.
+- Minor, major, and `sof_pasuq` boundaries are the nested boundaries defined by
+  the frozen burst analysis. These performance units remain unchanged and are
+  used for every boundary-alignment test.
+- Canonical chapter/verse segments are an independent descriptive mapping used
+  only for coverage denominators and human-readable references. They do not
+  redefine the performance hierarchy.
 
 ## Scientific status of identical words
 
@@ -100,14 +119,23 @@ Per book, output records:
 
 - eligible analyzed positions, arrivals, active positions, and active rate;
 - number of boundary-test burst endings;
-- represented verses and the proportions containing activity or a burst end;
+- represented canonical chapter/verse segments and the proportions containing
+  activity or a burst end;
 - fixed-block activity and arrival density;
 - lexical decomposition described above.
 
-The first verse intersected by the left rhyme window is marked as not fully
-represented and excluded from verse-coverage denominators. Verse identifiers
-are sequential within each book; the input does not contain chapter labels, so
-the analysis does not invent chapter divisions.
+Any canonical verse containing an analyzable token before the left rhyme window
+is marked as not fully represented and excluded from canonical-verse coverage
+denominators. This can exclude more than one initial verse. Chapter and verse
+labels come only from the verified sidecar; they are never inferred from
+`sof_pasuq` counts.
+
+This distinction matters in a small number of passages with alternative or
+double accentuation, where Sefaria's canonical API segments and the sequence of
+`sof_pasuq` units are not one-to-one. The diagnostic verse-coverage table
+therefore reports both the canonical reference and the corresponding
+`sof_pasuq` unit identifier(s). Boundary tests continue to use `sof_pasuq`
+exactly as frozen in `rhyme_burst_architecture.py`.
 
 ## Fixed textual blocks
 
@@ -282,7 +310,7 @@ Every run writes:
 
 - per-book fixed-block coverage CSV;
 - per-book block-alignment statistics CSV;
-- per-book verse-coverage CSV;
+- per-book canonical-verse-coverage CSV;
 - per-book JSON summary;
 - aggregate book coverage and lexical decomposition CSVs;
 - aggregate fixed-block and verse CSVs;
@@ -306,10 +334,22 @@ results/**/*_verse_coverage.csv
 ```
 
 Metadata records the full CLI, parameters, scientific roles, seeds,
-Python/platform version, verified input hashes, hashes and versions of both
-upstream implementations, and hashes of every other output.
+Python/platform version, verified input hashes, canonical-map hashes and
+validation audits, hashes and versions of both upstream implementations, and
+hashes of every other output.
 
 Book seeds depend on the canonical book index, never on supplied order or
 subset. Parallel execution changes scheduling only. With identical input,
 parameters, seed, code, Python environment, and CLI, outputs are expected to be
 byte-reproducible.
+
+## Version note
+
+Version 1.0.1 corrects only the descriptive verse-coverage mapping. Version
+1.0.0 grouped coverage by sequential `sof_pasuq` units and described those
+units too broadly as verses. Version 1.0.1 uses verified canonical
+chapter/verse spans for coverage and reference labels while retaining the
+original `sof_pasuq` hierarchy for every cadence-alignment calculation. With
+identical parameters and seeds, all burst, fixed-block, lexical-decomposition,
+leave-one-book-out, dense-block-trimming, direction-audit, and boundary
+inference rows are expected to remain byte-identical.

@@ -1,6 +1,6 @@
-book,tokens,eligible_stream_positions,analyzed_total_arrivals,active_positions,active_rate,boundary_test_burst_ends,fixed_blocks_total,fixed_blocks_included,included_blocks_with_activity,complete_represented_verses,complete_verses_with_activity,complete_verse_activity_coverage,complete_verses_with_burst_end,complete_verse_burst_end_coverage
-genesis,18128,18108,7469,4767,0.2632538104705103,3454,19,18,18,1527,1428,0.9351669941060904,1420,0.9299279633267845
-exodus,14626,14606,6939,4222,0.28905929070245107,2919,15,15,15,1201,1132,0.9425478767693589,1124,0.9358867610324729
-leviticus,10336,10316,4817,2897,0.28082590151221404,2057,11,10,10,855,809,0.9461988304093567,807,0.9438596491228071
-numbers,14463,14443,7083,4450,0.3081077338503081,3059,15,14,14,1282,1216,0.9485179407176287,1209,0.9430577223088924
-deuteronomy,12690,12670,6652,3738,0.2950276243093923,2517,13,13,13,953,906,0.950682056663169,900,0.944386149003148
+book,coverage_unit,tokens,eligible_stream_positions,analyzed_total_arrivals,active_positions,active_rate,boundary_test_burst_ends,fixed_blocks_total,fixed_blocks_included,included_blocks_with_activity,canonical_verses_total,canonical_verses_with_analyzable_tokens,complete_represented_canonical_verses,complete_canonical_verses_with_activity,complete_canonical_verse_activity_coverage,complete_canonical_verses_with_burst_end,complete_canonical_verse_burst_end_coverage
+genesis,canonical_chapter_verse,18128,18108,7469,4767,0.2632538104705103,3454,19,18,18,1533,1533,1530,1430,0.934640522875817,1422,0.9294117647058824
+exodus,canonical_chapter_verse,14626,14606,6939,4222,0.28905929070245107,2919,15,15,15,1210,1210,1206,1137,0.9427860696517413,1129,0.9361525704809287
+leviticus,canonical_chapter_verse,10336,10316,4817,2897,0.28082590151221404,2057,11,10,10,859,859,857,811,0.9463243873978997,809,0.9439906651108518
+numbers,canonical_chapter_verse,14463,14443,7083,4450,0.3081077338503081,3059,15,14,14,1288,1288,1286,1220,0.9486780715396579,1213,0.9432348367029549
+deuteronomy,canonical_chapter_verse,12690,12670,6652,3738,0.2950276243093923,2517,13,13,13,956,956,955,908,0.9507853403141361,901,0.9434554973821989

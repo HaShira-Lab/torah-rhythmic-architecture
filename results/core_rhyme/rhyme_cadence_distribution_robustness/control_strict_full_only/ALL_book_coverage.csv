@@ -1,6 +1,6 @@
-book,tokens,eligible_stream_positions,analyzed_total_arrivals,active_positions,active_rate,boundary_test_burst_ends,fixed_blocks_total,fixed_blocks_included,included_blocks_with_activity,complete_represented_verses,complete_verses_with_activity,complete_verse_activity_coverage,complete_verses_with_burst_end,complete_verse_burst_end_coverage
-genesis,18128,18108,9883,6304,0.3481334216920698,3850,19,18,18,1527,1486,0.9731499672560576,1472,0.9639816633922724
-exodus,14626,14606,8745,5353,0.3664932219635766,3141,15,15,15,1201,1165,0.9700249791840133,1157,0.9633638634471274
-leviticus,10336,10316,6639,3989,0.3866808840635905,2289,11,10,10,855,835,0.9766081871345029,828,0.968421052631579
-numbers,14463,14443,8992,5600,0.3877310808003877,3204,15,14,14,1282,1253,0.9773790951638065,1240,0.9672386895475819
-deuteronomy,12690,12670,8037,4691,0.37024467245461723,2725,13,13,13,953,924,0.9695697796432319,918,0.9632738719832109
+book,coverage_unit,tokens,eligible_stream_positions,analyzed_total_arrivals,active_positions,active_rate,boundary_test_burst_ends,fixed_blocks_total,fixed_blocks_included,included_blocks_with_activity,canonical_verses_total,canonical_verses_with_analyzable_tokens,complete_represented_canonical_verses,complete_canonical_verses_with_activity,complete_canonical_verse_activity_coverage,complete_canonical_verses_with_burst_end,complete_canonical_verse_burst_end_coverage
+genesis,canonical_chapter_verse,18128,18108,9883,6304,0.3481334216920698,3850,19,18,18,1533,1533,1530,1489,0.973202614379085,1475,0.9640522875816994
+exodus,canonical_chapter_verse,14626,14606,8745,5353,0.3664932219635766,3141,15,15,15,1210,1210,1206,1169,0.9693200663349917,1161,0.9626865671641791
+leviticus,canonical_chapter_verse,10336,10316,6639,3989,0.3866808840635905,2289,11,10,10,859,859,857,837,0.9766627771295215,830,0.9684947491248541
+numbers,canonical_chapter_verse,14463,14443,8992,5600,0.3877310808003877,3204,15,14,14,1288,1288,1286,1257,0.9774494556765163,1244,0.9673405909797823
+deuteronomy,canonical_chapter_verse,12690,12670,8037,4691,0.37024467245461723,2725,13,13,13,956,956,955,926,0.9696335078534032,919,0.962303664921466
