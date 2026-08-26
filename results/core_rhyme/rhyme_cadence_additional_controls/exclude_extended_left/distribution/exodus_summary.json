@@ -1,0 +1,243 @@
+{
+  "analysis": "rhyme_cadence_distribution_robustness",
+  "analysis_version": "1.0.1",
+  "book": "exodus",
+  "input": {
+    "source_file": "data\\data_processed\\torah\\exodus_taamim_annotated.txt",
+    "source_sha256": "14d2301a22ebbd61835f688b72a7d2ebca70e481d4b9477bef0dbfca6ec48dbb",
+    "metadata_file": "data\\data_processed\\torah\\exodus_taamim_annotated.txt.meta.json",
+    "metadata_sha256": "17cd997c74037602eb08be93966714149e1f211c57f1126a9fea2894e9afa6de",
+    "metadata_schema_version": "1.0",
+    "verified_against_output_sha256": true
+  },
+  "parameters": {
+    "window_in_analyzable_stressed_tokens": 20,
+    "activity_threshold": 1,
+    "match_filter": "ALL",
+    "exclude_exact": false,
+    "equivalence_profile": "STRICT",
+    "block_size_in_eligible_stream_positions": 1000,
+    "minimum_block_fraction": 0.5,
+    "minimum_burst_ends_per_block": 5,
+    "boundary_permutations_requested": 1000
+  },
+  "seed": 21261132,
+  "parse_audit": {
+    "source_word_tokens": 16701,
+    "analyzable_stressed_tokens": 14626,
+    "missing_stress_tokens": 2075,
+    "structural_markers": 1284,
+    "external_markers_attached": 1284,
+    "orphan_structural_markers": 0,
+    "source_boundary_counts_nested": {
+      "minor": 4509,
+      "major": 2350,
+      "verse": 1205
+    },
+    "boundaries_after_unanalyzable_words": {},
+    "boundary_projection_note": "A boundary after an unanalyzable word lies between the adjacent retained tokens in the stressed-token stream; each such projection is counted here.",
+    "verses_in_analyzable_stream": 1205,
+    "major_blocks_in_analyzable_stream": 2350,
+    "minor_blocks_in_analyzable_stream": 4509
+  },
+  "canonical_verse_map_audit": {
+    "map_file": "data\\data_processed\\torah\\exodus_taamim_annotated.txt.verse_map.json",
+    "map_sha256": "e605c4016e25dd7134a7b0104c132e26b80ad26779e9d993419e07d27961f969",
+    "schema_version": "1.0",
+    "canonical_reference_system": "Sefaria chapter/verse array indices",
+    "canonical_verse_count": 1210,
+    "source_word_count": 16701,
+    "processed_file_sha256_verified": true,
+    "reconstruction_verified_token_for_token": true,
+    "api_payload_canonical_json_sha256": "111261c9e3c013aabf77a78949f52e262b585a6f02044c781e7e464ff98971b8",
+    "hebrew_version_title": "Tanach with Ta'amei Hamikra",
+    "hebrew_version_source": "http://www.tanach.us/Tanach.xml"
+  },
+  "all_pair_audit": {
+    "eligible_pairs": 292120,
+    "exact_word_rhyme_pairs_included": 1905,
+    "full_pairs": 6690,
+    "exact_word_pairs_excluded": 0,
+    "bridge_pairs": 0
+  },
+  "nonexact_pair_audit": {
+    "eligible_pairs": 289118,
+    "exact_word_pairs_excluded": 3002,
+    "full_pairs": 4785,
+    "exact_word_rhyme_pairs_included": 0,
+    "bridge_pairs": 0
+  },
+  "edge_audit": {
+    "edge_runs_censored": 0,
+    "edge_positions_censored": 0,
+    "edge_arrivals_censored": 0
+  },
+  "shift_audit": {
+    "requested_permutations": 1000,
+    "used_permutations": 1000,
+    "eligible_nonzero_shifts": 13319,
+    "rejected_run_splitting_or_merging_shifts": 1286,
+    "sampling": "without_replacement"
+  },
+  "coverage": {
+    "book": "exodus",
+    "coverage_unit": "canonical_chapter_verse",
+    "tokens": 14626,
+    "eligible_stream_positions": 14606,
+    "analyzed_total_arrivals": 6690,
+    "active_positions": 3929,
+    "active_rate": 0.2689990414897987,
+    "boundary_test_burst_ends": 2643,
+    "fixed_blocks_total": 15,
+    "fixed_blocks_included": 15,
+    "included_blocks_with_activity": 15,
+    "canonical_verses_total": 1210,
+    "canonical_verses_with_analyzable_tokens": 1210,
+    "complete_represented_canonical_verses": 1206,
+    "complete_canonical_verses_with_activity": 1094,
+    "complete_canonical_verse_activity_coverage": 0.9071310116086235,
+    "complete_canonical_verses_with_burst_end": 1087,
+    "complete_canonical_verse_burst_end_coverage": 0.9013266998341625
+  },
+  "lexical_decomposition": {
+    "book": "exodus",
+    "match_filter": "ALL",
+    "activity_threshold": 1,
+    "full_arrival_links_before_match_filter": 6690,
+    "bridge_arrival_links_before_match_filter": 0,
+    "all_arrival_links": 6690,
+    "different_word_arrival_links": 4785,
+    "exact_word_arrival_links": 1905,
+    "exact_word_arrival_share": 0.28475336322869954,
+    "eligible_positions": 14606,
+    "positions_inactive": 10677,
+    "positions_exact_only": 1076,
+    "positions_different_word_only": 2374,
+    "positions_mixed": 479,
+    "positions_combined_only_at_threshold": 0
+  },
+  "book_alignment": {
+    "minor": {
+      "hits": 973,
+      "burst_ends": 2643,
+      "summary": {
+        "observed": 0.36814226258040106,
+        "null_mean": 0.30724252743094965,
+        "difference": 0.060899735149451406,
+        "fold": 1.1982138854886817,
+        "null_sd": 0.008539801053787235,
+        "z": 7.131282657040771,
+        "p_enrich": 0.000999000999000999,
+        "p_deplete": 1.0,
+        "p_two_sided": 0.001998001998001998
+      }
+    },
+    "major": {
+      "hits": 540,
+      "burst_ends": 2643,
+      "summary": {
+        "observed": 0.2043132803632236,
+        "null_mean": 0.16006318577374196,
+        "difference": 0.04425009458948165,
+        "fold": 1.2764539164679103,
+        "null_sd": 0.006767582701542057,
+        "z": 6.53853769373204,
+        "p_enrich": 0.000999000999000999,
+        "p_deplete": 1.0,
+        "p_two_sided": 0.001998001998001998
+      }
+    },
+    "verse": {
+      "hits": 280,
+      "burst_ends": 2643,
+      "summary": {
+        "observed": 0.10594021944759743,
+        "null_mean": 0.08199772985244042,
+        "difference": 0.023942489595157018,
+        "fold": 1.2919896640826873,
+        "null_sd": 0.004985425291000733,
+        "z": 4.80249691804147,
+        "p_enrich": 0.000999000999000999,
+        "p_deplete": 1.0,
+        "p_two_sided": 0.001998001998001998
+      }
+    }
+  },
+  "block_support": {
+    "minor": {
+      "eligible_blocks": 15,
+      "positive_share": {
+        "observed": 1.0,
+        "null_mean": 0.49906666666666666,
+        "difference": 0.5009333333333333,
+        "fold": 2.003740315255143,
+        "null_sd": 0.12539367341829225,
+        "z": 3.9948852256868164,
+        "p_enrich": 0.000999000999000999,
+        "p_deplete": 1.0,
+        "p_two_sided": 0.001998001998001998
+      },
+      "median_difference": {
+        "observed": 0.05307276531080252,
+        "null_mean": -0.0003429488264909473,
+        "difference": 0.053415714137293464,
+        "fold": -154.75418258124137,
+        "null_sd": 0.010645695223377974,
+        "z": 5.017588143984473,
+        "p_enrich": 0.000999000999000999,
+        "p_deplete": 1.0,
+        "p_two_sided": 0.001998001998001998
+      }
+    },
+    "major": {
+      "eligible_blocks": 15,
+      "positive_share": {
+        "observed": 0.9333333333333333,
+        "null_mean": 0.4895333333333333,
+        "difference": 0.44380000000000003,
+        "fold": 1.9065776930409915,
+        "null_sd": 0.12780803313302858,
+        "z": 3.4723951939552364,
+        "p_enrich": 0.000999000999000999,
+        "p_deplete": 1.0,
+        "p_two_sided": 0.001998001998001998
+      },
+      "median_difference": {
+        "observed": 0.04214046481422129,
+        "null_mean": -0.000476806938289168,
+        "difference": 0.042617271752510455,
+        "fold": -88.38056125069316,
+        "null_sd": 0.00827156395931658,
+        "z": 5.152262856470932,
+        "p_enrich": 0.000999000999000999,
+        "p_deplete": 1.0,
+        "p_two_sided": 0.001998001998001998
+      }
+    },
+    "verse": {
+      "eligible_blocks": 15,
+      "positive_share": {
+        "observed": 0.7333333333333333,
+        "null_mean": 0.4926,
+        "difference": 0.2407333333333333,
+        "fold": 1.4886994180538637,
+        "null_sd": 0.13029332719334136,
+        "z": 1.8476259569003928,
+        "p_enrich": 0.05094905094905095,
+        "p_deplete": 0.984015984015984,
+        "p_two_sided": 0.1018981018981019
+      },
+      "median_difference": {
+        "observed": 0.020507611219982208,
+        "null_mean": -0.0004479740247878548,
+        "difference": 0.020955585244770064,
+        "fold": -45.77857216095043,
+        "null_sd": 0.006164256280476462,
+        "z": 3.3995317993414633,
+        "p_enrich": 0.001998001998001998,
+        "p_deplete": 0.999000999000999,
+        "p_two_sided": 0.003996003996003996
+      }
+    }
+  }
+}

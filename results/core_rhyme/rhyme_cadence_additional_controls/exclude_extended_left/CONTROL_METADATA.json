@@ -1,0 +1,35 @@
+{
+  "analysis": "rhyme_cadence_additional_controls",
+  "analysis_version": "1.0.0",
+  "mode": "exclude_extended_left",
+  "scientific_status": "sensitivity_control",
+  "parameters": {
+    "link_policy": "exclude_link_if_either_token_signature_extended_left",
+    "window": 20,
+    "threshold": 1,
+    "match_filter": "ALL",
+    "equivalence_profile": "STRICT",
+    "enrichment_permutations": 500,
+    "clustering_permutations": 500,
+    "boundary_permutations": 1000,
+    "base_seed": 20260728,
+    "jobs": 1
+  },
+  "required_versions": {
+    "rhyme_burst_architecture": "5.0.2",
+    "rhyme_cadence_distribution_robustness": "1.0.1"
+  },
+  "software": {
+    "python_version": "3.14.3",
+    "numpy_version": "2.4.2",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "code": {
+    "file": "C:\\HaShira-Lab\\torah-rhythmic-architecture\\src\\analyses\\core_rhyme\\rhyme_cadence_additional_controls.py",
+    "sha256": "d0ca656cffd614b11f447d9bb74a4d6e2f2ec288b03b0ff9f1450ba507315ff5"
+  },
+  "generated_directories": [
+    "results\\core_rhyme\\rhyme_cadence_additional_controls\\exclude_extended_left\\burst",
+    "results\\core_rhyme\\rhyme_cadence_additional_controls\\exclude_extended_left\\distribution"
+  ]
+}

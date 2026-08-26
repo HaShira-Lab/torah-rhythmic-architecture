@@ -1,0 +1,6 @@
+book,coverage_unit,tokens,eligible_stream_positions,analyzed_total_arrivals,active_positions,active_rate,boundary_test_burst_ends,fixed_blocks_total,fixed_blocks_included,included_blocks_with_activity,canonical_verses_total,canonical_verses_with_analyzable_tokens,complete_represented_canonical_verses,complete_canonical_verses_with_activity,complete_canonical_verse_activity_coverage,complete_canonical_verses_with_burst_end,complete_canonical_verse_burst_end_coverage
+genesis,canonical_chapter_verse,18128,18108,7741,4712,0.2602164789043517,3283,19,18,18,1533,1533,1530,1418,0.9267973856209151,1407,0.9196078431372549
+exodus,canonical_chapter_verse,14626,14606,6690,3929,0.2689990414897987,2643,15,15,15,1210,1210,1206,1094,0.9071310116086235,1087,0.9013266998341625
+leviticus,canonical_chapter_verse,10336,10316,5141,2930,0.2840248158200853,2021,11,10,10,859,859,857,796,0.9288214702450408,791,0.9229871645274212
+numbers,canonical_chapter_verse,14463,14443,6983,4222,0.29232153984629233,2822,15,14,14,1288,1288,1286,1184,0.9206842923794712,1177,0.9152410575427683
+deuteronomy,canonical_chapter_verse,12690,12670,5560,3107,0.2452249408050513,2187,13,13,13,956,956,955,878,0.9193717277486911,876,0.9172774869109948

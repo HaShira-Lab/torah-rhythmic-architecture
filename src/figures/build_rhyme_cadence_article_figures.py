@@ -47,6 +47,12 @@ def parse_args() -> argparse.Namespace:
         required=True,
         help="ALL_block_distribution_statistics.csv from the exact-word-exclusion control.",
     )
+    parser.add_argument(
+        "--verse-null-statistics",
+        type=Path,
+        required=True,
+        help="ALL_verse_coverage_null_statistics.csv from the additional controls.",
+    )
     parser.add_argument("--out-dir", type=Path, required=True)
     parser.add_argument("--dpi", type=int, default=600)
     return parser.parse_args()
@@ -247,7 +253,23 @@ def figure_2(main_dir: Path, exact_path: Path, out_dir: Path, dpi: int) -> None:
     save_all(fig, out_dir, "Figure2_block_robustness", dpi)
 
 
-def figure_3(main_dir: Path, out_dir: Path, dpi: int) -> None:
+def read_verse_null(path: Path) -> dict[str, dict[str, dict[str, float]]]:
+    result: dict[str, dict[str, dict[str, float]]] = {book: {} for book in BOOKS}
+    for row in read_csv(path):
+        scope = row["scope"]
+        metric = row["metric"]
+        if scope in result and metric in {"activity_coverage", "burst_end_coverage"}:
+            result[scope][metric] = {
+                "difference": float(row["difference"]),
+                "null_sd": float(row["null_sd"]),
+            }
+    for book in BOOKS:
+        if set(result[book]) != {"activity_coverage", "burst_end_coverage"}:
+            raise ValueError(f"Missing verse-null rows for {book} in {path}")
+    return result
+
+
+def figure_3(main_dir: Path, verse_null_path: Path, out_dir: Path, dpi: int) -> None:
     rows = read_csv(main_dir / "ALL_verse_coverage.csv")
     grouped: dict[str, list[dict[str, str]]] = {book: [] for book in BOOKS}
     for row in rows:
@@ -255,7 +277,6 @@ def figure_3(main_dir: Path, out_dir: Path, dpi: int) -> None:
             raise ValueError(f"Unexpected book {row['book']!r}")
         grouped[row["book"]].append(row)
 
-    coverage: dict[str, tuple[float, float]] = {}
     activity: dict[str, np.ndarray] = {}
     for book in BOOKS:
         book_rows = sorted(grouped[book], key=lambda r: int(r["canonical_verse_ordinal"]))
@@ -269,10 +290,7 @@ def figure_3(main_dir: Path, out_dir: Path, dpi: int) -> None:
             active = int(row["active_positions"])
             values[i] = active / eligible if eligible else np.nan
         activity[book] = values
-        coverage[book] = (
-            np.mean([int(r["has_rhyme_activity"]) for r in full_rows]),
-            np.mean([int(r["has_burst_end"]) for r in full_rows]),
-        )
+    null_results = read_verse_null(verse_null_path)
 
     fig = plt.figure(figsize=(7.4, 3.9))
     gs = fig.add_gridspec(1, 2, width_ratios=(3.7, 1.75))
@@ -317,27 +335,38 @@ def figure_3(main_dir: Path, out_dir: Path, dpi: int) -> None:
     cbar.outline.set_linewidth(0.6)
 
     y = np.arange(len(BOOKS))
-    active_cov = np.array([coverage[b][0] for b in BOOKS]) * 100
-    burst_cov = np.array([coverage[b][1] for b in BOOKS]) * 100
-    ax_cov.hlines(y, burst_cov, active_cov, color="#BEBEBE", linewidth=1.25, zorder=1)
-    ax_cov.scatter(
-        active_cov, y, s=45, marker="o", facecolor="white", edgecolor=BLUE,
-        linewidth=1.4, label="Any recurrence activity", zorder=3,
+    active_diff = np.array([
+        null_results[b]["activity_coverage"]["difference"] for b in BOOKS
+    ]) * 100
+    burst_diff = np.array([
+        null_results[b]["burst_end_coverage"]["difference"] for b in BOOKS
+    ]) * 100
+    active_err = np.array([
+        1.96 * null_results[b]["activity_coverage"]["null_sd"] for b in BOOKS
+    ]) * 100
+    burst_err = np.array([
+        1.96 * null_results[b]["burst_end_coverage"]["null_sd"] for b in BOOKS
+    ]) * 100
+    offset = 0.12
+    ax_cov.axvline(0, color="#737373", linestyle=(0, (3, 2)), linewidth=0.9)
+    ax_cov.errorbar(
+        active_diff, y - offset, xerr=active_err, fmt="o", markersize=5.0,
+        markerfacecolor="white", markeredgecolor=BLUE, markeredgewidth=1.3,
+        ecolor=BLUE, elinewidth=0.8, capsize=2.0,
+        label="Activity coverage", zorder=3,
     )
-    ax_cov.scatter(
-        burst_cov, y, s=43, marker="s", facecolor=ORANGE, edgecolor="#4A2A1B",
-        linewidth=0.8, label="At least one burst end", zorder=3,
+    ax_cov.errorbar(
+        burst_diff, y + offset, xerr=burst_err, fmt="s", markersize=4.8,
+        markerfacecolor=ORANGE, markeredgecolor="#4A2A1B", markeredgewidth=0.7,
+        ecolor=ORANGE, elinewidth=0.8, capsize=2.0,
+        label="Burst-end coverage", zorder=3,
     )
-    for xx, yy in zip(active_cov, y):
-        ax_cov.text(xx + 0.055, yy - 0.11, f"{xx:.1f}", fontsize=7.2, ha="left", va="center")
-    for xx, yy in zip(burst_cov, y):
-        ax_cov.text(xx - 0.055, yy + 0.13, f"{xx:.1f}", fontsize=7.2, ha="right", va="center")
-    ax_cov.set_yticks(y, [])
+    ax_cov.set_yticks(y, [BOOK_LABELS[b] for b in BOOKS])
     ax_cov.invert_yaxis()
-    ax_cov.set_xlim(96.5, 99.0)
-    ax_cov.set_xticks([97, 98, 99])
-    ax_cov.set_xlabel("Fully represented verses (%)")
-    ax_cov.set_title("B. Coverage (expanded scale)", loc="left", fontweight="bold")
+    ax_cov.set_xlim(-2.0, 8.5)
+    ax_cov.set_xticks([-2, 0, 2, 4, 6, 8])
+    ax_cov.set_xlabel("Observed − allocation-null coverage (percentage points)")
+    ax_cov.set_title("B. Coverage beyond allocation null", loc="left", fontweight="bold")
     ax_cov.grid(axis="x", color=GRID, linewidth=0.7)
     ax_cov.spines[["top", "right", "left"]].set_visible(False)
     ax_cov.tick_params(axis="y", length=0)
@@ -353,7 +382,7 @@ def main() -> None:
     set_style()
     figure_1(args.main_dir, args.out_dir, args.dpi)
     figure_2(args.main_dir, args.exact_block_statistics, args.out_dir, args.dpi)
-    figure_3(args.main_dir, args.out_dir, args.dpi)
+    figure_3(args.main_dir, args.verse_null_statistics, args.out_dir, args.dpi)
     print(f"WROTE: {args.out_dir}")
 
 

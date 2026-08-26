@@ -1,0 +1,245 @@
+{
+  "analysis": "rhyme_cadence_distribution_robustness",
+  "analysis_version": "1.0.1",
+  "book": "numbers",
+  "input": {
+    "source_file": "data\\data_processed\\torah\\numbers_taamim_annotated.txt",
+    "source_sha256": "83f153f92f146dd501246cffe5cc079fde19b9a39dbcdd7a7e28378335b7138c",
+    "metadata_file": "data\\data_processed\\torah\\numbers_taamim_annotated.txt.meta.json",
+    "metadata_sha256": "93287d937f4c43cbb7fbf18f3444e0787d202d375bc68fafb42b67db4345ae6a",
+    "metadata_schema_version": "1.0",
+    "verified_against_output_sha256": true
+  },
+  "parameters": {
+    "window_in_analyzable_stressed_tokens": 20,
+    "activity_threshold": 1,
+    "match_filter": "ALL",
+    "exclude_exact": false,
+    "equivalence_profile": "STRICT",
+    "block_size_in_eligible_stream_positions": 1000,
+    "minimum_block_fraction": 0.5,
+    "minimum_burst_ends_per_block": 5,
+    "boundary_permutations_requested": 1000
+  },
+  "seed": 23261138,
+  "parse_audit": {
+    "source_word_tokens": 16404,
+    "analyzable_stressed_tokens": 14463,
+    "missing_stress_tokens": 1941,
+    "structural_markers": 1364,
+    "external_markers_attached": 1364,
+    "orphan_structural_markers": 0,
+    "source_boundary_counts_nested": {
+      "major": 2435,
+      "minor": 4495,
+      "verse": 1284
+    },
+    "boundaries_after_unanalyzable_words": {
+      "verse": 1
+    },
+    "boundary_projection_note": "A boundary after an unanalyzable word lies between the adjacent retained tokens in the stressed-token stream; each such projection is counted here.",
+    "verses_in_analyzable_stream": 1284,
+    "major_blocks_in_analyzable_stream": 2435,
+    "minor_blocks_in_analyzable_stream": 4495
+  },
+  "canonical_verse_map_audit": {
+    "map_file": "data\\data_processed\\torah\\numbers_taamim_annotated.txt.verse_map.json",
+    "map_sha256": "60a44673b233138e9b0520a1ba826822882beb6685debd93873e211db32b0037",
+    "schema_version": "1.0",
+    "canonical_reference_system": "Sefaria chapter/verse array indices",
+    "canonical_verse_count": 1288,
+    "source_word_count": 16404,
+    "processed_file_sha256_verified": true,
+    "reconstruction_verified_token_for_token": true,
+    "api_payload_canonical_json_sha256": "cde4319b6879227d23bb1f9ee56922793bcfe9160bddecb8e85aec512dfeee2f",
+    "hebrew_version_title": "Tanach with Ta'amei Hamikra",
+    "hebrew_version_source": "http://www.tanach.us/Tanach.xml"
+  },
+  "all_pair_audit": {
+    "eligible_pairs": 288860,
+    "full_pairs": 6983,
+    "exact_word_rhyme_pairs_included": 1810,
+    "exact_word_pairs_excluded": 0,
+    "bridge_pairs": 0
+  },
+  "nonexact_pair_audit": {
+    "eligible_pairs": 285644,
+    "full_pairs": 5173,
+    "exact_word_pairs_excluded": 3216,
+    "exact_word_rhyme_pairs_included": 0,
+    "bridge_pairs": 0
+  },
+  "edge_audit": {
+    "edge_runs_censored": 0,
+    "edge_positions_censored": 0,
+    "edge_arrivals_censored": 0
+  },
+  "shift_audit": {
+    "requested_permutations": 1000,
+    "used_permutations": 1000,
+    "eligible_nonzero_shifts": 13042,
+    "rejected_run_splitting_or_merging_shifts": 1400,
+    "sampling": "without_replacement"
+  },
+  "coverage": {
+    "book": "numbers",
+    "coverage_unit": "canonical_chapter_verse",
+    "tokens": 14463,
+    "eligible_stream_positions": 14443,
+    "analyzed_total_arrivals": 6983,
+    "active_positions": 4222,
+    "active_rate": 0.29232153984629233,
+    "boundary_test_burst_ends": 2822,
+    "fixed_blocks_total": 15,
+    "fixed_blocks_included": 14,
+    "included_blocks_with_activity": 14,
+    "canonical_verses_total": 1288,
+    "canonical_verses_with_analyzable_tokens": 1288,
+    "complete_represented_canonical_verses": 1286,
+    "complete_canonical_verses_with_activity": 1184,
+    "complete_canonical_verse_activity_coverage": 0.9206842923794712,
+    "complete_canonical_verses_with_burst_end": 1177,
+    "complete_canonical_verse_burst_end_coverage": 0.9152410575427683
+  },
+  "lexical_decomposition": {
+    "book": "numbers",
+    "match_filter": "ALL",
+    "activity_threshold": 1,
+    "full_arrival_links_before_match_filter": 6983,
+    "bridge_arrival_links_before_match_filter": 0,
+    "all_arrival_links": 6983,
+    "different_word_arrival_links": 5173,
+    "exact_word_arrival_links": 1810,
+    "exact_word_arrival_share": 0.259200916511528,
+    "eligible_positions": 14443,
+    "positions_inactive": 10221,
+    "positions_exact_only": 1078,
+    "positions_different_word_only": 2750,
+    "positions_mixed": 394,
+    "positions_combined_only_at_threshold": 0
+  },
+  "book_alignment": {
+    "minor": {
+      "hits": 1017,
+      "burst_ends": 2822,
+      "summary": {
+        "observed": 0.3603827072997874,
+        "null_mean": 0.31113961729270023,
+        "difference": 0.049243090007087154,
+        "fold": 1.1582668592176175,
+        "null_sd": 0.008212811853405005,
+        "z": 5.9958867786154295,
+        "p_enrich": 0.000999000999000999,
+        "p_deplete": 1.0,
+        "p_two_sided": 0.001998001998001998
+      }
+    },
+    "major": {
+      "hits": 599,
+      "burst_ends": 2822,
+      "summary": {
+        "observed": 0.21226080793763288,
+        "null_mean": 0.16850850460666195,
+        "difference": 0.04375230333097094,
+        "fold": 1.2596444816426269,
+        "null_sd": 0.006456225613220295,
+        "z": 6.776761834558592,
+        "p_enrich": 0.000999000999000999,
+        "p_deplete": 1.0,
+        "p_two_sided": 0.001998001998001998
+      }
+    },
+    "verse": {
+      "hits": 309,
+      "burst_ends": 2822,
+      "summary": {
+        "observed": 0.10949681077250177,
+        "null_mean": 0.08895322466335932,
+        "difference": 0.020543586109142448,
+        "fold": 1.2309481886338467,
+        "null_sd": 0.004902091590705344,
+        "z": 4.190779737386854,
+        "p_enrich": 0.000999000999000999,
+        "p_deplete": 1.0,
+        "p_two_sided": 0.001998001998001998
+      }
+    }
+  },
+  "block_support": {
+    "minor": {
+      "eligible_blocks": 14,
+      "positive_share": {
+        "observed": 0.7857142857142857,
+        "null_mean": 0.5003571428571428,
+        "difference": 0.28535714285714286,
+        "fold": 1.5703069236259815,
+        "null_sd": 0.12942129828192728,
+        "z": 2.2048700379711064,
+        "p_enrich": 0.027972027972027972,
+        "p_deplete": 0.993006993006993,
+        "p_two_sided": 0.055944055944055944
+      },
+      "median_difference": {
+        "observed": 0.027315182145386335,
+        "null_mean": -2.6597398706170255e-05,
+        "difference": 0.027341779544092507,
+        "fold": -1026.9869789578167,
+        "null_sd": 0.01028750427772606,
+        "z": 2.6577660437324364,
+        "p_enrich": 0.007992007992007992,
+        "p_deplete": 0.993006993006993,
+        "p_two_sided": 0.015984015984015984
+      }
+    },
+    "major": {
+      "eligible_blocks": 14,
+      "positive_share": {
+        "observed": 0.8571428571428571,
+        "null_mean": 0.49307142857142855,
+        "difference": 0.36407142857142855,
+        "fold": 1.7383746197305519,
+        "null_sd": 0.1320480547963892,
+        "z": 2.757113151971883,
+        "p_enrich": 0.006993006993006993,
+        "p_deplete": 1.0,
+        "p_two_sided": 0.013986013986013986
+      },
+      "median_difference": {
+        "observed": 0.03183475243622244,
+        "null_mean": -0.000156223066367072,
+        "difference": 0.03199097550258951,
+        "fold": -203.77754179668582,
+        "null_sd": 0.007855428816257393,
+        "z": 4.072467111710288,
+        "p_enrich": 0.000999000999000999,
+        "p_deplete": 1.0,
+        "p_two_sided": 0.001998001998001998
+      }
+    },
+    "verse": {
+      "eligible_blocks": 14,
+      "positive_share": {
+        "observed": 0.7857142857142857,
+        "null_mean": 0.49178571428571427,
+        "difference": 0.29392857142857143,
+        "fold": 1.597676107480029,
+        "null_sd": 0.1349182481114745,
+        "z": 2.1785679516511114,
+        "p_enrich": 0.022977022977022976,
+        "p_deplete": 0.994005994005994,
+        "p_two_sided": 0.04595404595404595
+      },
+      "median_difference": {
+        "observed": 0.022715823045069007,
+        "null_mean": -0.0003483698222280997,
+        "difference": 0.023064192867297106,
+        "fold": -65.20605860686614,
+        "null_sd": 0.006051097866580574,
+        "z": 3.811571614909361,
+        "p_enrich": 0.000999000999000999,
+        "p_deplete": 1.0,
+        "p_two_sided": 0.001998001998001998
+      }
+    }
+  }
+}

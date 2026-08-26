@@ -1,11 +1,13 @@
-# Rhyme–cadence article figures protocol
+# Rhyme–cadence article figures protocol v2.0
 
 ## Purpose
 
 This utility produces the manuscript figures for the rhyme–cadence distribution
 and robustness analysis. It is a presentation layer only: it reads frozen
-outputs of `rhyme_cadence_distribution_robustness` v1.0.1 and does not recompute,
-modify, or replace any statistical result.
+outputs of `rhyme_cadence_distribution_robustness` v1.0.1 and the additional
+verse-allocation control. It does not recompute, modify, or replace any
+statistical result. Version 2.0 replaces the purely descriptive comparison in
+Figure 3B with an observed-minus-allocation-null display.
 
 ## Repository locations
 
@@ -24,6 +26,8 @@ The default runner expects:
    `ALL_block_distribution_statistics.csv`, and `ALL_verse_coverage.csv`.
 2. Exact-word exclusion block statistics in
    `results/core_rhyme/rhyme_cadence_distribution_robustness/control_strict_exclude_exact/ALL_block_distribution_statistics.csv`.
+3. Verse-allocation null statistics in
+   `results/core_rhyme/rhyme_cadence_additional_controls/verse_allocation_null/ALL_verse_coverage_null_statistics.csv`.
 
 The builder rejects book summaries whose `analysis_version` is not `1.0.1`.
 
@@ -36,10 +40,11 @@ run\build_rhyme_cadence_article_figures.bat
 ```
 
 Optional positional arguments override, in order, the MAIN result directory,
-the exact-word-control statistics file, and the output directory:
+the exact-word-control statistics file, the verse-null statistics file, and
+the output directory:
 
 ```bat
-run\build_rhyme_cadence_article_figures.bat MAIN_DIR EXACT_CSV OUT_DIR
+run\build_rhyme_cadence_article_figures.bat MAIN_DIR EXACT_CSV VERSE_NULL_CSV OUT_DIR
 ```
 
 ## Outputs
@@ -73,11 +78,10 @@ The dashed reference represents the applicable null expectation.
 Panel A displays, without smoothing, the proportion of eligible positions that
 are active in every canonical verse, preserving received verse order within
 each book. Grey marks verses not fully represented after the initial left
-window. Panel B reports the percentage of fully represented verses containing
-any recurrence activity and the percentage containing at least one
-edge-censored burst end.
-
-These percentages describe the distribution of recurrence across the corpus.
+window. Panel B plots the observed-minus-allocation-null coverage difference
+for activity and edge-censored burst ends. Horizontal intervals show 1.96 null
+standard deviations. The conditional null preserves book, canonical verse
+sizes, and the observed count of marked positions.
 They are not verse-by-verse tests of cantillation-boundary enrichment and must
 not be described as the percentage of verses in which the boundary effect is
 statistically significant.
